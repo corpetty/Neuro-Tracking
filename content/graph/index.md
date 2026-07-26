@@ -8,7 +8,7 @@ tags:
 
 Quartz's built-in graph shows which pages link to which. This one shows **what the links mean**: that a session *yielded* a finding, that a mechanism *may explain* a symptom, that a paper *pressure-tests* a hypothesis, that anxiety *confounds* the ADHD thread. Every relation is typed, and every relation between a paper and a claim carries the verbatim quote that justifies it.
 
-<iframe src="viewer.htm" title="Neuro-Tracking knowledge graph" loading="lazy" style="width:100%;height:76vh;min-height:520px;border:1px solid var(--lightgray);border-radius:8px;background:var(--light);"></iframe>
+<iframe src="viewer.htm" title="Neuro-Tracking knowledge graph" style="width:100%;height:76vh;min-height:560px;border:1px solid var(--lightgray);border-radius:8px;background:var(--light);"></iframe>
 
 <p style="font-size:0.85em;opacity:0.7;margin-top:-0.5em">Not rendering? <a href="viewer.htm" target="_blank">Open the graph full-screen →</a></p>
 

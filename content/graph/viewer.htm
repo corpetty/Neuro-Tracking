@@ -46,6 +46,7 @@
         padding: 8px 10px;
         border-bottom: 1px solid var(--lightgray);
         font-size: 13px;
+        flex: 0 0 auto;
       }
       #bar input[type="search"] {
         font: inherit;
@@ -67,7 +68,16 @@
         cursor: pointer;
       }
       #bar button:hover, #bar select:hover { border-color: var(--secondary); }
-      .chips { display: flex; flex-wrap: wrap; gap: 5px; padding: 6px 10px; border-bottom: 1px solid var(--lightgray); }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 6px 10px;
+        border-bottom: 1px solid var(--lightgray);
+        flex: 0 0 auto;
+        max-height: 25vh;
+        overflow-y: auto;
+      }
       .chip {
         display: inline-flex;
         align-items: center;
@@ -85,8 +95,11 @@
       .chip .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
       .chip.off { opacity: 0.35; text-decoration: line-through; }
       .chip .n { color: var(--gray); font-variant-numeric: tabular-nums; }
-      #stage { flex: 1; position: relative; min-height: 0; }
-      #cy { position: absolute; inset: 0; }
+      /* The canvas must never collapse: cytoscape lays out against the container
+         size, so a zero-height container yields an empty view. flex + an explicit
+         floor keeps it real even if the toolbar wraps or the iframe is short. */
+      #stage { flex: 1 1 auto; position: relative; min-height: 380px; }
+      #cy { position: absolute; inset: 0; min-height: 380px; }
       #panel {
         position: absolute;
         top: 10px;
@@ -129,9 +142,20 @@
         bottom: 10px;
         font-size: 11.5px;
         color: var(--gray);
-        max-width: 55%;
+        max-width: 60%;
       }
-      #err { color: #b91c1c; bottom: auto; top: 12px; }
+      #err {
+        color: #b91c1c;
+        bottom: auto;
+        top: 12px;
+        max-width: calc(100% - 24px);
+        background: var(--panel);
+        border: 1px solid #b91c1c;
+        border-radius: 6px;
+        padding: 8px 10px;
+        font-family: var(--mono);
+        white-space: pre-wrap;
+      }
     </style>
   </head>
   <body>
@@ -144,7 +168,7 @@
         <option value="3">focus · 3 hops</option>
       </select>
       <button id="reset" title="Clear focus and re-run the layout">reset</button>
-      <button id="weak" title="Show or hide navigation-only [[wikilink]] edges">wikilinks: off</button>
+      <button id="weak" title="Show or hide navigation-only wiki-link edges">wikilinks: off</button>
       <button id="fit">fit</button>
     </div>
     <div class="chips" id="types"></div>
@@ -152,18 +176,26 @@
     <div id="stage">
       <div id="cy"></div>
       <div id="panel"><button id="close" title="Close">×</button><div id="body"></div></div>
-      <div id="hint">Click a node for detail · double-click to focus its neighbourhood</div>
+      <div id="hint">Loading the graph…</div>
       <div id="err" hidden></div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
+    <!-- Cytoscape is served from this site, not a CDN. Content blockers and
+         corporate networks routinely block cdnjs, which would leave the canvas
+         silently empty. See cytoscape.LICENSE.txt (MIT). The CDN stays only as
+         a fallback if the local copy ever goes missing. -->
+    <script src="cytoscape.min.js"></script>
     <script>
-      // Fallback if the primary CDN version ever disappears.
-      if (!window.cytoscape) {
-        document.write(
-          '<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"><\/script>',
-        );
-      }
+      window.__loadCytoscapeFallback = function () {
+        return new Promise((resolve) => {
+          if (window.cytoscape) return resolve(true);
+          const s = document.createElement("script");
+          s.src = "https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js";
+          s.onload = () => resolve(!!window.cytoscape);
+          s.onerror = () => resolve(false);
+          document.head.appendChild(s);
+        });
+      };
     </script>
     <script>
       const SHAPES = {
@@ -174,28 +206,65 @@
         ellipse: "ellipse",
         diamond: "diamond",
       };
-      const fail = (m) => {
-        const e = document.getElementById("err");
+      const DEBUG = new URLSearchParams(location.search).has("debug");
+      const errEl = () => document.getElementById("err");
+      const fail = (m, detail) => {
+        const e = errEl();
         e.hidden = false;
-        e.textContent = m;
+        e.textContent = m + (detail ? "\n\n" + detail : "");
+        document.getElementById("hint").textContent = "";
+        console.error("[graph viewer]", m, detail || "");
       };
 
+      // Cytoscape sizes its viewport from the container. Inside a lazily-loaded
+      // iframe the container can still be 0x0 when the script runs, which
+      // produces a laid-out-but-invisible graph. Wait for real dimensions.
+      function whenSized(el, timeoutMs = 4000) {
+        return new Promise((resolve) => {
+          const t0 = performance.now();
+          (function poll() {
+            if (el.clientWidth > 0 && el.clientHeight > 0) return resolve(true);
+            if (performance.now() - t0 > timeoutMs) return resolve(false);
+            requestAnimationFrame(poll);
+          })();
+        });
+      }
+
       (async function () {
-        if (!window.cytoscape) return fail("Could not load the graph library (CDN blocked?).");
-        let data;
-        try {
-          data = await (await fetch("./graph-data.json", { cache: "no-cache" })).json();
-        } catch (e) {
-          return fail("Could not load graph-data.json — run `make site` in the graph/ directory.");
+        if (!window.cytoscape) {
+          const ok = await window.__loadCytoscapeFallback();
+          if (!ok) {
+            return fail(
+              "Could not load the graph library.",
+              "Neither ./cytoscape.min.js nor the CDN fallback loaded — check that content/graph/cytoscape.min.js is committed.",
+            );
+          }
         }
 
-        const typeOf = (id) => data.nodes.find((n) => n.id === id)?.type;
+        let data;
+        try {
+          const res = await fetch("./graph-data.json", { cache: "no-cache" });
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          data = await res.json();
+        } catch (e) {
+          return fail(
+            "Could not load graph-data.json.",
+            String(e) + "\nRun `make site` in graph/ and commit content/graph/graph-data.json.",
+          );
+        }
+        if (!data.nodes?.length) return fail("graph-data.json contains no nodes.");
+
         const weakPreds = new Set(
           Object.entries(data.predicates)
             .filter(([, p]) => p.category === "weak")
             .map(([k]) => k),
         );
         const nodeById = new Map(data.nodes.map((n) => [n.id, n]));
+
+        // Drop any edge whose endpoints aren't both present: cytoscape throws on
+        // a dangling edge, which would take the whole view down.
+        const usableEdges = data.edges.filter((e) => nodeById.has(e.source) && nodeById.has(e.target));
+        const dropped = data.edges.length - usableEdges.length;
 
         const elements = [
           ...data.nodes.map((n) => ({
@@ -208,7 +277,7 @@
               size: 18 + Math.min(26, (n.degree || 0) * 2.2),
             },
           })),
-          ...data.edges.map((e, i) => ({
+          ...usableEdges.map((e, i) => ({
             data: {
               id: "e" + i,
               source: e.source,
@@ -222,73 +291,81 @@
           })),
         ];
 
-        const cy = cytoscape({
-          container: document.getElementById("cy"),
-          elements,
-          wheelSensitivity: 0.25,
-          style: [
-            {
-              selector: "node",
-              style: {
-                "background-color": "data(color)",
-                shape: "data(shape)",
-                width: "data(size)",
-                height: "data(size)",
-                label: "data(label)",
-                "font-size": 9,
-                "font-family": "Source Sans Pro, sans-serif",
-                color: getComputedStyle(document.body).getPropertyValue("--dark"),
-                "text-valign": "bottom",
-                "text-margin-y": 3,
-                "text-wrap": "ellipsis",
-                "text-max-width": 110,
-                "text-background-color": getComputedStyle(document.body).getPropertyValue("--light"),
-                "text-background-opacity": 0.7,
-                "text-background-padding": 1.5,
-                "border-width": 0,
-                "transition-property": "opacity",
-                "transition-duration": "140ms",
+        const container = document.getElementById("cy");
+        const sized = await whenSized(container);
+        const cssVar = (n) => getComputedStyle(document.body).getPropertyValue(n).trim() || undefined;
+        const LAYOUT = { name: "cose", animate: false, nodeRepulsion: 9000, idealEdgeLength: 90, padding: 30 };
+
+        let cy;
+        try {
+          cy = cytoscape({
+            container,
+            elements,
+            wheelSensitivity: 0.25,
+            // Lay out explicitly after we know the container is real — cose reads
+            // the container box, so running it against 0x0 stacks every node.
+            layout: { name: "preset" },
+            style: [
+              {
+                selector: "node",
+                style: {
+                  "background-color": "data(color)",
+                  shape: "data(shape)",
+                  width: "data(size)",
+                  height: "data(size)",
+                  label: "data(label)",
+                  "font-size": 9,
+                  "font-family": "Source Sans Pro, sans-serif",
+                  color: cssVar("--dark"),
+                  "text-valign": "bottom",
+                  "text-margin-y": 3,
+                  "text-wrap": "ellipsis",
+                  "text-max-width": 110,
+                  "text-background-color": cssVar("--light"),
+                  "text-background-opacity": 0.7,
+                  "text-background-padding": 1.5,
+                  "border-width": 0,
+                },
               },
-            },
-            {
-              selector: "edge",
-              style: {
-                width: 1.2,
-                "line-color": "data(color)",
-                "target-arrow-color": "data(color)",
-                "target-arrow-shape": "triangle",
-                "arrow-scale": 0.6,
-                "curve-style": "bezier",
-                opacity: 0.55,
+              {
+                selector: "edge",
+                style: {
+                  width: 1.2,
+                  "line-color": "data(color)",
+                  "target-arrow-color": "data(color)",
+                  "target-arrow-shape": "triangle",
+                  "arrow-scale": 0.6,
+                  "curve-style": "bezier",
+                  opacity: 0.55,
+                },
               },
-            },
-            { selector: "edge[evidence = 1]", style: { width: 2.2, opacity: 0.8 } },
-            { selector: "edge[weak = 1]", style: { "line-style": "dotted", opacity: 0.3 } },
-            {
-              selector: "node:selected",
-              style: { "border-width": 3, "border-color": getComputedStyle(document.body).getPropertyValue("--secondary") },
-            },
-            { selector: ".dim", style: { opacity: 0.08, "text-opacity": 0 } },
-            { selector: ".hidden", style: { display: "none" } },
-            { selector: "edge.hi", style: { width: 3, opacity: 1 } },
-            { selector: "node.hi", style: { "border-width": 2, "border-color": "#f59e0b" } },
-          ],
-          layout: { name: "cose", animate: false, nodeRepulsion: 9000, idealEdgeLength: 90, padding: 30 },
-        });
+              { selector: "edge[evidence = 1]", style: { width: 2.2, opacity: 0.8 } },
+              { selector: "edge[weak = 1]", style: { "line-style": "dotted", opacity: 0.3 } },
+              { selector: "node:selected", style: { "border-width": 3, "border-color": cssVar("--secondary") } },
+              { selector: ".dim", style: { opacity: 0.08, "text-opacity": 0 } },
+              { selector: ".hidden", style: { display: "none" } },
+              { selector: "edge.hi", style: { width: 3, opacity: 1 } },
+              { selector: "node.hi", style: { "border-width": 2, "border-color": "#f59e0b" } },
+            ],
+          });
+        } catch (e) {
+          return fail("The graph library failed to initialise.", String(e && e.message ? e.message : e));
+        }
+
+        const relayout = () => cy.layout(LAYOUT).run();
 
         // ------------------------------------------------------------ legends
         const offTypes = new Set();
         const offCats = new Set();
         let showWeak = false;
 
-        const countBy = (arr, key) =>
-          arr.reduce((m, x) => ((m[x[key]] = (m[x[key]] || 0) + 1), m), {});
+        const countBy = (arr, key) => arr.reduce((m, x) => ((m[x[key]] = (m[x[key]] || 0) + 1), m), {});
         const typeCounts = countBy(data.nodes, "type");
-        const catCounts = countBy(data.edges, "category");
+        const catCounts = countBy(usableEdges, "category");
 
-        function chip(container, label, color, count, isOff, onClick) {
+        function chip(container, label, color, count, onClick) {
           const b = document.createElement("button");
-          b.className = "chip" + (isOff ? " off" : "");
+          b.className = "chip";
           b.innerHTML =
             '<span class="dot" style="background:' + color + '"></span>' +
             label +
@@ -303,13 +380,13 @@
 
         for (const [t, def] of Object.entries(data.nodeTypes)) {
           if (!typeCounts[t]) continue;
-          chip(document.getElementById("types"), t, def.color, typeCounts[t], false, () =>
+          chip(document.getElementById("types"), t, def.color, typeCounts[t], () =>
             offTypes.has(t) ? offTypes.delete(t) : offTypes.add(t),
           );
         }
         for (const [c, def] of Object.entries(data.predicateCategories)) {
           if (!catCounts[c] || c === "weak") continue;
-          chip(document.getElementById("cats"), c, def.color, catCounts[c], false, () =>
+          chip(document.getElementById("cats"), c, def.color, catCounts[c], () =>
             offCats.has(c) ? offCats.delete(c) : offCats.add(c),
           );
         }
@@ -367,6 +444,15 @@
           });
         }
 
+        const visible = () => {
+          const v = cy.elements().not(".hidden");
+          return v.length ? v : cy.elements();
+        };
+        const refit = () => {
+          cy.resize();
+          cy.fit(visible(), 30);
+        };
+
         // -------------------------------------------------------------- panel
         const panel = document.getElementById("panel");
         const body = document.getElementById("body");
@@ -385,7 +471,9 @@
           if (e.quote) {
             html +=
               "<blockquote>“" + escape(e.quote) + "”" +
-              '<span class="cite">' + escape([e.pageApprox, e.confidence && e.confidence + " confidence"].filter(Boolean).join(" · ")) + "</span></blockquote>";
+              '<span class="cite">' +
+              escape([e.pageApprox, e.confidence && e.confidence + " confidence"].filter(Boolean).join(" · ")) +
+              "</span></blockquote>";
           }
           return html + "</li>";
         }
@@ -394,8 +482,8 @@
           const n = nodeById.get(id);
           if (!n) return;
           const def = data.nodeTypes[n.type] || {};
-          const out = data.edges.filter((e) => e.source === id && (showWeak || !weakPreds.has(e.predicate)));
-          const inc = data.edges.filter((e) => e.target === id && (showWeak || !weakPreds.has(e.predicate)));
+          const out = usableEdges.filter((e) => e.source === id && (showWeak || !weakPreds.has(e.predicate)));
+          const inc = usableEdges.filter((e) => e.target === id && (showWeak || !weakPreds.has(e.predicate)));
           const props = Object.entries(n).filter(([k, v]) => !SKIP.has(k) && k !== "summary" && typeof v !== "object");
 
           let html = "<h2>" + escape(n.label) + "</h2>";
@@ -455,9 +543,10 @@
         document.getElementById("reset").onclick = () => {
           focusId = null;
           apply();
-          cy.layout({ name: "cose", animate: false, nodeRepulsion: 9000, idealEdgeLength: 90, padding: 30 }).run();
+          relayout();
+          refit();
         };
-        document.getElementById("fit").onclick = () => cy.fit(cy.elements().not(".hidden"), 30);
+        document.getElementById("fit").onclick = refit;
         const weakBtn = document.getElementById("weak");
         weakBtn.onclick = () => {
           showWeak = !showWeak;
@@ -465,14 +554,60 @@
           apply();
         };
 
+        // ------------------------------------------------------------- render
         apply();
-        cy.fit(cy.elements().not(".hidden"), 30);
+        relayout();
+        refit();
 
-        const m = data.meta;
-        document.getElementById("hint").textContent =
-          data.nodes.length + " nodes · " + data.edges.length + " edges · ontology v" +
-          m.ontologyVersion + " · click a node for detail, double-click to focus";
-      })();
+        // The iframe can settle to its final size after we've drawn (fonts, lazy
+        // loading, a rotated phone). Re-fit whenever that happens, and run the
+        // layout once properly if we had to draw against a collapsed container.
+        let lastW = container.clientWidth;
+        let firstRealSize = sized;
+        if (window.ResizeObserver) {
+          let t;
+          new ResizeObserver(() => {
+            clearTimeout(t);
+            t = setTimeout(() => {
+              if (!container.clientWidth || !container.clientHeight) return;
+              if (!firstRealSize) {
+                firstRealSize = true;
+                relayout();
+              }
+              if (Math.abs(container.clientWidth - lastW) > 1 || !focusId) {
+                lastW = container.clientWidth;
+                refit();
+              }
+            }, 120);
+          }).observe(document.getElementById("stage"));
+        }
+        window.addEventListener("resize", refit);
+
+        const hint = document.getElementById("hint");
+        const summary =
+          cy.nodes().length + " nodes · " + cy.edges().length + " edges · ontology v" +
+          data.meta.ontologyVersion + " · click a node for detail, double-click to focus";
+        hint.textContent = summary;
+
+        if (!cy.width() || !cy.height()) {
+          fail(
+            "The graph canvas has no size, so nothing can be drawn.",
+            "container " + container.clientWidth + "x" + container.clientHeight +
+              " — the embedding page is giving the iframe zero height.",
+          );
+        } else if (dropped) {
+          hint.textContent = summary + " · " + dropped + " edge(s) skipped (missing endpoint)";
+        }
+        if (DEBUG) {
+          hint.textContent =
+            summary +
+            " | container " + container.clientWidth + "x" + container.clientHeight +
+            " | cy " + cy.width() + "x" + cy.height() +
+            " | zoom " + cy.zoom().toFixed(2) +
+            " | sizedAtInit " + sized +
+            " | cytoscape " + (window.cytoscape.version || "?");
+        }
+      })().catch((e) => fail("Unexpected error while building the graph.", String(e && e.stack ? e.stack : e)));
     </script>
   </body>
 </html>
