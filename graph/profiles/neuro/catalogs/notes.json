@@ -37,6 +37,36 @@
     "hasStatus": ["stable"]
   },
   {
+    "id": "note:dimensions-index",
+    "label": "Dimensions (index)",
+    "file": "dimensions/index.md",
+    "summary": "Section landing: what 'dimension' means at four levels of ADHD, their orthogonality, and how each is measured.",
+    "partOf": ["note:index"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:dimensions-orthogonality",
+    "label": "The four levels and their orthogonality",
+    "file": "dimensions/orthogonality.md",
+    "summary": "The conceptual map: phenotype, mechanism, nosology and etiology as stacked levels, with orthogonal/oblique/collinear verdicts and the many-to-many cross-level mapping. Has an interactive companion page.",
+    "partOf": ["note:dimensions-index"],
+    "argues": ["hypothesis:adhd-symptom-domains-correlated"],
+    "cites": ["paper:arildskov-2020-factor-structure", "paper:hyseni-2021-hitop-latent"],
+    "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:dimensions-measurement",
+    "label": "Measuring the dimensions",
+    "file": "dimensions/measurement.md",
+    "summary": "Each level's instrument family, what it isolates and confounds, the rating-vs-task dissociation, dissociable neurocognitive pathways, and why no single measure is diagnostic.",
+    "partOf": ["note:dimensions-index"],
+    "argues": ["hypothesis:rating-task-dissociation", "hypothesis:multiple-neurocognitive-pathways", "hypothesis:no-single-measure-is-diagnostic"],
+    "cites": ["paper:toplak-2013", "paper:nigg-2005", "paper:sonuga-barke-2010", "paper:kofler-2013", "paper:hall-2016", "paper:nichols-2004", "paper:willcutt-2005-ef-meta", "paper:coghill-2014-heterogeneity", "paper:jackson-mackillop-2016", "paper:hall-cohen-kadosh-2023-rating-review", "paper:chadd-diagnosing"],
+    "covers": ["instrument:continuous-performance-test", "instrument:stop-signal-task", "instrument:delay-discounting-task", "instrument:working-memory-task", "instrument:swan-scale", "instrument:caars", "instrument:baars-iv", "instrument:pid-5"],
+    "flagsOpenQuestion": ["question:next-clinical-step"],
+    "hasStatus": ["stable"]
+  },
+  {
     "id": "note:about-me-index",
     "label": "About Me (index)",
     "file": "about-me/index.md",

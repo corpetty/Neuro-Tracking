@@ -170,5 +170,134 @@
     "url": "https://doi.org/10.1016/j.bpsc.2018.07.001",
     "summary": "Counter-point to the dimensional consensus: reports taxometric outcomes more consistent with a categorical structure within ADHD samples and a dimensional structure in typically developing groups.",
     "authoredBy": ["author:catherine-fassbender"]
+  },
+  {
+    "id": "paper:arildskov-2020-factor-structure",
+    "label": "The factor structure of attention-deficit/hyperactivity disorder in schoolchildren",
+    "year": 2020,
+    "venue": "medRxiv preprint (later Research in Developmental Disabilities)",
+    "doi": "10.1101/2020.06.15.20126789",
+    "url": "https://www.medrxiv.org/content/10.1101/2020.06.15.20126789v1.full.pdf",
+    "summary": "Reports the latent correlation between the inattention and hyperactivity/impulsivity factors (0.78 school / 0.68 clinical) and finds a bifactor model — strong general factor plus weak specific factors — fits best.",
+    "authoredBy": ["author:trine-arildskov", "author:edmund-sonuga-barke"]
+  },
+  {
+    "id": "paper:toplak-2013",
+    "label": "Practitioner Review: Do performance-based measures and ratings of executive function assess the same construct?",
+    "year": 2013,
+    "venue": "Journal of Child Psychology and Psychiatry, 54(2):131–143",
+    "doi": "10.1111/jcpp.12001",
+    "url": "https://doi.org/10.1111/jcpp.12001",
+    "summary": "Review of 20 studies finding rating-based and performance-based measures of executive function correlate only weakly (median r = .19) and assess different underlying constructs.",
+    "authoredBy": ["author:maggie-toplak", "author:keith-stanovich"]
+  },
+  {
+    "id": "paper:nigg-2005",
+    "label": "Causal heterogeneity in attention-deficit/hyperactivity disorder: do we need neuropsychologically impaired subtypes?",
+    "year": 2005,
+    "venue": "Biological Psychiatry, 57(11):1224–1230",
+    "doi": "10.1016/j.biopsych.2004.08.025",
+    "url": "https://doi.org/10.1016/j.biopsych.2004.08.025",
+    "summary": "Argues that group neuropsychological deficits in ADHD reflect only a subgroup — for any given mechanism, only a subset of behaviourally defined cases is impaired.",
+    "authoredBy": ["author:joel-nigg", "author:erik-willcutt", "author:edmund-sonuga-barke"]
+  },
+  {
+    "id": "paper:sonuga-barke-2010",
+    "label": "Beyond the dual pathway model: evidence for the dissociation of timing, inhibitory, and delay-related impairments in ADHD",
+    "year": 2010,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 49(4):345–355",
+    "doi": "10.1016/j.jaac.2009.12.018",
+    "url": "https://doi.org/10.1016/j.jaac.2009.12.018",
+    "summary": "Finds inhibitory, temporal-processing and delay-related deficits are independent neuropsychological components whose co-occurrence in ADHD is no greater than chance — dissociable pathways.",
+    "authoredBy": ["author:edmund-sonuga-barke", "author:margaret-thompson"]
+  },
+  {
+    "id": "paper:kofler-2013",
+    "label": "Reaction time variability in ADHD: a meta-analytic review of 319 studies",
+    "year": 2013,
+    "venue": "Clinical Psychology Review, 33(6):795–811",
+    "doi": "10.1016/j.cpr.2013.06.001",
+    "url": "https://doi.org/10.1016/j.cpr.2013.06.001",
+    "summary": "Meta-analysis establishing greater reaction-time variability in ADHD (g = 0.76 children, 0.46 adults) while showing it is not specific to ADHD relative to other clinical groups.",
+    "authoredBy": ["author:michael-kofler"]
+  },
+  {
+    "id": "paper:hall-2016",
+    "label": "The clinical utility of the continuous performance test and objective measures of activity for diagnosing and monitoring ADHD in children: a systematic review",
+    "year": 2016,
+    "venue": "European Child & Adolescent Psychiatry, 25(7):677–699",
+    "doi": "10.1007/s00787-015-0798-x",
+    "url": "https://doi.org/10.1007/s00787-015-0798-x",
+    "summary": "Systematic review finding mixed, non-decisive evidence for using continuous performance tests to support ADHD diagnosis and medication decisions.",
+    "authoredBy": ["author:charlotte-hall"]
+  },
+  {
+    "id": "paper:nichols-2004",
+    "label": "A review of the validity of laboratory cognitive tasks used to assess symptoms of ADHD",
+    "year": 2004,
+    "venue": "Child Psychiatry and Human Development, 34(4):297–315",
+    "doi": "10.1023/B:CHUD.0000020681.06865.97",
+    "url": "https://doi.org/10.1023/B:CHUD.0000020681.06865.97",
+    "summary": "Concludes that even the best-supported cognitive tasks (CPT, choice-delay, stop-signal) need further validation before use beyond experimental purposes.",
+    "authoredBy": ["author:sharon-nichols"]
+  },
+  {
+    "id": "paper:willcutt-2005-ef-meta",
+    "label": "Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review",
+    "year": 2005,
+    "venue": "Biological Psychiatry, 57(11):1336–1346",
+    "doi": "10.1016/j.biopsych.2005.02.006",
+    "url": "https://doi.org/10.1016/j.biopsych.2005.02.006",
+    "summary": "Landmark meta-analysis: executive-function deficits in ADHD are of moderate effect size and not universal — neither necessary nor sufficient.",
+    "authoredBy": ["author:erik-willcutt", "author:joel-nigg", "author:stephen-faraone"]
+  },
+  {
+    "id": "paper:coghill-2014-heterogeneity",
+    "label": "A comprehensive assessment of memory, delay aversion, timing, inhibition, decision making and variability in ADHD",
+    "year": 2014,
+    "venue": "Psychological Medicine, 44(9):1989–2001",
+    "doi": "10.1017/S0033291713002547",
+    "url": "https://doi.org/10.1017/S0033291713002547",
+    "summary": "For each cognitive domain, only a minority of children with ADHD (roughly 18–36%) show a deficit — quantifying neurocognitive heterogeneity across six pathways.",
+    "authoredBy": ["author:david-coghill"]
+  },
+  {
+    "id": "paper:jackson-mackillop-2016",
+    "label": "Attention-Deficit/Hyperactivity Disorder and Monetary Delay Discounting: A Meta-Analysis of Case-Control Studies",
+    "year": 2016,
+    "venue": "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 1(4):316–325",
+    "doi": "10.1016/j.bpsc.2016.01.007",
+    "url": "https://doi.org/10.1016/j.bpsc.2016.01.007",
+    "summary": "Meta-analysis finding individuals with ADHD discount delayed monetary rewards more steeply than controls — the motivational/reward pathway.",
+    "authoredBy": ["author:james-mackillop"]
+  },
+  {
+    "id": "paper:hall-cohen-kadosh-2023-rating-review",
+    "label": "A review of behavioural rating scales for the assessment of ADHD among adults in research",
+    "year": 2023,
+    "venue": "medRxiv preprint",
+    "doi": "10.1101/2023.05.30.23290708",
+    "url": "https://doi.org/10.1101/2023.05.30.23290708",
+    "summary": "Reviews adult ADHD rating scales (incl. CAARS, BAARS-IV); notes scales should not be the sole basis for diagnosis and that combining interviews, CPTs and scales maximises accuracy.",
+    "authoredBy": []
+  },
+  {
+    "id": "paper:chadd-diagnosing",
+    "label": "Diagnosing ADHD",
+    "year": 2020,
+    "venue": "CHADD — National Resource Center on ADHD (CDC cooperative agreement)",
+    "url": "https://chadd.org/about-adhd/diagnosing-adhd/",
+    "summary": "Patient-facing clinical guidance stating there is no single test for ADHD and that a comprehensive, multi-source evaluation is required.",
+    "authoredBy": []
+  },
+  {
+    "id": "paper:hyseni-2021-hitop-latent",
+    "label": "Unraveling the optimum latent structure of ADHD: evidence supporting ICD and HiTOP frameworks",
+    "year": 2021,
+    "venue": "Frontiers in Psychiatry, 12:666326",
+    "doi": "10.3389/fpsyt.2021.666326",
+    "url": "https://doi.org/10.3389/fpsyt.2021.666326",
+    "summary": "Locates ADHD within HiTOP as dimensions (inattention, hyperactivity, impulsivity) under the disinhibited externalizing spectrum rather than as a single category.",
+    "authoredBy": []
   }
 ]

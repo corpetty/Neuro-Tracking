@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dimensions of ADHD and their orthogonality</title>
+<style>
+  :root{
+    --bg:#faf9f6; --card:#ffffff; --ink:#1c1b19; --muted:#5f5e5a; --hint:#89877f;
+    --line:#e5e3db; --line2:#d3d1c7;
+    --ortho:#0f6e56; --ortho-bg:#e1f5ee; --ortho-ln:#1d9e75;
+    --obli:#854f0b; --obli-bg:#faeeda; --obli-ln:#ba7517;
+    --coll:#a32d2d; --coll-bg:#fcebeb; --coll-ln:#e24b4a;
+    --accent:#534ab7; --accent-bg:#eeedfe;
+    --radius:10px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#181713; --card:#221f1a; --ink:#f2efe8; --muted:#b4b2a9; --hint:#888780;
+      --line:#33302a; --line2:#444441;
+      --ortho:#5dcaa5; --ortho-bg:#0f2f28; --obli:#fac775; --obli-bg:#33260f;
+      --coll:#f09595; --coll-bg:#331414; --accent:#afa9ec; --accent-bg:#211d33;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1000px;margin:0 auto;padding:40px 22px 64px}
+  h1{font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em}
+  h2{font-size:19px;font-weight:600;margin:40px 0 4px}
+  h3{font-size:15px;font-weight:600;margin:0}
+  .sub{color:var(--muted);font-size:15px;margin:0 0 8px}
+  .lead{color:var(--muted);font-size:15px;max-width:70ch;margin:6px 0 0}
+  p{margin:10px 0}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;
+    background:var(--accent-bg);color:var(--accent);padding:1px 5px;border-radius:5px}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 4px}
+  .lg{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--muted);
+    border:1px solid var(--line);border-radius:999px;padding:5px 12px;background:var(--card)}
+  .dot{width:11px;height:11px;border-radius:3px;flex:none}
+  .d-ortho{background:var(--ortho-ln)} .d-obli{background:var(--obli-ln)} .d-coll{background:var(--coll-ln)}
+  .levels{display:grid;gap:14px;margin-top:14px}
+  .lvl{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .lvl-head{display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:center;
+    padding:16px 18px;cursor:pointer}
+  .lvl-head:hover{background:var(--accent-bg)}
+  .num{width:34px;height:34px;border-radius:9px;background:var(--accent-bg);color:var(--accent);
+    display:flex;align-items:center;justify-content:center;font-weight:600;font-size:16px}
+  .lvl-t{font-size:16px;font-weight:600}
+  .lvl-g{font-size:13.5px;color:var(--muted)}
+  .verdict{font-size:12.5px;font-weight:600;padding:4px 11px;border-radius:999px;white-space:nowrap}
+  .v-ortho{background:var(--ortho-bg);color:var(--ortho)}
+  .v-obli{background:var(--obli-bg);color:var(--obli)}
+  .v-coll{background:var(--coll-bg);color:var(--coll)}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin:2px 0 0}
+  .chip{font-size:13px;border:1px solid var(--line2);border-radius:7px;padding:4px 9px;color:var(--ink);background:var(--bg)}
+  .body{display:none;padding:2px 18px 18px 76px;border-top:1px solid var(--line)}
+  .lvl.open .body{display:block}
+  .lvl.open .lvl-head{background:var(--accent-bg)}
+  .row{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line)}
+  .row:last-child{border-bottom:0}
+  .k{font-size:13px;color:var(--hint);font-weight:600;text-transform:uppercase;letter-spacing:.03em;padding-top:2px}
+  .v{font-size:14.5px}
+  .geo{margin-left:auto}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-top:14px}
+  .rel{background:var(--card);border:1px solid var(--line);border-left-width:4px;border-radius:8px;padding:13px 15px}
+  .rel.o{border-left-color:var(--ortho-ln)} .rel.b{border-left-color:var(--obli-ln)} .rel.c{border-left-color:var(--coll-ln)}
+  .rel .pair{font-size:14.5px;font-weight:600;margin-bottom:3px}
+  .rel .tag{font-size:11.5px;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+  .rel.o .tag{color:var(--ortho)} .rel.b .tag{color:var(--obli)} .rel.c .tag{color:var(--coll)}
+  .rel .why{font-size:13.5px;color:var(--muted);margin-top:5px}
+  .crux{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-top:14px}
+  .callouts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:14px}
+  .co{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:var(--bg)}
+  .co h3{font-size:14px;margin-bottom:4px} .co p{font-size:13.5px;color:var(--muted);margin:0}
+  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;background:var(--card);
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  th,td{text-align:left;padding:10px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--hint);font-weight:600;background:var(--bg)}
+  tr:last-child td{border-bottom:0}
+  td .iso{color:var(--ortho);font-weight:600} td .conf{color:var(--coll);font-weight:600}
+  .foot{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--hint)}
+  .hint{font-size:13px;color:var(--hint);margin-top:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Dimensions of ADHD and their orthogonality</h1>
+  <p class="sub">A map of what "dimension" means at four levels of the system — and where the axes are independent, correlated, or confounded.</p>
+  <p class="lead">"Continuum" gets used for at least four different things in ADHD research. They are stacked, not parallel: a phenotype, the mechanisms that generate it, its place in the map of all psychopathology, and the liability underneath. Orthogonality only means something <em>within</em> a level — and it rarely survives the jump between levels. Click any level to expand it.</p>
+
+  <div class="legend" role="list">
+    <span class="lg" role="listitem"><span class="dot d-ortho"></span> Orthogonal — independent axes</span>
+    <span class="lg" role="listitem"><span class="dot d-obli"></span> Oblique — correlated, share variance</span>
+    <span class="lg" role="listitem"><span class="dot d-coll"></span> Collinear — confounded, not separable</span>
+  </div>
+
+  <h2>Four levels</h2>
+  <div class="levels" id="levels"></div>
+
+  <h2>The crux — the cross-level map is many-to-many</h2>
+  <div class="crux">
+    <p style="margin-top:0">Orthogonality inside a level does <strong>not</strong> carry across levels. One phenotypic axis is fed by several mechanistic ones, and one mechanism spills across several phenotypic axes — so you cannot read mechanism off phenotype. A single rating score collapses all four levels into one number.</p>
+    <svg viewBox="0 0 680 220" width="100%" role="img" aria-label="Inattention and hyperactivity-impulsivity are each driven by several partly-independent mechanisms.">
+      <g font-family="-apple-system,Segoe UI,Roboto,sans-serif">
+        <rect x="24" y="30" width="150" height="34" rx="8" fill="var(--accent-bg)" stroke="var(--line2)"/>
+        <text x="99" y="52" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ink)">Inattention</text>
+        <rect x="24" y="150" width="150" height="34" rx="8" fill="var(--accent-bg)" stroke="var(--line2)"/>
+        <text x="99" y="172" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ink)">Hyperactivity / impulsivity</text>
+
+        <rect x="470" y="14" width="186" height="30" rx="8" fill="var(--card)" stroke="var(--line2)"/>
+        <text x="563" y="34" text-anchor="middle" font-size="12.5" fill="var(--ink)">Sustained attention</text>
+        <rect x="470" y="52" width="186" height="30" rx="8" fill="var(--card)" stroke="var(--line2)"/>
+        <text x="563" y="72" text-anchor="middle" font-size="12.5" fill="var(--ink)">Working memory</text>
+        <rect x="470" y="90" width="186" height="30" rx="8" fill="var(--card)" stroke="var(--line2)"/>
+        <text x="563" y="110" text-anchor="middle" font-size="12.5" fill="var(--ink)">Arousal / state regulation</text>
+        <rect x="470" y="128" width="186" height="30" rx="8" fill="var(--card)" stroke="var(--line2)"/>
+        <text x="563" y="148" text-anchor="middle" font-size="12.5" fill="var(--ink)">Reward / delay aversion</text>
+        <rect x="470" y="166" width="186" height="30" rx="8" fill="var(--card)" stroke="var(--line2)"/>
+        <text x="563" y="186" text-anchor="middle" font-size="12.5" fill="var(--ink)">Response inhibition</text>
+
+        <g stroke="var(--obli-ln)" stroke-width="1.6" fill="none" opacity="0.75">
+          <path d="M174 44 C 330 30, 360 29, 470 29"/>
+          <path d="M174 47 C 330 55, 360 67, 470 67"/>
+          <path d="M174 50 C 320 90, 360 105, 470 105"/>
+          <path d="M174 158 C 330 150, 360 143, 470 143"/>
+          <path d="M174 161 C 330 175, 360 181, 470 181"/>
+          <path d="M174 155 C 320 120, 360 110, 470 110"/>
+        </g>
+        <text x="250" y="205" font-size="12" fill="var(--hint)">phenotype axes (what scales measure)</text>
+        <text x="470" y="212" font-size="12" fill="var(--hint)">mechanism axes (partly independent)</text>
+      </g>
+    </svg>
+    <div class="callouts">
+      <div class="co">
+        <h3>Rating vs task is itself orthogonal</h3>
+        <p>Questionnaire and performance measures of the "same" construct correlate only weakly (median r ≈ .19; Toplak 2013). Method variance dominates — so "measuring the dimension" depends on which instrument family you pick.</p>
+      </div>
+      <div class="co">
+        <h3>Mimics overlap at the mechanism level</h3>
+        <p>Anxiety, sleep debt and mood disturbance share mechanism axes with ADHD (arousal, sustained attention). They look identical at the phenotype and only become separable one level down. Mechanism-level orthogonality is the discriminating lever.</p>
+      </div>
+      <div class="co">
+        <h3>Etiology ties to phenotype, continuously</h3>
+        <p>Heritability is roughly constant across the trait range and clinical ADHD is the genetic extreme of the population trait — the level 1 ↔ level 4 link the taxometric and twin evidence establishes.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Key orthogonality relationships</h2>
+  <p class="hint">The verdicts that matter most for reasoning about ADHD, coloured by relationship type.</p>
+  <div class="cards" id="rels"></div>
+
+  <h2>Measurement map</h2>
+  <p class="lead">Each level has its own instrument family. What a measure <span class="iso">isolates</span> and what it <span class="conf">confounds</span> follows directly from the level it targets — the starting point for gauging any single dimension well.</p>
+  <table>
+    <thead><tr><th>Level</th><th>Dimensions</th><th>Instrument families</th><th>Isolates / confounds</th></tr></thead>
+    <tbody id="mtable"></tbody>
+  </table>
+
+  <div class="foot">
+    Companion to the notes <em>Dimensional &amp; continuum models of ADHD</em> and <em>Measuring the dimensions</em> in this garden. Key magnitudes are now sourced: the inattention–hyperactivity latent correlation (≈ .68–.78, Arildskov 2020), the rating-vs-task figure (median r ≈ .19, Toplak 2013), and the finding that only a subgroup of ADHD cases show any given cognitive deficit (Nigg 2005; Coghill 2014). Facts and interpretation are kept separate: this page is interpretation.
+  </div>
+</div>
+
+<script>
+const levels = [
+  { n:1, t:"Phenotype", g:"what rating scales measure",
+    verdict:"Oblique", vclass:"v-obli",
+    axes:["Inattention","Hyperactivity / impulsivity","Severity / trait load"],
+    ortho:"Inattention and hyperactivity/impulsivity are strongly correlated (latent r ≈ .68–.78; Arildskov 2020). Bifactor models fit best: one dominant general-ADHD factor plus two weak specific factors, the hyperactivity-specific one almost fully absorbed by the general factor. The DSM presentations are just positions in this (skewed) 2-D plane. Severity is a third, roughly independent axis.",
+    measures:"ASRS v1.1, Conners / CAARS, SWAN, BAARS-IV — self and informant report." },
+  { n:2, t:"Mechanism", g:"the neurocognitive processes underneath",
+    verdict:"Near-orthogonal", vclass:"v-ortho",
+    axes:["Response inhibition","Sustained attention / RT variability","Working memory","Reward / delay aversion","Temporal processing","Arousal / state regulation"],
+    ortho:"This is where real independence lives. The multiple-pathway model finds these processes are dissociable: executive/inhibitory deficits are present but neither necessary nor sufficient, and a motivational delay-aversion route runs partly independent of the inhibitory one. Different people reach the same phenotype by different mechanistic profiles (equifinality).",
+    measures:"Stop-signal & go/no-go (inhibition), CPT (sustained attention, RT variability), n-back / digit span (working memory), delay discounting (reward), time reproduction (temporal), pupillometry / EEG (arousal); the Cognitive Trade-off Task (inhibition × statistical learning)." },
+  { n:3, t:"Nosology", g:"where ADHD sits among all disorders",
+    verdict:"Oblique", vclass:"v-obli",
+    axes:["General 'p' factor","Disinhibited externalizing","Antagonistic externalizing","Internalizing","Neurodevelopmental"],
+    ortho:"In HiTOP, ADHD loads on the disinhibited externalizing spectrum, cross-loading to antagonism. The spectra are correlated by design — that correlation is what forces a general p-factor on top — so the axes are orthogonal only after a bifactor extraction (p ⟂ residual spectra).",
+    measures:"PID-5 (disinhibition, antagonism facets), Externalizing Spectrum Inventory, HiTOP-aligned trait batteries." },
+  { n:4, t:"Etiology", g:"the liability distribution beneath",
+    verdict:"Collinear across disorders", vclass:"v-coll",
+    axes:["Additive polygenic liability","Rare / CNV variants","Shared vs non-shared environment"],
+    ortho:"Liability is continuous with the population trait and heritability is roughly constant across its range — the backbone of the continuum claim. But it is not orthogonal across conditions: ADHD's genetic correlations with the rest of externalizing (and beyond) are high, so 'the ADHD dimension' is genetically entangled with neighbours.",
+    measures:"Polygenic scores; twin and family designs (research settings only)." },
+];
+
+const rels = [
+  { cls:"b", pair:"Inattention × Hyperactivity/impulsivity", tag:"Oblique", why:"Correlated (latent r ≈ .68–.78); share a general ADHD factor." },
+  { cls:"o", pair:"Severity × Domain balance", tag:"Orthogonal", why:"How much is independent of which domain dominates." },
+  { cls:"o", pair:"Inhibition × Delay aversion", tag:"Orthogonal", why:"Dissociable pathways — the core multiple-pathway result." },
+  { cls:"b", pair:"Inhibition × Sustained attention", tag:"Partly orthogonal", why:"Correlated but separable; RT variability carries unique signal." },
+  { cls:"o", pair:"Rating method × Task method", tag:"Near-orthogonal", why:"Same construct, two methods, median r ≈ .19 — method variance dominates." },
+  { cls:"b", pair:"HiTOP spectra × each other", tag:"Oblique", why:"Correlated, which is exactly why a p-factor exists on top." },
+  { cls:"c", pair:"ADHD × anxiety/sleep/mood — at phenotype", tag:"Collinear", why:"Produce near-identical surface symptoms; not separable by score." },
+  { cls:"o", pair:"ADHD × anxiety/sleep/mood — at mechanism", tag:"Separable", why:"Overlap on arousal/attention but dissociate on inhibition & reward." },
+  { cls:"c", pair:"ADHD liability × other externalizing", tag:"Collinear", why:"High genetic correlation — shared common-variant architecture." },
+];
+
+const mrows = [
+  ["Phenotype","Inattention, hyperactivity/impulsivity, severity","ASRS, CAARS, SWAN, BAARS","<span class='iso'>Isolates</span> severity + domain split; <span class='conf'>confounds</span> mechanism and cause"],
+  ["Mechanism","Inhibition, attention, WM, reward, arousal","Stop-signal, CPT, n-back, delay discounting","<span class='iso'>Isolates</span> single processes; <span class='conf'>confounds</span> little — but weak ecological validity"],
+  ["Nosology","p, externalizing spectra","PID-5, ESI, HiTOP batteries","<span class='iso'>Isolates</span> broad trait position; <span class='conf'>confounds</span> ADHD-specific detail"],
+  ["Etiology","Polygenic & environmental liability","Polygenic scores, twin designs","<span class='iso'>Isolates</span> heritable liability; <span class='conf'>confounds</span> across correlated disorders"],
+];
+
+function geo(kind){
+  const c = kind==="v-ortho" ? "var(--ortho-ln)" : kind==="v-coll" ? "var(--coll-ln)" : "var(--obli-ln)";
+  if(kind==="v-ortho") return `<svg class="geo" width="46" height="46" viewBox="0 0 46 46" aria-hidden="true"><line x1="8" y1="38" x2="8" y2="6" stroke="${c}" stroke-width="2"/><line x1="8" y1="38" x2="40" y2="38" stroke="${c}" stroke-width="2"/></svg>`;
+  if(kind==="v-coll") return `<svg class="geo" width="46" height="46" viewBox="0 0 46 46" aria-hidden="true"><line x1="8" y1="38" x2="40" y2="8" stroke="${c}" stroke-width="2"/><line x1="9" y1="39" x2="41" y2="9" stroke="${c}" stroke-width="2" opacity="0.5"/></svg>`;
+  return `<svg class="geo" width="46" height="46" viewBox="0 0 46 46" aria-hidden="true"><line x1="8" y1="38" x2="8" y2="6" stroke="${c}" stroke-width="2"/><line x1="8" y1="38" x2="38" y2="14" stroke="${c}" stroke-width="2"/></svg>`;
+}
+
+const lc = document.getElementById("levels");
+levels.forEach(l=>{
+  const el = document.createElement("div"); el.className="lvl";
+  el.innerHTML = `
+    <div class="lvl-head" role="button" tabindex="0" aria-expanded="false">
+      <span class="num">${l.n}</span>
+      <span><span class="lvl-t">${l.t}</span> &nbsp;<span class="lvl-g">${l.g}</span>
+        <div class="chips">${l.axes.map(a=>`<span class="chip">${a}</span>`).join("")}</div></span>
+      <span style="display:flex;align-items:center;gap:10px"><span class="verdict ${l.vclass}">${l.verdict}</span>${geo(l.vclass)}</span>
+    </div>
+    <div class="body">
+      <div class="row"><span class="k">Orthogonality</span><span class="v">${l.ortho}</span></div>
+      <div class="row"><span class="k">How it's gauged</span><span class="v">${l.measures}</span></div>
+    </div>`;
+  const head = el.querySelector(".lvl-head");
+  const toggle=()=>{ el.classList.toggle("open"); head.setAttribute("aria-expanded", el.classList.contains("open")); };
+  head.addEventListener("click", toggle);
+  head.addEventListener("keydown", e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); toggle(); }});
+  lc.appendChild(el);
+});
+
+const rc = document.getElementById("rels");
+rels.forEach(r=>{
+  const el=document.createElement("div"); el.className="rel "+r.cls;
+  el.innerHTML=`<div class="tag">${r.tag}</div><div class="pair">${r.pair}</div><div class="why">${r.why}</div>`;
+  rc.appendChild(el);
+});
+
+const mt=document.getElementById("mtable");
+mrows.forEach(row=>{
+  const tr=document.createElement("tr");
+  tr.innerHTML=row.map(c=>`<td>${c}</td>`).join("");
+  mt.appendChild(tr);
+});
+</script>
+</body>
+</html>

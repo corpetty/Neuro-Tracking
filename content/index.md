@@ -7,6 +7,7 @@ Welcome to **Neuro-Tracking** — a personal digital garden for tracking, summar
 ## Sections
 
 - [[literature/index|Literature]] — papers I'm reading, each with a structured summary.
+- [[dimensions/index|Dimensions]] — what "dimension" means in ADHD at four levels, their orthogonality, and how each is measured.
 - [[about-me/index|About Me]] — my symptoms, diagnostics, and how the research connects to my own case.
 - [[graph/index|Knowledge graph]] — the live, typed graph tying it all together: sessions, symptoms, findings, mechanisms, hypotheses and the evidence behind them.
 

@@ -58,5 +58,29 @@
     "summary": "The paper's core result: the compensatory learning advantage that normally accompanies weak inhibition breaks down at the high end of the trait continuum.",
     "dependsOn": ["hypothesis:traits-impair-inhibition"],
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-symptom-domains-correlated",
+    "label": "Inattention and hyperactivity/impulsivity are distinct but strongly correlated, not orthogonal",
+    "summary": "At the phenotype level the two DSM domains share a dominant general factor (latent r ≈ .68–.78); a bifactor structure fits best, so the domains are oblique rather than independent axes.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:rating-task-dissociation",
+    "label": "Rating-based and task-based measures of the same construct are only weakly related",
+    "summary": "Questionnaire and performance measures of executive function correlate at about median r = .19 and assess different levels of cognition — so the two instrument families are near-orthogonal, not interchangeable.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:multiple-neurocognitive-pathways",
+    "label": "ADHD arises through dissociable neurocognitive pathways, present in some individuals but not others",
+    "summary": "Inhibitory, delay/reward and timing deficits are independent components whose co-occurrence is no greater than chance, and no single deficit is universal — the mechanism level is genuinely near-orthogonal.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:no-single-measure-is-diagnostic",
+    "label": "No single instrument is diagnostic; valid assessment is multi-method across levels",
+    "summary": "Ratings and tasks disagree, the best objective tasks are not decisive, and robust markers like reaction-time variability are not ADHD-specific — so discriminating ADHD (and its mimics) requires a multi-method evaluation, not one measure.",
+    "hasStatus": ["supported"]
   }
 ]

@@ -63,5 +63,47 @@
     "definedIn": ["note:about-me-diagnostics"],
     "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"],
     "confounds": ["hypothesis:adhd-explains-internal-restlessness"]
+  },
+  {
+    "id": "mechanism:sustained-attention",
+    "label": "Sustained attention / vigilance",
+    "summary": "The capacity to maintain attention on a task over time. A mechanism-level axis, indexed by continuous performance tests; lapses show up as reaction-time variability.",
+    "definedIn": ["note:dimensions-orthogonality"],
+    "mayExplain": ["symptom:inattention"]
+  },
+  {
+    "id": "mechanism:working-memory",
+    "label": "Working memory",
+    "summary": "Holding and manipulating information over short intervals. One of the dissociable neurocognitive routes to ADHD-like presentation; indexed by n-back and complex-span tasks.",
+    "definedIn": ["note:dimensions-orthogonality"],
+    "mayExplain": ["symptom:inattention"]
+  },
+  {
+    "id": "mechanism:reward-delay-aversion",
+    "label": "Reward processing / delay aversion",
+    "summary": "The motivational pathway: an aversion to waiting and steeper discounting of delayed rewards. Partly independent of the inhibitory route; indexed by delay-discounting paradigms.",
+    "definedIn": ["note:dimensions-orthogonality"],
+    "mayExplain": ["symptom:impulsivity"]
+  },
+  {
+    "id": "mechanism:arousal-regulation",
+    "label": "Arousal / state regulation",
+    "summary": "Regulation of physiological and cognitive arousal. The axis ADHD shares most with its mimics — anxiety, sleep debt and mood all perturb it, which is why they overlap ADHD at the phenotype.",
+    "definedIn": ["note:dimensions-orthogonality"],
+    "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"]
+  },
+  {
+    "id": "mechanism:reaction-time-variability",
+    "label": "Reaction-time variability",
+    "summary": "Intra-individual variability in response speed — a robust and heavily replicated ADHD marker, but not specific to ADHD relative to other clinical groups.",
+    "definedIn": ["note:dimensions-orthogonality"],
+    "mayExplain": ["symptom:inattention"]
+  },
+  {
+    "id": "mechanism:temporal-processing",
+    "label": "Temporal processing / timing",
+    "summary": "Perception and reproduction of time intervals. A third dissociable component in multiple-pathway models, independent of inhibition and delay aversion.",
+    "definedIn": ["note:dimensions-orthogonality"],
+    "mayExplain": ["symptom:impulsivity"]
   }
 ]

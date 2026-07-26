@@ -13,5 +13,61 @@
     "kind": "behavioural task",
     "summary": "The paradigm used by Horváth et al. 2026: an Alternating Serial Reaction Time Task carrying a hidden probabilistic sequence (statistical learning) with an embedded Go/No-Go component (response inhibition), so both are measured at once rather than in isolation.",
     "measures": ["mechanism:response-inhibition", "mechanism:statistical-learning"]
+  },
+  {
+    "id": "instrument:continuous-performance-test",
+    "label": "Continuous performance test (CPT / QbTest)",
+    "kind": "behavioural task",
+    "summary": "Sustained-attention task requiring responses to targets and withholding to non-targets over a long, monotonous session. Indexes vigilance, inhibition and reaction-time variability; sensitive to ADHD but not diagnostically specific.",
+    "measures": ["mechanism:sustained-attention", "mechanism:reaction-time-variability", "mechanism:response-inhibition"]
+  },
+  {
+    "id": "instrument:stop-signal-task",
+    "label": "Stop-signal / go-no-go task",
+    "kind": "behavioural task",
+    "summary": "Measures the ability to cancel an already-initiated response (the stop-signal reaction time) — the cleanest isolation of response inhibition.",
+    "measures": ["mechanism:response-inhibition"]
+  },
+  {
+    "id": "instrument:delay-discounting-task",
+    "label": "Delay-discounting / choice-delay task",
+    "kind": "behavioural task",
+    "summary": "Choices between smaller-sooner and larger-later rewards, quantifying how steeply delayed value is discounted — the motivational/delay-aversion pathway.",
+    "measures": ["mechanism:reward-delay-aversion"]
+  },
+  {
+    "id": "instrument:working-memory-task",
+    "label": "Working-memory task (n-back / span)",
+    "kind": "behavioural task",
+    "summary": "n-back and complex-span paradigms indexing the capacity to hold and manipulate information over short intervals.",
+    "measures": ["mechanism:working-memory"]
+  },
+  {
+    "id": "instrument:swan-scale",
+    "label": "SWAN rating scale",
+    "kind": "self/informant rating",
+    "summary": "Strengths and Weaknesses of ADHD-symptoms and Normal-behavior scale: rates each symptom on a symmetric −3 to +3 range so both tails are measured, yielding roughly normally distributed population scores.",
+    "measures": ["symptom:inattention", "symptom:impulsivity"]
+  },
+  {
+    "id": "instrument:caars",
+    "label": "CAARS (Conners Adult ADHD Rating Scales)",
+    "kind": "self/informant rating",
+    "summary": "Norm-referenced adult ADHD rating scale scored as T-scores against a population sample; the T≥65 cutoff trades sensitivity for specificity.",
+    "measures": ["symptom:inattention", "symptom:impulsivity"]
+  },
+  {
+    "id": "instrument:baars-iv",
+    "label": "BAARS-IV (Barkley Adult ADHD Rating Scale)",
+    "kind": "self/informant rating",
+    "summary": "DSM-anchored adult ADHD rating scale with current and childhood-symptom subscales, self- or observer-administered.",
+    "measures": ["symptom:inattention", "symptom:impulsivity"]
+  },
+  {
+    "id": "instrument:pid-5",
+    "label": "PID-5 (Disinhibition domain)",
+    "kind": "trait inventory",
+    "summary": "Dimensional maladaptive-trait inventory; its Disinhibition domain (and Distractibility facet) places a person on the HiTOP disinhibited-externalizing spectrum rather than in the ADHD category.",
+    "measures": ["symptom:impulsivity", "symptom:inattention"]
   }
 ]
