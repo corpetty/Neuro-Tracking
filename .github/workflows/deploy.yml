@@ -16,7 +16,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  graph:
+    name: Knowledge graph — strict build, tests, freshness
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Strict build + regression suite (warnings are fatal)
+        run: make check
+        working-directory: graph
+      - name: Re-export the graph into the site
+        run: make site
+        working-directory: graph
+      - name: Fail if the committed export is stale
+        run: |
+          git diff --exit-code -- content/graph/graph-data.json content/graph/ontology.md \
+            || { echo "::error::content/graph is out of date — run 'make site' in graph/ and commit the result."; exit 1; }
+
   build:
+    needs: graph
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -36,6 +56,9 @@ jobs:
         run: npm ci
       - name: Install Quartz plugins
         run: npx quartz plugin install --from-config
+      - name: Rebuild the knowledge-graph export
+        run: make site
+        working-directory: graph
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact

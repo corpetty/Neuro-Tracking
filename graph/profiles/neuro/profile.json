@@ -1,0 +1,6 @@
+{
+  "name": "neuro",
+  "description": "The Neuro-Tracking digital garden itself: personal case tracking (sessions, symptoms, instruments, findings, interventions) joined to the research literature (papers, mechanisms, hypotheses).",
+  "contentDir": "../../../content",
+  "siteBaseUrl": "https://corpetty.github.io/Neuro-Tracking"
+}

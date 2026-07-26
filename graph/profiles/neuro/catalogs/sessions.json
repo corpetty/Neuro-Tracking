@@ -1,0 +1,12 @@
+[
+  {
+    "id": "session:2026-07-26-asrs-screening",
+    "label": "2026-07-26 — ASRS v1.1 self-screening & reflection",
+    "date": "2026-07-26",
+    "kind": "self-administered screening + therapy-informed reflection",
+    "summary": "Took the ASRS v1.1 (WHO-developed adult ADHD screener) and reflected on presentations and the 'calm outside, churning inside' pattern with a therapist who is themselves diagnosed with ADHD.",
+    "yielded": ["finding:asrs-2026-07-26-part-a", "finding:asrs-2026-07-26-part-b", "finding:no-formal-diagnosis-2026-07-26"],
+    "documentedIn": ["note:about-me-sessions-2026-07-26-asrs-screening"],
+    "flagsOpenQuestion": ["question:what-is-the-internal-state", "question:adhd-anxiety-sleep-or-mood", "question:next-clinical-step"]
+  }
+]

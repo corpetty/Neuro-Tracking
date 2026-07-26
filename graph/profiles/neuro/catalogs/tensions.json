@@ -1,0 +1,16 @@
+[
+  {
+    "id": "tension:adhd-vs-anxiety-internal-restlessness",
+    "label": "The same internal restlessness fits ADHD and anxiety equally well",
+    "summary": "Held open deliberately. Internal hyperactivity and anxious arousal are near-indistinguishable from the inside, they co-occur often, and depression/stress/sleep produce similar churn. Nothing in the record currently discriminates between them.",
+    "tensionWith": ["hypothesis:adhd-explains-internal-restlessness", "symptom:internal-restlessness"],
+    "documentedIn": ["note:about-me-diagnostics", "note:about-me-connections"]
+  },
+  {
+    "id": "tension:sample-generalisability",
+    "label": "The evidence base doesn't obviously generalise to me",
+    "summary": "The Horváth sample was 226 university students, 81% women, mean age 21.4, tested online without supervision. The authors themselves caution about generalisability to men and across the lifespan — so the dimensional framing is borrowed, not measured, for my case.",
+    "tensionWith": ["hypothesis:dimensional-placement", "hypothesis:trait-load-reshapes-tradeoff"],
+    "documentedIn": ["note:about-me-connections"]
+  }
+]

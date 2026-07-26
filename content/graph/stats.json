@@ -1,0 +1,42 @@
+{
+  "nodes": 56,
+  "edges": 155,
+  "warnings": 0,
+  "byNodeType": {
+    "Status": 9,
+    "Note": 12,
+    "Session": 1,
+    "Instrument": 2,
+    "Finding": 3,
+    "Symptom": 3,
+    "Mechanism": 9,
+    "Hypothesis": 5,
+    "Question": 4,
+    "Paper": 1,
+    "Author": 5,
+    "Tension": 2
+  },
+  "byPredicate": {
+    "hasStatus": 17,
+    "partOf": 11,
+    "covers": 2,
+    "argues": 5,
+    "cites": 3,
+    "flagsOpenQuestion": 11,
+    "yielded": 3,
+    "documentedIn": 10,
+    "measures": 5,
+    "administeredIn": 1,
+    "observedIn": 3,
+    "definedIn": 9,
+    "mayExplain": 11,
+    "derivesFrom": 3,
+    "confounds": 3,
+    "dependsOn": 7,
+    "authoredBy": 5,
+    "tensionWith": 4,
+    "wikiLinks": 33,
+    "supports": 6,
+    "pressureTests": 3
+  }
+}

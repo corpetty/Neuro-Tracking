@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hypothesis:adhd-explains-internal-restlessness",
+    "label": "My disruptive internal state is ADHD-driven rather than anxiety-, sleep-, or mood-driven",
+    "summary": "The load-bearing personal hypothesis. Three rival mechanisms confound it and none has been ruled out; it cannot advance until the internal state is described concretely.",
+    "dependsOn": ["question:what-is-the-internal-state", "question:adhd-anxiety-sleep-or-mood"],
+    "mayExplain": ["symptom:internal-restlessness"],
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:dimensional-placement",
+    "label": "My ASRS result places me on the ADHD trait continuum rather than in a yes/no category",
+    "summary": "Framing rather than diagnosis: a Part A score at the cutoff situates me somewhere on a spectrum the literature treats dimensionally.",
+    "dependsOn": ["finding:asrs-2026-07-26-part-a", "question:where-on-continuum"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:screening-warrants-evaluation",
+    "label": "A positive ASRS screen warrants a full clinical evaluation",
+    "summary": "The actionable claim. Holds regardless of how the ADHD-vs-mimics question resolves — the evaluation is what resolves it.",
+    "dependsOn": ["finding:asrs-2026-07-26-part-a", "question:next-clinical-step"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "hypothesis:traits-impair-inhibition",
+    "label": "Higher ADHD-like traits are associated with weaker response inhibition",
+    "summary": "Research-side claim, replicated by the Horváth study in a non-clinical sample and under dual-task load.",
+    "mayExplain": ["symptom:impulsivity"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:trait-load-reshapes-tradeoff",
+    "label": "Rising ADHD-trait load progressively flattens the inhibition–learning trade-off",
+    "summary": "The paper's core result: the compensatory learning advantage that normally accompanies weak inhibition breaks down at the high end of the trait continuum.",
+    "dependsOn": ["hypothesis:traits-impair-inhibition"],
+    "hasStatus": ["supported"]
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "mechanism:response-inhibition",
+    "label": "Response inhibition",
+    "summary": "The capacity to withhold a prepared response — indexed by No-Go accuracy. Consistently weaker at higher ADHD-trait load, even below clinical thresholds.",
+    "definedIn": ["note:literature-adhd-traits-inhibition-learning"],
+    "mayExplain": ["symptom:impulsivity"]
+  },
+  {
+    "id": "mechanism:statistical-learning",
+    "label": "Statistical learning",
+    "summary": "Implicit extraction of environmental regularities — the habit-learning system. Indexed by faster responses to high-probability triplets.",
+    "definedIn": ["note:literature-adhd-traits-inhibition-learning"]
+  },
+  {
+    "id": "mechanism:inhibition-learning-antagonism",
+    "label": "Inhibition–learning antagonism (competition hypothesis)",
+    "summary": "The trade-off in which weaker inhibitory control normally buys stronger statistical learning. The paper's central object of study.",
+    "definedIn": ["note:literature-adhd-traits-inhibition-learning"],
+    "derivesFrom": ["mechanism:response-inhibition", "mechanism:statistical-learning"]
+  },
+  {
+    "id": "mechanism:adhd-trait-continuum",
+    "label": "ADHD as a trait continuum",
+    "summary": "The dimensional view: ADHD-like traits are distributed across the general population, and neurocognitive shifts appear before symptoms reach clinical significance. The frame that makes a screening score meaningful without a diagnosis.",
+    "definedIn": ["note:literature-adhd-traits-inhibition-learning"],
+    "mayExplain": ["finding:asrs-2026-07-26-part-a"]
+  },
+  {
+    "id": "mechanism:motivational-magnet",
+    "label": "Cue as motivational magnet (sign-tracking)",
+    "summary": "Borrowed from animal sign-tracker/goal-tracker work: at high trait load the cue itself captures behaviour and top-down systems cannot override it — the authors' proposed reason the learning advantage breaks down.",
+    "definedIn": ["note:literature-adhd-traits-inhibition-learning"],
+    "derivesFrom": ["mechanism:response-inhibition"]
+  },
+  {
+    "id": "mechanism:mind-wandering",
+    "label": "Mind-wandering",
+    "summary": "Spontaneous shift of attention from external demands to internally generated thought; offered as a second, transdiagnostic candidate mechanism.",
+    "definedIn": ["note:literature-adhd-traits-inhibition-learning"],
+    "mayExplain": ["symptom:internal-restlessness", "symptom:inattention"]
+  },
+  {
+    "id": "mechanism:anxiety-arousal",
+    "label": "Anxiety-driven arousal",
+    "summary": "Chronic anxious arousal produces internal churn that is phenomenologically near-identical to internal hyperactivity, and frequently co-occurs with ADHD. The single most important thing to rule out here.",
+    "definedIn": ["note:about-me-connections"],
+    "mayExplain": ["symptom:internal-restlessness"],
+    "confounds": ["hypothesis:adhd-explains-internal-restlessness"]
+  },
+  {
+    "id": "mechanism:sleep-debt",
+    "label": "Sleep debt / disrupted sleep",
+    "summary": "Insufficient or fragmented sleep degrades attention and produces restlessness — a mimic that must be excluded before attributing symptoms to ADHD.",
+    "definedIn": ["note:about-me-diagnostics"],
+    "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"],
+    "confounds": ["hypothesis:adhd-explains-internal-restlessness"]
+  },
+  {
+    "id": "mechanism:mood-disturbance",
+    "label": "Mood disturbance (depression / chronic stress)",
+    "summary": "Depression and chronic stress produce concentration difficulty and inner agitation. Another mimic on the differential.",
+    "definedIn": ["note:about-me-diagnostics"],
+    "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"],
+    "confounds": ["hypothesis:adhd-explains-internal-restlessness"]
+  }
+]

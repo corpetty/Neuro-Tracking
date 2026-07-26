@@ -1,0 +1,27 @@
+[
+  {
+    "id": "finding:asrs-2026-07-26-part-a",
+    "label": "ASRS v1.1 Part A: 4/6 — positive screen",
+    "date": "2026-07-26",
+    "value": "4/6 (cutoff ≥4)",
+    "summary": "Landed exactly at the cutoff on the six-item screener that determines the result. Part A is the most predictive component. Screening only — not a diagnosis.",
+    "documentedIn": ["note:about-me-diagnostics"],
+    "flagsOpenQuestion": ["question:where-on-continuum"]
+  },
+  {
+    "id": "finding:asrs-2026-07-26-part-b",
+    "label": "ASRS v1.1 Part B: 6/12 supplementary symptoms",
+    "date": "2026-07-26",
+    "value": "6/12 (no pass/fail line)",
+    "summary": "Part B has no threshold; it describes which symptoms show up. Six indicates a meaningful additional symptom load, backing the Part A result.",
+    "documentedIn": ["note:about-me-diagnostics"]
+  },
+  {
+    "id": "finding:no-formal-diagnosis-2026-07-26",
+    "label": "No formal diagnosis as of 2026-07-26",
+    "date": "2026-07-26",
+    "value": "none",
+    "summary": "State of the record: a positive screen only. Everything downstream is hypothesis.",
+    "documentedIn": ["note:about-me-diagnostics"]
+  }
+]

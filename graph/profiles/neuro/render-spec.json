@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0",
+  "description": "Drives the context-bundle exporter for the neuro profile. The BFS gathers a generous neighbourhood; this file decides what is emitted, in what order, and which predicates are surfaced vs. suppressed. Case facts (sessions, findings, symptoms) come before interpretation (hypotheses, mechanisms) on purpose: what happened, then what it might mean.",
+
+  "defaultHop": 2,
+  "tokenBudget": 12000,
+
+  "claimExtras": [
+    { "predicate": "confounds", "dir": "in", "label": "Rival explanations that must be ruled out first" },
+    { "predicate": "mayExplain", "dir": "out", "label": "Would explain" },
+    { "predicate": "tensionWith", "dir": "in", "label": "In tension with" }
+  ],
+
+  "neverRender": ["wikiLinks", "mentions", "covers", "cites", "definedIn", "documentedIn", "partOf", "hasStatus"],
+
+  "sections": [
+    { "id": "summary", "kind": "centerSummary", "title": null },
+    { "id": "timeline", "kind": "nodeList", "nodeType": "Session", "title": "Sessions in scope (what happened)" },
+    { "id": "findings", "kind": "nodeList", "nodeType": "Finding", "title": "Findings (facts on record)" },
+    { "id": "symptoms", "kind": "nodeList", "nodeType": "Symptom", "title": "Symptoms in scope" },
+    { "id": "interventions", "kind": "nodeList", "nodeType": "Intervention", "title": "Interventions being tracked" },
+    { "id": "instruments", "kind": "nodeList", "nodeType": "Instrument", "title": "Instruments" },
+    { "id": "hypotheses", "kind": "claimsWithEvidence", "nodeType": "Hypothesis", "title": "Hypotheses in scope (with evidence)",
+      "evidencePredicates": ["supports", "pressureTests"], "directPredicate": "argues" },
+    { "id": "contested", "kind": "contestedClaims", "nodeType": "Hypothesis", "title": "Contested hypotheses (keep live — do not resolve)" },
+    { "id": "questions", "kind": "questions", "nodeType": "Question", "title": "Open questions",
+      "resolvedTitle": "Resolved questions", "resolvedStatuses": ["resolved", "provisionally-resolved"] },
+    { "id": "mechanisms", "kind": "nodeList", "nodeType": "Mechanism", "title": "Mechanisms in scope" },
+    { "id": "tensions", "kind": "nodeList", "nodeType": "Tension", "title": "Tensions held open" },
+    { "id": "papers", "kind": "sources", "nodeType": "Paper", "title": "Papers in the neighbourhood" },
+    { "id": "related", "kind": "nodeList", "nodeType": "Note", "title": "Related notes" },
+    { "id": "flags", "kind": "editorialFlags", "nodeType": "Hypothesis", "rivalPredicate": "confounds", "title": "Editorial flags" }
+  ],
+
+  "editorialFlags": {
+    "unbackedClaim": "Hypothesis in scope with no supports/pressureTests evidence edge — personal hypotheses usually start this way; note it rather than assert it.",
+    "contestedClaim": "Hypothesis with both supporting and pressure-testing sources — keep it live.",
+    "skeletonCenter": "Center note is still a seed — bundle is thin by design."
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "instrument:asrs-v1-1",
+    "label": "ASRS v1.1 (Adult ADHD Self-Report Scale)",
+    "kind": "self-report screener",
+    "summary": "18-item WHO-developed screener. Part A (6 items, cutoff ≥4) determines the screen; Part B (12 items) characterises symptom load. Deliberately tuned for sensitivity, so a positive screen is a reason to evaluate, not a diagnosis.",
+    "measures": ["symptom:inattention", "symptom:internal-restlessness", "symptom:impulsivity"],
+    "administeredIn": ["session:2026-07-26-asrs-screening"]
+  },
+  {
+    "id": "instrument:cognitive-tradeoff-task",
+    "label": "Cognitive Trade-off Task (ASRT + Go/No-Go)",
+    "kind": "behavioural task",
+    "summary": "The paradigm used by Horváth et al. 2026: an Alternating Serial Reaction Time Task carrying a hidden probabilistic sequence (statistical learning) with an embedded Go/No-Go component (response inhibition), so both are measured at once rather than in isolation.",
+    "measures": ["mechanism:response-inhibition", "mechanism:statistical-learning"]
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "version": "0.1.0",
+  "name": "neuro",
+  "description": "Ontology for Neuro-Tracking: a personal neuro/cognitive research notebook. Two axes meet here. The CASE axis is temporal — Sessions happen, Instruments are administered in them, they yield Findings, Symptoms are observed, Interventions are started and affect things. The RESEARCH axis is argumentative — Papers support or pressure-test Hypotheses and Mechanisms, Mechanisms may explain Symptoms and Findings, Tensions and Questions stay open. This file is the single contract the build, the exporter, the site graph, and the tests all read. 'directed', 'subjectTypes', 'objectTypes' and 'carriesEvidence' are READ by the engine, not just documentation.",
+
+  "namespacePriority": [
+    "note",
+    "session",
+    "symptom",
+    "finding",
+    "hypothesis",
+    "mechanism",
+    "question",
+    "paper",
+    "instrument",
+    "intervention",
+    "tension",
+    "author",
+    "status"
+  ],
+
+  "hubTransitTypes": ["Status"],
+  "sourceType": "Paper",
+  "documentType": "Note",
+
+  "nodeTypes": {
+    "Note": {
+      "ns": "note",
+      "color": "#4f8cff",
+      "shape": "round-rectangle",
+      "description": "A page in the garden — a paper summary, a symptom log, a session note, an index. The only type that owns prose on the site."
+    },
+    "Session": {
+      "ns": "session",
+      "color": "#0ea5a3",
+      "shape": "round-rectangle",
+      "description": "A dated event in the case: a self-administered test, a therapy conversation, a clinical appointment, a deliberate journalling pass. The unit of 'what we did and when'."
+    },
+    "Symptom": {
+      "ns": "symptom",
+      "color": "#ef4444",
+      "shape": "round-tag",
+      "description": "An experienced pattern being tracked — described phenomenologically, not diagnostically."
+    },
+    "Instrument": {
+      "ns": "instrument",
+      "color": "#22c55e",
+      "shape": "rectangle",
+      "description": "A measurement tool: a screener, a questionnaire, a cognitive task, a lab panel, a wearable metric."
+    },
+    "Finding": {
+      "ns": "finding",
+      "color": "#14b8a6",
+      "shape": "round-tag",
+      "description": "A concrete result produced by a Session — a score, a clinician's observation, a lab value. Facts about the case, distinct from what they might mean."
+    },
+    "Intervention": {
+      "ns": "intervention",
+      "color": "#06b6d4",
+      "shape": "diamond",
+      "description": "Something deliberately changed and tracked over time: medication, sleep protocol, therapy, exercise, caffeine, environment."
+    },
+    "Mechanism": {
+      "ns": "mechanism",
+      "color": "#f59e0b",
+      "shape": "round-tag",
+      "description": "A named cognitive/neural construct the notebook reuses: response inhibition, statistical learning, mind-wandering, executive function."
+    },
+    "Hypothesis": {
+      "ns": "hypothesis",
+      "color": "#facc15",
+      "shape": "round-tag",
+      "description": "A load-bearing assertion the notebook is trying to defend or falsify. Never a diagnosis — always something that can be pressure-tested."
+    },
+    "Question": {
+      "ns": "question",
+      "color": "#b45309",
+      "shape": "concave-hexagon",
+      "description": "An open problem the notebook is working on; can gate a Note, a Hypothesis, or a next Session."
+    },
+    "Paper": {
+      "ns": "paper",
+      "color": "#a855f7",
+      "shape": "rectangle",
+      "description": "An external work cited: journal article, preprint, book, clinical guideline."
+    },
+    "Author": {
+      "ns": "author",
+      "color": "#7c3aed",
+      "shape": "ellipse",
+      "description": "Who produced a Paper."
+    },
+    "Tension": {
+      "ns": "tension",
+      "color": "#7f1d1d",
+      "shape": "concave-hexagon",
+      "description": "A competing-explanation or trade-off held open on purpose — e.g. ADHD vs. anxiety as the source of the same symptom. Reified so it cannot quietly resolve itself."
+    },
+    "Status": {
+      "ns": "status",
+      "color": "#6b7280",
+      "shape": "ellipse",
+      "description": "Lifecycle status (a hub-transit type: reachable but never traversed through)."
+    }
+  },
+
+  "predicateCategories": {
+    "structural": { "color": "#0ea5a3", "description": "Where a thing sits: containment, coverage, what measures what." },
+    "temporal": { "color": "#2563eb", "description": "The case timeline: what happened when, in what order, and what it produced." },
+    "causal": { "color": "#dc2626", "description": "What might explain or affect what. Always hypothetical in this corpus." },
+    "provenance": { "color": "#a855f7", "description": "Where a thing came from: which note records it, which paper, which author." },
+    "dialectical": { "color": "#b45309", "description": "What is contested: evidence, confounds, contradictions, supersession, open questions." },
+    "claim": { "color": "#facc15", "description": "Argument structure: arguing, depending." },
+    "weak": { "color": "#cbd5e1", "description": "Casual cross-links for navigation only — deliberately kept out of the argument graph." }
+  },
+
+  "predicates": {
+    "partOf": { "category": "structural", "directed": true, "subjectTypes": ["Note"], "objectTypes": ["Note"], "description": "Note belongs to a parent Note (section index)." },
+    "covers": { "category": "structural", "directed": true, "subjectTypes": ["Note"], "objectTypes": ["Symptom", "Finding", "Session", "Instrument", "Intervention", "Mechanism", "Hypothesis", "Question", "Tension"], "description": "This note is where the thing is written up." },
+    "measures": { "category": "structural", "directed": true, "subjectTypes": ["Instrument"], "objectTypes": ["Symptom", "Mechanism"], "description": "Instrument is designed to measure this symptom domain or construct." },
+    "hasStatus": { "category": "structural", "directed": true, "subjectTypes": ["Note", "Hypothesis", "Question", "Intervention"], "objectTypes": ["Status"], "description": "Node has this lifecycle status." },
+
+    "administeredIn": { "category": "temporal", "directed": true, "subjectTypes": ["Instrument"], "objectTypes": ["Session"], "description": "Instrument was administered during this session." },
+    "yielded": { "category": "temporal", "directed": true, "subjectTypes": ["Session"], "objectTypes": ["Finding"], "description": "Session produced this finding." },
+    "observedIn": { "category": "temporal", "directed": true, "subjectTypes": ["Symptom"], "objectTypes": ["Session"], "description": "Symptom was reported/observed in this session." },
+    "startedIn": { "category": "temporal", "directed": true, "subjectTypes": ["Intervention"], "objectTypes": ["Session"], "description": "Intervention began at this session." },
+    "precedes": { "category": "temporal", "directed": true, "subjectTypes": ["Session"], "objectTypes": ["Session"], "description": "Session comes before another session — the timeline spine." },
+
+    "mayExplain": { "category": "causal", "directed": true, "subjectTypes": ["Mechanism", "Hypothesis", "Intervention"], "objectTypes": ["Symptom", "Finding"], "description": "Candidate explanation for an experience or result. HYPOTHETICAL by construction — never a diagnosis." },
+    "affects": { "category": "causal", "directed": true, "subjectTypes": ["Intervention"], "objectTypes": ["Symptom", "Mechanism", "Finding"], "description": "Intervention is being tracked for its effect on this." },
+    "derivesFrom": { "category": "causal", "directed": true, "subjectTypes": ["Mechanism", "Hypothesis"], "objectTypes": ["Mechanism", "Hypothesis"], "description": "X is built on / specialises Y." },
+
+    "documentedIn": { "category": "provenance", "directed": true, "subjectTypes": ["Session", "Finding", "Symptom", "Intervention", "Tension"], "objectTypes": ["Note"], "description": "The case fact is written up in this note." },
+    "definedIn": { "category": "provenance", "directed": true, "subjectTypes": ["Mechanism"], "objectTypes": ["Note"], "description": "Mechanism has its primary development in this note." },
+    "cites": { "category": "provenance", "directed": true, "subjectTypes": ["Note"], "objectTypes": ["Paper"], "description": "Note cites a paper (a deliberate act, never inferred from prose)." },
+    "authoredBy": { "category": "provenance", "directed": true, "subjectTypes": ["Paper"], "objectTypes": ["Author"], "description": "Paper authored by Author." },
+
+    "argues": { "category": "claim", "directed": true, "subjectTypes": ["Note"], "objectTypes": ["Hypothesis"], "description": "Note argues this hypothesis." },
+    "dependsOn": { "category": "claim", "directed": true, "subjectTypes": ["Hypothesis"], "objectTypes": ["Hypothesis", "Question", "Finding"], "description": "Hypothesis rests on another hypothesis, on a question resolving a particular way, or on a finding holding up." },
+
+    "supports": { "category": "dialectical", "directed": true, "subjectTypes": ["Paper"], "objectTypes": ["Hypothesis", "Mechanism"], "carriesEvidence": true, "description": "Paper supports this hypothesis/mechanism. The edge carries the verbatim quote + page locator + confidence + rationale, so a fact and its justification travel together." },
+    "pressureTests": { "category": "dialectical", "directed": true, "subjectTypes": ["Paper"], "objectTypes": ["Hypothesis", "Mechanism"], "carriesEvidence": true, "description": "Paper challenges/qualifies this hypothesis/mechanism. Same evidence payload." },
+    "confounds": { "category": "dialectical", "directed": true, "subjectTypes": ["Mechanism", "Symptom", "Intervention"], "objectTypes": ["Hypothesis"], "description": "A rival explanation that must be ruled out before the hypothesis can stand. The honesty predicate of this ontology." },
+    "contradicts": { "category": "dialectical", "directed": false, "subjectTypes": ["Hypothesis", "Mechanism", "Finding"], "objectTypes": ["Hypothesis", "Mechanism", "Finding"], "description": "Direct contradiction." },
+    "tensionWith": { "category": "dialectical", "directed": false, "subjectTypes": ["Hypothesis", "Mechanism", "Symptom", "Finding", "Tension"], "objectTypes": ["Hypothesis", "Mechanism", "Symptom", "Finding"], "description": "In unresolved tension with (both endpoints stay live)." },
+    "supersedes": { "category": "dialectical", "directed": true, "subjectTypes": ["Hypothesis", "Finding", "Note"], "objectTypes": ["Hypothesis", "Finding", "Note"], "description": "Replaces a prior version — later screening supersedes an earlier one, a revised hypothesis supersedes its draft." },
+    "flagsOpenQuestion": { "category": "dialectical", "directed": true, "subjectTypes": ["Note", "Hypothesis", "Session", "Finding", "Symptom"], "objectTypes": ["Question"], "description": "Flags an open question the node rests on." },
+
+    "wikiLinks": { "category": "weak", "directed": true, "subjectTypes": ["Note"], "objectTypes": ["Note", "Session", "Symptom", "Finding", "Instrument", "Intervention", "Mechanism", "Hypothesis", "Question", "Paper", "Tension", "Author"], "description": "Wiki-style link parsed from prose. Navigation only — kept out of the argument graph." },
+    "mentions": { "category": "weak", "directed": true, "subjectTypes": ["Note"], "objectTypes": ["Mechanism", "Hypothesis", "Paper", "Symptom"], "description": "Free-text mention — navigation, not argument." }
+  },
+
+  "catalogLoaders": [
+    { "file": "catalogs/notes.json", "nodeType": "Note", "proseField": "file", "arrayFieldEdges": {
+      "partOf": { "predicate": "partOf", "dir": "out", "targetNs": "note" },
+      "covers": { "predicate": "covers", "dir": "out" },
+      "argues": { "predicate": "argues", "dir": "out", "targetNs": "hypothesis" },
+      "cites": { "predicate": "cites", "dir": "out", "targetNs": "paper" },
+      "flagsOpenQuestion": { "predicate": "flagsOpenQuestion", "dir": "out", "targetNs": "question" },
+      "hasStatus": { "predicate": "hasStatus", "dir": "out", "targetNs": "status" }
+    } },
+    { "file": "catalogs/sessions.json", "nodeType": "Session", "arrayFieldEdges": {
+      "yielded": { "predicate": "yielded", "dir": "out", "targetNs": "finding" },
+      "precedes": { "predicate": "precedes", "dir": "out", "targetNs": "session" },
+      "documentedIn": { "predicate": "documentedIn", "dir": "out", "targetNs": "note" },
+      "flagsOpenQuestion": { "predicate": "flagsOpenQuestion", "dir": "out", "targetNs": "question" }
+    } },
+    { "file": "catalogs/instruments.json", "nodeType": "Instrument", "arrayFieldEdges": {
+      "measures": { "predicate": "measures", "dir": "out" },
+      "administeredIn": { "predicate": "administeredIn", "dir": "out", "targetNs": "session" }
+    } },
+    { "file": "catalogs/findings.json", "nodeType": "Finding", "arrayFieldEdges": {
+      "documentedIn": { "predicate": "documentedIn", "dir": "out", "targetNs": "note" },
+      "supersedes": { "predicate": "supersedes", "dir": "out", "targetNs": "finding" },
+      "flagsOpenQuestion": { "predicate": "flagsOpenQuestion", "dir": "out", "targetNs": "question" },
+      "tensionWith": { "predicate": "tensionWith", "dir": "out" }
+    } },
+    { "file": "catalogs/symptoms.json", "nodeType": "Symptom", "arrayFieldEdges": {
+      "observedIn": { "predicate": "observedIn", "dir": "out", "targetNs": "session" },
+      "documentedIn": { "predicate": "documentedIn", "dir": "out", "targetNs": "note" },
+      "confounds": { "predicate": "confounds", "dir": "out", "targetNs": "hypothesis" },
+      "flagsOpenQuestion": { "predicate": "flagsOpenQuestion", "dir": "out", "targetNs": "question" },
+      "tensionWith": { "predicate": "tensionWith", "dir": "out" }
+    } },
+    { "file": "catalogs/interventions.json", "nodeType": "Intervention", "arrayFieldEdges": {
+      "affects": { "predicate": "affects", "dir": "out" },
+      "startedIn": { "predicate": "startedIn", "dir": "out", "targetNs": "session" },
+      "mayExplain": { "predicate": "mayExplain", "dir": "out" },
+      "confounds": { "predicate": "confounds", "dir": "out", "targetNs": "hypothesis" },
+      "documentedIn": { "predicate": "documentedIn", "dir": "out", "targetNs": "note" },
+      "hasStatus": { "predicate": "hasStatus", "dir": "out", "targetNs": "status" }
+    } },
+    { "file": "catalogs/mechanisms.json", "nodeType": "Mechanism", "arrayFieldEdges": {
+      "definedIn": { "predicate": "definedIn", "dir": "out", "targetNs": "note" },
+      "derivesFrom": { "predicate": "derivesFrom", "dir": "out", "targetNs": "mechanism" },
+      "mayExplain": { "predicate": "mayExplain", "dir": "out" },
+      "confounds": { "predicate": "confounds", "dir": "out", "targetNs": "hypothesis" },
+      "tensionWith": { "predicate": "tensionWith", "dir": "out" }
+    } },
+    { "file": "catalogs/hypotheses.json", "nodeType": "Hypothesis", "arrayFieldEdges": {
+      "argues": { "predicate": "argues", "dir": "in", "targetNs": "note" },
+      "dependsOn": { "predicate": "dependsOn", "dir": "out" },
+      "mayExplain": { "predicate": "mayExplain", "dir": "out" },
+      "supersedes": { "predicate": "supersedes", "dir": "out", "targetNs": "hypothesis" },
+      "flagsOpenQuestion": { "predicate": "flagsOpenQuestion", "dir": "out", "targetNs": "question" },
+      "tensionWith": { "predicate": "tensionWith", "dir": "out" },
+      "contradicts": { "predicate": "contradicts", "dir": "out" },
+      "hasStatus": { "predicate": "hasStatus", "dir": "out", "targetNs": "status" }
+    } },
+    { "file": "catalogs/questions.json", "nodeType": "Question", "arrayFieldEdges": {} },
+    { "file": "catalogs/papers.json", "nodeType": "Paper", "arrayFieldEdges": {
+      "authoredBy": { "predicate": "authoredBy", "dir": "out", "targetNs": "author" }
+    } },
+    { "file": "catalogs/authors.json", "nodeType": "Author", "arrayFieldEdges": {} },
+    { "file": "catalogs/tensions.json", "nodeType": "Tension", "arrayFieldEdges": {
+      "tensionWith": { "predicate": "tensionWith", "dir": "out" },
+      "documentedIn": { "predicate": "documentedIn", "dir": "out", "targetNs": "note" }
+    } }
+  ],
+
+  "statusType": "Status",
+  "statuses": ["seed", "active", "stable", "open", "being-tested", "supported", "challenged", "resolved", "superseded"]
+}

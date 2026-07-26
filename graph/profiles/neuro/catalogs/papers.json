@@ -1,0 +1,15 @@
+[
+  {
+    "id": "paper:horvath-2026-adhd-traits",
+    "label": "ADHD-like traits reshape the balance between inhibitory control and predictive processes",
+    "year": 2026,
+    "venue": "bioRxiv preprint (posted 2026-03-02)",
+    "doi": "10.1101/2025.10.28.685045",
+    "url": "https://doi.org/10.1101/2025.10.28.685045",
+    "pdf": "literature/2025.10.28.685045.full.pdf",
+    "file": "refs/horvath-2026.txt",
+    "licence": "CC-BY-NC-ND 4.0",
+    "summary": "n = 226 non-clinical sample; Cognitive Trade-off Task measuring response inhibition and statistical learning simultaneously; ADHD traits measured dimensionally with the ASRS v1.1.",
+    "authoredBy": ["author:karolina-horvath", "author:bianka-brezoczki", "author:adrienn-holczer", "author:teodora-vekony", "author:dezso-nemeth"]
+  }
+]

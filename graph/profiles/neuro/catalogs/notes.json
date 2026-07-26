@@ -1,0 +1,109 @@
+[
+  {
+    "id": "note:index",
+    "label": "Neuro-Tracking (home)",
+    "file": "index.md",
+    "summary": "Entry point to the garden: literature, personal case, and the knowledge graph.",
+    "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:literature-index",
+    "label": "Literature index",
+    "file": "literature/index.md",
+    "summary": "Running index of papers read and summarised.",
+    "partOf": ["note:index"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-traits-inhibition-learning",
+    "label": "Horváth et al. 2026 — ADHD traits & inhibition/learning",
+    "file": "literature/ADHD-traits-inhibition-learning.md",
+    "summary": "Summary of a bioRxiv preprint: ADHD-like traits weaken response inhibition and progressively flatten the normal inhibition–statistical-learning trade-off.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:horvath-2026-adhd-traits"],
+    "covers": ["instrument:cognitive-tradeoff-task"],
+    "argues": ["hypothesis:traits-impair-inhibition", "hypothesis:trait-load-reshapes-tradeoff"],
+    "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:about-me-index",
+    "label": "About Me (index)",
+    "file": "about-me/index.md",
+    "summary": "Personal working notebook: who I am, what I'm experiencing, what clinicians have found.",
+    "partOf": ["note:index"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:about-me-profile",
+    "label": "Profile & background",
+    "file": "about-me/profile.md",
+    "summary": "Context about me and why I'm tracking this.",
+    "partOf": ["note:about-me-index"],
+    "hasStatus": ["seed"]
+  },
+  {
+    "id": "note:about-me-symptoms",
+    "label": "Symptom log",
+    "file": "about-me/symptoms.md",
+    "summary": "Structured, updatable record of symptoms over time.",
+    "partOf": ["note:about-me-index"],
+    "flagsOpenQuestion": ["question:what-is-the-internal-state"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:about-me-diagnostics",
+    "label": "Diagnostic history",
+    "file": "about-me/diagnostics.md",
+    "summary": "Timeline of screenings, assessments and diagnoses. No formal diagnosis yet.",
+    "partOf": ["note:about-me-index"],
+    "covers": ["instrument:asrs-v1-1"],
+    "flagsOpenQuestion": ["question:adhd-anxiety-sleep-or-mood", "question:next-clinical-step"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:about-me-connections",
+    "label": "Literature connections",
+    "file": "about-me/connections.md",
+    "summary": "Hypothesised links between the personal case and specific papers — starting points, not conclusions.",
+    "partOf": ["note:about-me-index"],
+    "argues": ["hypothesis:dimensional-placement", "hypothesis:adhd-explains-internal-restlessness"],
+    "cites": ["paper:horvath-2026-adhd-traits"],
+    "flagsOpenQuestion": ["question:where-on-continuum"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:about-me-sessions-2026-07-26-asrs-screening",
+    "label": "2026-07-26 — ASRS v1.1 screening & reflection",
+    "file": "about-me/sessions/2026-07-26-asrs-screening.md",
+    "summary": "Session note: took the ASRS v1.1, positive screen, reflections on presentations and internal restlessness.",
+    "partOf": ["note:about-me-index"],
+    "argues": ["hypothesis:screening-warrants-evaluation"],
+    "cites": ["paper:horvath-2026-adhd-traits"],
+    "flagsOpenQuestion": ["question:what-is-the-internal-state"],
+    "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:graph-index",
+    "label": "Knowledge graph",
+    "file": "graph/index.md",
+    "summary": "The live typed graph of this notebook — every node, every relation, filterable.",
+    "partOf": ["note:index"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:graph-ontology",
+    "label": "Ontology reference",
+    "file": "graph/ontology.md",
+    "summary": "Generated reference for the node types and predicates the graph is allowed to contain.",
+    "partOf": ["note:graph-index"],
+    "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:graph-how-to-add",
+    "label": "How to add to the graph",
+    "file": "graph/how-to-add.md",
+    "summary": "The maintenance loop: add a note, record the case facts, connect them, rebuild, query.",
+    "partOf": ["note:graph-index"],
+    "hasStatus": ["stable"]
+  }
+]

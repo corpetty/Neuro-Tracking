@@ -1,0 +1,27 @@
+[
+  {
+    "id": "symptom:internal-restlessness",
+    "label": "Disruptive internal state — calm outside, churning inside",
+    "domain": "hyperactivity-impulsivity (internal)",
+    "summary": "Outwardly calm and not fidgety, but a racing, unsettled mind — the DSM 'driven as if by a motor' item experienced mentally rather than behaviourally. The often-missed pattern in inattentive-leaning adults.",
+    "observedIn": ["session:2026-07-26-asrs-screening"],
+    "documentedIn": ["note:about-me-symptoms"],
+    "flagsOpenQuestion": ["question:what-is-the-internal-state", "question:adhd-anxiety-sleep-or-mood"]
+  },
+  {
+    "id": "symptom:inattention",
+    "label": "Inattentive pattern — sustaining focus, distractibility",
+    "domain": "cognitive — inattention",
+    "summary": "Consistent with a positive ASRS Part A and a lean toward the inattentive presentation.",
+    "observedIn": ["session:2026-07-26-asrs-screening"],
+    "documentedIn": ["note:about-me-symptoms"]
+  },
+  {
+    "id": "symptom:impulsivity",
+    "label": "Acting before thinking / impulsivity items",
+    "domain": "hyperactivity-impulsivity",
+    "summary": "Endorsed on the ASRS; the axis the Horváth paper probes directly via response inhibition.",
+    "observedIn": ["session:2026-07-26-asrs-screening"],
+    "documentedIn": ["note:about-me-symptoms"]
+  }
+]

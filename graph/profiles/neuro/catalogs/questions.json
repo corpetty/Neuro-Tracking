@@ -1,0 +1,30 @@
+[
+  {
+    "id": "question:what-is-the-internal-state",
+    "label": "What does the 'disruptive internal state' actually consist of?",
+    "summary": "Racing/jumping thoughts, a physical-but-invisible wound-up feeling, an inability to ever relax, or something else. These feel similar from the inside but point in different directions.",
+    "status": "open",
+    "nextStep": "Journal concrete examples as they happen, with time of day and context."
+  },
+  {
+    "id": "question:adhd-anxiety-sleep-or-mood",
+    "label": "Is the internal restlessness driven by ADHD, anxiety, sleep, mood, or a combination?",
+    "summary": "The differential. A good evaluator traces the symptom to its source rather than assuming the ADHD thread.",
+    "status": "open",
+    "nextStep": "Bring the differential explicitly to the evaluation; don't let it collapse into a single label."
+  },
+  {
+    "id": "question:where-on-continuum",
+    "label": "Where would my ASRS score fall relative to the Horváth sample?",
+    "summary": "The paper's sample scored M = 31.66, SD = 10.04 on the 18-item ASRS. My record currently stores Part A/Part B counts, not the summed dimensional score — so the comparison can't yet be made.",
+    "status": "open",
+    "nextStep": "Retain the item-level ASRS responses and compute the summed score."
+  },
+  {
+    "id": "question:next-clinical-step",
+    "label": "What is the right next clinical step, and with whom?",
+    "summary": "GP referral, psychologist, or psychiatrist — and what to bring to make the appointment productive.",
+    "status": "open",
+    "nextStep": "Draft a one-page summary for a clinician from the diagnostics note and the symptom log."
+  }
+]
