@@ -11,5 +11,8 @@ npm-debug.log*
 .DS_Store
 *.swp
 
-# Extracted source text — regenerate with `make refs`; the PDFs are the source of truth.
-profiles/*/refs/*.txt
+# Extracted source text for the neuro profile — regenerate with `make refs`; the
+# committed PDFs are the source of truth. Scoped to profiles/neuro deliberately:
+# profiles/software-docs/refs/*.txt are upstream TEST FIXTURES and must be
+# committed, or the triage suite fails on a clean checkout.
+profiles/neuro/refs/*.txt
