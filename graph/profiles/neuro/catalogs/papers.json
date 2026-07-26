@@ -299,5 +299,35 @@
     "url": "https://doi.org/10.3389/fpsyt.2021.666326",
     "summary": "Locates ADHD within HiTOP as dimensions (inattention, hyperactivity, impulsivity) under the disinhibited externalizing spectrum rather than as a single category.",
     "authoredBy": []
+  },
+  {
+    "id": "paper:arrondo-2024",
+    "label": "Systematic Review and Meta-Analysis: Clinical Utility of Continuous Performance Tests for the Identification of ADHD",
+    "year": 2024,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 63(2):154–171",
+    "doi": "10.1016/j.jaac.2023.03.011",
+    "url": "https://doi.org/10.1016/j.jaac.2023.03.011",
+    "summary": "Meta-analysis: CPTs differentiate ADHD from non-ADHD only modestly (pooled sensitivity 0.75, specificity 0.71) and should be used only within a comprehensive diagnostic process.",
+    "authoredBy": ["author:gonzalo-arrondo", "author:david-coghill"]
+  },
+  {
+    "id": "paper:alderson-2007",
+    "label": "ADHD and behavioral inhibition: a meta-analytic review of the stop-signal paradigm",
+    "year": 2007,
+    "venue": "Journal of Abnormal Child Psychology, 35(5):745–758",
+    "doi": "10.1007/s10802-007-9131-6",
+    "url": "https://doi.org/10.1007/s10802-007-9131-6",
+    "summary": "Meta-analysis finding that stop-signal differences in ADHD reflect a generalized attention/processing deficit rather than a specific behavioural-inhibition failure.",
+    "authoredBy": ["author:matthew-alderson", "author:michael-kofler"]
+  },
+  {
+    "id": "paper:alarachi-2024",
+    "label": "Are we measuring ADHD or anxiety? Examining the factor structure and discriminant validity of the ASRS in an adult anxiety disorder population",
+    "year": 2024,
+    "venue": "Assessment",
+    "doi": "10.1177/10731911231225190",
+    "url": "https://doi.org/10.1177/10731911231225190",
+    "summary": "In an adult anxiety sample, several ASRS hyperactivity items loaded more strongly onto anxiety than ADHD; the scale captured non-ADHD symptoms and is susceptible to over-reporting.",
+    "authoredBy": ["author:abeer-alarachi"]
   }
 ]

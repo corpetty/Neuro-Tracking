@@ -82,5 +82,11 @@
     "label": "No single instrument is diagnostic; valid assessment is multi-method across levels",
     "summary": "Ratings and tasks disagree, the best objective tasks are not decisive, and robust markers like reaction-time variability are not ADHD-specific — so discriminating ADHD (and its mimics) requires a multi-method evaluation, not one measure.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:measures-separate-controls-not-mimics",
+    "label": "ADHD measures separate ADHD from healthy controls, but not from the mimics",
+    "summary": "Ratings and tasks alike discriminate ADHD from typically developing controls, yet lose their edge against other clinical conditions — anxiety, mood, OCD — so no single instrument can rule out the differential. The measurement-side root of the ADHD-vs-anxiety tension.",
+    "hasStatus": ["supported"]
   }
 ]

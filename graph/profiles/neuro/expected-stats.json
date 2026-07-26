@@ -1,6 +1,6 @@
 {
-  "nodes": 139,
-  "edges": 322,
+  "nodes": 146,
+  "edges": 337,
   "warnings": 0,
   "byNodeType": {
     "Status": 9,
@@ -10,18 +10,18 @@
     "Finding": 3,
     "Symptom": 3,
     "Mechanism": 15,
-    "Hypothesis": 13,
+    "Hypothesis": 14,
     "Question": 4,
-    "Paper": 30,
-    "Author": 32,
+    "Paper": 33,
+    "Author": 35,
     "Tension": 3
   },
   "byPredicate": {
-    "hasStatus": 29,
+    "hasStatus": 30,
     "partOf": 15,
     "covers": 10,
-    "argues": 13,
-    "cites": 32,
+    "argues": 14,
+    "cites": 35,
     "flagsOpenQuestion": 13,
     "yielded": 3,
     "documentedIn": 11,
@@ -33,10 +33,10 @@
     "derivesFrom": 3,
     "confounds": 3,
     "dependsOn": 8,
-    "authoredBy": 41,
+    "authoredBy": 46,
     "tensionWith": 6,
     "wikiLinks": 45,
-    "supports": 29,
-    "pressureTests": 5
+    "supports": 33,
+    "pressureTests": 6
   }
 }

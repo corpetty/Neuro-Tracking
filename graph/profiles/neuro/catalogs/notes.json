@@ -60,8 +60,8 @@
     "file": "dimensions/measurement.md",
     "summary": "Each level's instrument family, what it isolates and confounds, the rating-vs-task dissociation, dissociable neurocognitive pathways, and why no single measure is diagnostic.",
     "partOf": ["note:dimensions-index"],
-    "argues": ["hypothesis:rating-task-dissociation", "hypothesis:multiple-neurocognitive-pathways", "hypothesis:no-single-measure-is-diagnostic"],
-    "cites": ["paper:toplak-2013", "paper:nigg-2005", "paper:sonuga-barke-2010", "paper:kofler-2013", "paper:hall-2016", "paper:nichols-2004", "paper:willcutt-2005-ef-meta", "paper:coghill-2014-heterogeneity", "paper:jackson-mackillop-2016", "paper:hall-cohen-kadosh-2023-rating-review", "paper:chadd-diagnosing"],
+    "argues": ["hypothesis:rating-task-dissociation", "hypothesis:multiple-neurocognitive-pathways", "hypothesis:no-single-measure-is-diagnostic", "hypothesis:measures-separate-controls-not-mimics"],
+    "cites": ["paper:toplak-2013", "paper:nigg-2005", "paper:sonuga-barke-2010", "paper:kofler-2013", "paper:hall-2016", "paper:nichols-2004", "paper:willcutt-2005-ef-meta", "paper:coghill-2014-heterogeneity", "paper:jackson-mackillop-2016", "paper:hall-cohen-kadosh-2023-rating-review", "paper:chadd-diagnosing", "paper:arrondo-2024", "paper:alderson-2007", "paper:alarachi-2024"],
     "covers": ["instrument:continuous-performance-test", "instrument:stop-signal-task", "instrument:delay-discounting-task", "instrument:working-memory-task", "instrument:swan-scale", "instrument:caars", "instrument:baars-iv", "instrument:pid-5"],
     "flagsOpenQuestion": ["question:next-clinical-step"],
     "hasStatus": ["stable"]
