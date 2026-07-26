@@ -26,6 +26,17 @@
     "hasStatus": ["stable"]
   },
   {
+    "id": "note:literature-dimensional-continuum-adhd",
+    "label": "Dimensional & continuum models of ADHD — state of the research",
+    "file": "literature/dimensional-continuum-adhd.md",
+    "summary": "Survey of the evidence that clinical ADHD is the extreme of a continuous trait: taxometrics, quantitative genetics, dimensional instruments, RDoC/HiTOP/p-factor, and the implications for diagnostic thresholds — with the categorical counter-evidence kept live.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:coghill-sonuga-barke-2012", "paper:mclennan-2016", "paper:marcus-barry-2011", "paper:faraone-larsson-2019", "paper:demontis-2019", "paper:kessler-2005", "paper:burton-2019-swan", "paper:rodenacker-2017", "paper:insel-2010", "paper:kotov-2017", "paper:caspi-2014", "paper:arildskov-2024", "paper:morton-2025", "paper:kazda-2021", "paper:larsson-2012", "paper:fassbender-2018"],
+    "argues": ["hypothesis:adhd-dimensional-latent-structure", "hypothesis:clinical-adhd-extreme-of-continuous-trait", "hypothesis:diagnostic-threshold-arbitrary", "hypothesis:adhd-fits-transdiagnostic-dimensional-frameworks"],
+    "flagsOpenQuestion": ["question:where-on-continuum"],
+    "hasStatus": ["stable"]
+  },
+  {
     "id": "note:about-me-index",
     "label": "About Me (index)",
     "file": "about-me/index.md",

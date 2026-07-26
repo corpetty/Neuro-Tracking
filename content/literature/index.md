@@ -12,6 +12,7 @@ A running index of papers I've read and summarized. Each entry links to a struct
 | Paper | Summary | Source | Field | Added |
 |---|---|---|---|---|
 | ADHD-like traits reshape the balance between inhibitory control and predictive processes (Horváth et al., 2026) | [[literature/ADHD-traits-inhibition-learning\|Summary]] | [PDF](2025.10.28.685045.full.pdf) · [bioRxiv](https://doi.org/10.1101/2025.10.28.685045) | Cognitive neuroscience / ADHD | 2026-07-26 |
+| Dimensional & continuum models of ADHD — state of the research (survey) | [[literature/dimensional-continuum-adhd\|Summary]] | 16 sources — see note | Taxometrics / genetics / classification | 2026-07-26 |
 
 ## How this index works
 

@@ -11,5 +11,164 @@
     "licence": "CC-BY-NC-ND 4.0",
     "summary": "n = 226 non-clinical sample; Cognitive Trade-off Task measuring response inhibition and statistical learning simultaneously; ADHD traits measured dimensionally with the ASRS v1.1.",
     "authoredBy": ["author:karolina-horvath", "author:bianka-brezoczki", "author:adrienn-holczer", "author:teodora-vekony", "author:dezso-nemeth"]
+  },
+  {
+    "id": "paper:coghill-sonuga-barke-2012",
+    "label": "Annual Research Review: Categories versus dimensions in the classification and conceptualisation of child and adolescent mental disorders",
+    "year": 2012,
+    "venue": "Journal of Child Psychology and Psychiatry, 53(5):469–489",
+    "doi": "10.1111/j.1469-7610.2011.02511.x",
+    "url": "https://doi.org/10.1111/j.1469-7610.2011.02511.x",
+    "summary": "Canonical review of the category-vs-dimension question in child psychopathology; summarises the ADHD taxometric studies (Haslam 2006, Marcus & Barry 2011) and concludes ADHD is best modelled as a continuum.",
+    "authoredBy": ["author:david-coghill", "author:edmund-sonuga-barke"]
+  },
+  {
+    "id": "paper:mclennan-2016",
+    "label": "Understanding attention deficit hyperactivity disorder as a continuum",
+    "year": 2016,
+    "venue": "Canadian Family Physician, 62(12):979–982",
+    "url": "https://www.cfp.ca/content/62/12/979.full",
+    "summary": "Clinician-facing review arguing ADHD lacks a taxon; neuropsychological performance varies linearly with symptom load with no discontinuity, creating uncertainty about where any intervention threshold should sit.",
+    "authoredBy": ["author:john-mclennan"]
+  },
+  {
+    "id": "paper:marcus-barry-2011",
+    "label": "Does Attention-Deficit/Hyperactivity Disorder Have a Dimensional Latent Structure? A Taxometric Analysis",
+    "year": 2011,
+    "venue": "Journal of Abnormal Psychology, 120(2):427–442",
+    "doi": "10.1037/a0021405",
+    "url": "https://doi.org/10.1037/a0021405",
+    "summary": "Taxometric analysis of the NICHD sample finding a dimensional latent structure for inattention, hyperactivity/impulsivity and ADHD overall, with stronger validity than dichotomous models.",
+    "authoredBy": ["author:david-marcus", "author:tammy-barry"]
+  },
+  {
+    "id": "paper:faraone-larsson-2019",
+    "label": "Genetics of attention deficit hyperactivity disorder",
+    "year": 2019,
+    "venue": "Molecular Psychiatry, 24:562–575",
+    "doi": "10.1038/s41380-018-0070-0",
+    "url": "https://doi.org/10.1038/s41380-018-0070-0",
+    "summary": "Review of ADHD genetics; twin and molecular evidence that clinical ADHD is the extreme of a continuous, heritable distribution with shared aetiology across the full symptom range.",
+    "authoredBy": ["author:stephen-faraone", "author:henrik-larsson"]
+  },
+  {
+    "id": "paper:demontis-2019",
+    "label": "Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder",
+    "year": 2019,
+    "venue": "Nature Genetics, 51:63–75",
+    "doi": "10.1038/s41588-018-0269-7",
+    "url": "https://doi.org/10.1038/s41588-018-0269-7",
+    "summary": "First well-powered ADHD GWAS; strong concordance with GWAS of quantitative population symptom measures supports clinical ADHD as an extreme expression of continuous heritable traits.",
+    "authoredBy": ["author:ditte-demontis"]
+  },
+  {
+    "id": "paper:kessler-2005",
+    "label": "The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population",
+    "year": 2005,
+    "venue": "Psychological Medicine, 35(2):245–256",
+    "doi": "10.1017/S0033291704002892",
+    "url": "https://doi.org/10.1017/S0033291704002892",
+    "summary": "Development of the ASRS; optimal scoring is an unweighted symptom sum (a dimensional score), with a 6-item Part A retained as a fast screener.",
+    "authoredBy": ["author:ronald-kessler"]
+  },
+  {
+    "id": "paper:burton-2019-swan",
+    "label": "SWAN Scale for ADHD Trait-Based Genetic Research: A Validity and Polygenic Risk Study",
+    "year": 2019,
+    "venue": "Journal of Child Psychology and Psychiatry, 60(9):988–997",
+    "doi": "10.1111/jcpp.13032",
+    "url": "https://doi.org/10.1111/jcpp.13032",
+    "summary": "Validates the SWAN, a symmetric strengths-to-weaknesses rating that yields roughly normally distributed ADHD-trait scores; argues dichotomising a continuous trait into case/control loses statistical power.",
+    "authoredBy": ["author:christie-burton"]
+  },
+  {
+    "id": "paper:rodenacker-2017",
+    "label": "The Factor Structure of ADHD – Different Models, Analyses and Informants in a Bifactor Framework",
+    "year": 2017,
+    "venue": "Journal of Psychopathology and Behavioral Assessment, 39(1):92–102",
+    "doi": "10.1007/s10862-016-9565-7",
+    "url": "https://doi.org/10.1007/s10862-016-9565-7",
+    "summary": "Supports a bifactor structure for ADHD: a dominant general factor plus weak specific inattention and hyperactivity/impulsivity factors.",
+    "authoredBy": ["author:kilian-rodenacker"]
+  },
+  {
+    "id": "paper:insel-2010",
+    "label": "Research Domain Criteria (RDoC): Toward a New Classification Framework for Research on Mental Disorders",
+    "year": 2010,
+    "venue": "American Journal of Psychiatry, 167(7):748–751",
+    "doi": "10.1176/appi.ajp.2010.09091379",
+    "url": "https://doi.org/10.1176/appi.ajp.2010.09091379",
+    "summary": "Founding RDoC commentary; reorganises psychopathology around functional dimensions studied across their full range, including executive- and impulse-control constructs central to ADHD.",
+    "authoredBy": ["author:thomas-insel"]
+  },
+  {
+    "id": "paper:kotov-2017",
+    "label": "The Hierarchical Taxonomy of Psychopathology (HiTOP): A Dimensional Alternative to Traditional Nosologies",
+    "year": 2017,
+    "venue": "Journal of Abnormal Psychology, 126(4):454–477",
+    "doi": "10.1037/abn0000258",
+    "url": "https://doi.org/10.1037/abn0000258",
+    "summary": "Dimensional classification framework that places ADHD within the (disinhibited) externalizing super-spectrum rather than as a discrete category.",
+    "authoredBy": ["author:roman-kotov"]
+  },
+  {
+    "id": "paper:caspi-2014",
+    "label": "The p Factor: One General Psychopathology Factor in the Structure of Psychiatric Disorders?",
+    "year": 2014,
+    "venue": "Clinical Psychological Science, 2(2):119–137",
+    "doi": "10.1177/2167702613497473",
+    "url": "https://doi.org/10.1177/2167702613497473",
+    "summary": "Finds psychopathology is best captured by a single general 'p' dimension paralleling g; ADHD loads via the externalizing pole, reinforcing a graded liability model.",
+    "authoredBy": ["author:avshalom-caspi"]
+  },
+  {
+    "id": "paper:arildskov-2024",
+    "label": "Is ADHD a Dimension or a Category? What Does the Relationship Between ADHD Traits and Psychosocial Quality of Life Tell Us?",
+    "year": 2024,
+    "venue": "Journal of Attention Disorders",
+    "doi": "10.1177/10870547231222228",
+    "url": "https://doi.org/10.1177/10870547231222228",
+    "summary": "Psychosocial quality of life declines linearly with ADHD-trait level, with no non-linear breakpoint at the high end — direct support for a dimensional model over a category.",
+    "authoredBy": ["author:trine-arildskov"]
+  },
+  {
+    "id": "paper:morton-2025",
+    "label": "Subthreshold Autism and ADHD: A Brief Narrative Review for Frontline Clinicians",
+    "year": 2025,
+    "venue": "Pediatric Reports, 17(2):42",
+    "doi": "10.3390/pediatric17020042",
+    "url": "https://www.mdpi.com/2036-7503/17/2/42",
+    "summary": "Narrative review synthesising taxometric, impairment and threshold evidence; documents that sub-threshold ADHD carries wide-ranging functional impairment relative to unaffected peers.",
+    "authoredBy": ["author:mjs-morton"]
+  },
+  {
+    "id": "paper:kazda-2021",
+    "label": "Overdiagnosis of Attention-Deficit/Hyperactivity Disorder in Children and Adolescents: A Systematic Scoping Review",
+    "year": 2021,
+    "venue": "JAMA Network Open, 4(4):e215335",
+    "doi": "10.1001/jamanetworkopen.2021.5335",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2021.5335",
+    "summary": "Scoping review of 334 studies finding convincing evidence that ADHD is overdiagnosed; for milder cases the harms of diagnosis may outweigh the benefits — a caution against unbounded threshold-lowering.",
+    "authoredBy": ["author:luise-kazda"]
+  },
+  {
+    "id": "paper:larsson-2012",
+    "label": "Childhood attention-deficit hyperactivity disorder as an extreme of a continuous trait: a quantitative genetic study of 8,500 twin pairs",
+    "year": 2012,
+    "venue": "Journal of Child Psychology and Psychiatry, 53(1):73–80",
+    "doi": "10.1111/j.1469-7610.2011.02467.x",
+    "url": "https://doi.org/10.1111/j.1469-7610.2011.02467.x",
+    "summary": "Flagship twin study reporting near-identical group heritability at diagnostic and screening cutoffs — ADHD as the quantitative extreme of a continuous trait.",
+    "authoredBy": ["author:henrik-larsson"]
+  },
+  {
+    "id": "paper:fassbender-2018",
+    "label": "Dimensional and Categorical Approaches to Understanding Attention-Deficit/Hyperactivity Disorder: New Frontiers in Translational Research",
+    "year": 2018,
+    "venue": "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 3(8):652–653",
+    "doi": "10.1016/j.bpsc.2018.07.001",
+    "url": "https://doi.org/10.1016/j.bpsc.2018.07.001",
+    "summary": "Counter-point to the dimensional consensus: reports taxometric outcomes more consistent with a categorical structure within ADHD samples and a dimensional structure in typically developing groups.",
+    "authoredBy": ["author:catherine-fassbender"]
   }
 ]

@@ -11,7 +11,31 @@
     "id": "hypothesis:dimensional-placement",
     "label": "My ASRS result places me on the ADHD trait continuum rather than in a yes/no category",
     "summary": "Framing rather than diagnosis: a Part A score at the cutoff situates me somewhere on a spectrum the literature treats dimensionally.",
-    "dependsOn": ["finding:asrs-2026-07-26-part-a", "question:where-on-continuum"],
+    "dependsOn": ["finding:asrs-2026-07-26-part-a", "question:where-on-continuum", "hypothesis:clinical-adhd-extreme-of-continuous-trait"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-dimensional-latent-structure",
+    "label": "ADHD's latent structure is dimensional (a continuum), not a discrete taxon",
+    "summary": "Taxometric analyses of ADHD symptom data repeatedly fail to recover a category boundary and instead fit a continuous latent dimension. Contested: some analyses recover categorical structure within clinical samples.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:clinical-adhd-extreme-of-continuous-trait",
+    "label": "Clinical ADHD is the quantitative extreme of a continuously distributed, heritable trait",
+    "summary": "Twin and molecular-genetic evidence that the same aetiological factors operate across the whole symptom range, so the diagnosis marks a position on a continuum rather than a distinct condition.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:diagnostic-threshold-arbitrary",
+    "label": "The DSM symptom-count threshold is an arbitrary cut on a continuum with no natural breakpoint",
+    "summary": "Impairment and quality of life decline linearly across the trait range with no discontinuity, so any diagnostic cutoff is a clinical convention. Held live by the counter-argument that unbounded threshold-lowering risks overdiagnosis and net harm.",
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-fits-transdiagnostic-dimensional-frameworks",
+    "label": "Major dimensional frameworks (RDoC, HiTOP, the p-factor) place ADHD within continuous, transdiagnostic spectra",
+    "summary": "The leading post-DSM classification programmes are all dimensional and locate ADHD on graded spectra (externalizing/disinhibition, general psychopathology) rather than in a discrete box.",
     "hasStatus": ["supported"]
   },
   {

@@ -12,5 +12,12 @@
     "summary": "The Horváth sample was 226 university students, 81% women, mean age 21.4, tested online without supervision. The authors themselves caution about generalisability to men and across the lifespan — so the dimensional framing is borrowed, not measured, for my case.",
     "tensionWith": ["hypothesis:dimensional-placement", "hypothesis:trait-load-reshapes-tradeoff"],
     "documentedIn": ["note:about-me-connections"]
+  },
+  {
+    "id": "tension:dimensional-vs-categorical-adhd",
+    "label": "Is ADHD truly dimensional, or does it retain categorical structure?",
+    "summary": "The dominant taxometric, quantitative-genetic and impairment evidence favours a continuum, but some taxometric analyses recover categorical structure within ADHD samples (Fassbender 2018) and reviews warn that dimensional thinking can license overdiagnosis (Kazda 2021). A clinically justified action threshold is still required. Held open on purpose.",
+    "tensionWith": ["hypothesis:adhd-dimensional-latent-structure", "hypothesis:diagnostic-threshold-arbitrary"],
+    "documentedIn": ["note:literature-dimensional-continuum-adhd"]
   }
 ]
