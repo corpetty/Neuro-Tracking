@@ -8,7 +8,11 @@ tags:
   - hitop
 ---
 
-There is an [interactive version of this map](orthogonality-map.html) you can open and explore; this note is the prose companion and the anchor for the knowledge graph. The single organising idea: **orthogonality only means something within a level, and it rarely survives the jump between levels.**
+The single organising idea: **orthogonality only means something within a level, and it rarely survives the jump between levels.** The interactive map below lets you expand each level; the prose that follows is the same content in full, and the anchor for the knowledge graph.
+
+<iframe src="orthogonality-map.htm" title="Interactive map of ADHD dimensions and their orthogonality" style="width:100%;height:80vh;min-height:600px;border:1px solid var(--lightgray);border-radius:8px;background:var(--light);"></iframe>
+
+<p style="font-size:0.85em;opacity:0.7;margin-top:-0.5em">Not rendering? <a href="orthogonality-map.htm" target="_blank">Open the map full-screen →</a></p>
 
 ## Three relationships
 

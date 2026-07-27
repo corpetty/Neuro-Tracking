@@ -51,12 +51,38 @@ the rival explanations, the open questions and the tensions — and nothing else
   `ontology.json`, not inventing a predicate at the call site — off-contract edges
   throw or are dropped with a warning.
 
+## Serving live/interactive HTML pages (learned the hard way)
+
+Quartz only treats `.md` as pages; every other file under `content/` is copied verbatim
+by the `Assets` emitter (`quartz/plugins/emitters/assets.ts`). Two traps make a raw
+interactive page *download* instead of render, and one makes it invisible to search/LLMs:
+
+1. **Use the `.htm` extension, never `.html`.** The asset emitter runs every filename
+   through `slugifyFilePath`, which **strips a trailing `.html`** — so
+   `foo/map.html` is emitted as extension-less `foo/map`, served as an octet-stream, and
+   the browser downloads it. `.htm` is left intact and serves as `text/html`. (This is the
+   same slugify quirk noted in `graph/export-site.js`.)
+2. **Embed it in a note via `<iframe>`, don't link to it.** `enableSPA: true` means
+   `spa.inline.ts` intercepts internal link clicks, fetches the target, and only swaps it in
+   when the response is `text/html`; otherwise it does a full navigation that can download.
+   An `<iframe src="…​.htm">` inside a markdown note bypasses the SPA entirely. Always add a
+   `<a href="…​.htm" target="_blank">` fallback. The canonical example is
+   `content/graph/index.md` embedding `content/graph/viewer.htm`; the dimensions map follows
+   the same pattern (`content/dimensions/orthogonality.md` → `orthogonality-map.htm`).
+3. **Keep the page crawlable / LLM-readable.** Author the interactive `.htm` as *progressive
+   enhancement*: render all real content as static HTML in the file, with `<title>` +
+   `<meta name="description">`, and let JS only add interactivity (e.g. an accordion enabled
+   by adding a `pe` class to `<body>`). A JS-that-builds-the-DOM page is empty to non-JS
+   crawlers. The parent markdown note should also carry the same content in prose, so the
+   text is indexable at the note level regardless of the iframe.
+
 ## Layout
 
 | Path | What |
 |---|---|
 | `content/` | published notes |
 | `content/graph/viewer.htm` | the live Cytoscape graph (hand-written, loads `graph-data.json`) |
+| `content/dimensions/orthogonality-map.htm` | interactive dimensions map (`.htm` + iframe pattern above) |
 | `graph/profiles/neuro/ontology.json` | the schema: node types, predicates, catalog loaders |
 | `graph/profiles/neuro/catalogs/` | the hand-authored nodes and relations |
 | `graph/profiles/neuro/interpretive/` | evidence triples with quotes |
