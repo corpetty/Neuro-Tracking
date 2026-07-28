@@ -67,6 +67,39 @@
     "hasStatus": ["stable"]
   },
   {
+    "id": "note:dimensions-adult-late-diagnosis",
+    "label": "Adult and late-identified ADHD",
+    "file": "dimensions/adult-late-diagnosis.md",
+    "summary": "The birth-cohort late-onset findings, the reassessment that reframed them as late identification, the fluctuating course, and what adult thresholds and prevalence figures actually depend on.",
+    "partOf": ["note:dimensions-index"],
+    "argues": ["hypothesis:late-identified-not-late-onset", "hypothesis:adhd-course-fluctuates"],
+    "cites": ["paper:moffitt-2015-dunedin", "paper:agnew-blais-2016", "paper:caye-2016-pelotas", "paper:sibley-2018-late-onset", "paper:sibley-2022-remission", "paper:matte-2015-field-trial", "paper:song-2021-prevalence", "paper:staley-2024-mmwr"],
+    "flagsOpenQuestion": ["question:next-clinical-step"],
+    "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:dimensions-sex-and-gender",
+    "label": "Sex, gender, and who gets identified",
+    "file": "dimensions/sex-and-gender.md",
+    "summary": "Why the ADHD sex ratio collapses between clinic and community, how externalizing behaviour filters referral, and how male-referenced criteria and field-trial samples bias the instruments.",
+    "partOf": ["note:dimensions-index"],
+    "argues": ["hypothesis:sex-ratio-reflects-ascertainment"],
+    "cites": ["paper:ramtekkar-2010", "paper:mowlem-2019-sex", "paper:hinshaw-2022-girls", "paper:willcutt-2012-prevalence", "paper:slobodin-2019", "paper:platania-2025"],
+    "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:dimensions-arousal-and-mind-wandering",
+    "label": "Arousal, state regulation, and mind-wandering",
+    "file": "dimensions/arousal-and-mind-wandering.md",
+    "summary": "Deep-dive on the two mechanism axes shared with anxiety, sleep and mood: why they overlap by construction, where mind-wandering fails a specificity test, and the onset/trajectory/counterfactual tests that do discriminate.",
+    "partOf": ["note:dimensions-index"],
+    "argues": ["hypothesis:arousal-axis-is-shared-by-construction", "hypothesis:mind-wandering-is-transdiagnostic", "hypothesis:sleep-rivals-inattention-not-restlessness", "hypothesis:structure-not-intensity-discriminates"],
+    "cites": ["paper:sergeant-2005-cem", "paper:metin-2013", "paper:isaac-2023-arousal", "paper:bozhilova-2018-mw", "paper:mowlem-2019-mews", "paper:figueiredo-2020-mw", "paper:hvolby-2015-sleep", "paper:gruber-2012-sleep", "paper:becker-2019-sleep", "paper:cortese-2025-adult-adhd", "paper:alarachi-2024"],
+    "covers": ["mechanism:arousal-regulation", "mechanism:excessive-mind-wandering"],
+    "flagsOpenQuestion": ["question:what-is-the-internal-state", "question:adhd-anxiety-sleep-or-mood"],
+    "hasStatus": ["stable"]
+  },
+  {
     "id": "note:about-me-index",
     "label": "About Me (index)",
     "file": "about-me/index.md",

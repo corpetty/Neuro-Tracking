@@ -15,6 +15,9 @@ It grows out of the literature survey [[literature/dimensional-continuum-adhd|Di
 
 - [[dimensions/orthogonality|The four levels and their orthogonality]] — the conceptual map, with an interactive version you can open and explore.
 - [[dimensions/measurement|Measuring the dimensions]] — each level's instrument family, what it isolates, what it confounds, and why no single measure is diagnostic.
+- [[dimensions/arousal-and-mind-wandering|Arousal, state regulation, and mind-wandering]] — a deep-dive on the two mechanism axes shared with anxiety, sleep and mood, and what actually discriminates them.
+- [[dimensions/adult-late-diagnosis|Adult and late-identified ADHD]] — the late-onset cohort findings, why they were reframed as late identification, and the fluctuating course.
+- [[dimensions/sex-and-gender|Sex, gender, and who gets identified]] — how referral bias and male-referenced criteria shape who is ever counted.
 
 ## Why it matters here
 

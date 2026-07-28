@@ -88,9 +88,18 @@
   {
     "id": "mechanism:arousal-regulation",
     "label": "Arousal / state regulation",
-    "summary": "Regulation of physiological and cognitive arousal. The axis ADHD shares most with its mimics — anxiety, sleep debt and mood all perturb it, which is why they overlap ADHD at the phenotype.",
-    "definedIn": ["note:dimensions-orthogonality"],
+    "summary": "Regulation of physiological and cognitive arousal. The axis ADHD shares most with its mimics — anxiety, sleep debt and mood all perturb it, which is why they overlap ADHD at the phenotype. The cognitive-energetic model defines its energetic pools as responsive to stress, sleep and noise, so the overlap is by construction; the putatively ADHD-specific part is the regulation, evidenced by condition-dependence.",
+    "definedIn": ["note:dimensions-arousal-and-mind-wandering"],
     "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"]
+  },
+  {
+    "id": "mechanism:excessive-mind-wandering",
+    "label": "Excessive spontaneous mind-wandering",
+    "summary": "Constant, topic-unstable internal mental activity, proposed to arise from altered default-mode deactivation and DMN–executive interaction. Measured by the MEWS; targets the form rather than the content of thought. Its ADHD-specificity is contested — it also tracks anxiety.",
+    "definedIn": ["note:dimensions-arousal-and-mind-wandering"],
+    "derivesFrom": ["mechanism:mind-wandering"],
+    "mayExplain": ["symptom:internal-restlessness", "symptom:inattention"],
+    "confounds": ["hypothesis:adhd-explains-internal-restlessness"]
   },
   {
     "id": "mechanism:reaction-time-variability",

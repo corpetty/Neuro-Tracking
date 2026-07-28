@@ -88,5 +88,48 @@
     "label": "ADHD measures separate ADHD from healthy controls, but not from the mimics",
     "summary": "Ratings and tasks alike discriminate ADHD from typically developing controls, yet lose their edge against other clinical conditions — anxiety, mood, OCD — so no single instrument can rule out the differential. The measurement-side root of the ADHD-vs-anxiety tension.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:late-identified-not-late-onset",
+    "label": "Most adult-identified ADHD is late-identified rather than genuinely late-onset",
+    "summary": "Birth cohorts found adult and childhood ADHD groups barely overlap, but careful repeated assessment excludes ~95% of screen-positive late-onset cases; survivors show childhood symptoms masked by cognitive strength. Compensation plus rising demand, not new onset.",
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-course-fluctuates",
+    "label": "The course of ADHD fluctuates rather than simply persisting or remitting",
+    "summary": "Most of the MTA sample showed waxing and waning persistence and remission rather than stable persistence or recovery, making person-environment fit the appropriate frame — the temporal counterpart of the dimensional argument.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:sex-ratio-reflects-ascertainment",
+    "label": "The ADHD sex ratio largely reflects referral and ascertainment, not underlying prevalence",
+    "summary": "Clinic ratios far exceed community ratios in the same populations, high-symptom girls are diagnosed less often than high-symptom boys, and the gap narrows to ~1.5:1 in adulthood — the signature of under-detection rather than a true prevalence difference.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:arousal-axis-is-shared-by-construction",
+    "label": "The arousal/state-regulation axis is shared with the mimics by construction, not by coincidence",
+    "summary": "The cognitive-energetic model defines its energetic pools as responsive to stress, sleep-wake cycle and noise — so sleep debt and anxiety move the very variable ADHD is hypothesised to dysregulate. What may be ADHD-specific is the regulation, evidenced by condition-dependence.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:mind-wandering-is-transdiagnostic",
+    "label": "Excessive mind-wandering is transdiagnostic rather than an ADHD marker",
+    "summary": "Mind-wandering tracked anxiety independently of ADHD diagnosis and showed no categorical ADHD/non-ADHD difference, while correlating with inattention dimensionally — and it mediates ADHD symptoms' relationship to anxiety and depression.",
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:sleep-rivals-inattention-not-restlessness",
+    "label": "Sleep debt is a strong rival for inattention but a weak one for internal restlessness",
+    "summary": "Experimental sleep restriction reliably degrades attention and emotional lability in healthy people, but no experiment has shown it induces hyperactivity or impulsivity — narrowing which half of the picture sleep can explain.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:structure-not-intensity-discriminates",
+    "label": "Onset, trajectory and counterfactual — not symptom intensity — discriminate ADHD from anxiety",
+    "summary": "Because both conditions produce internal restlessness and the rating items measuring it are partly anxiety items, the discriminating evidence is structural: whether the restlessness predates any anxiety, persists in its absence, is situational or constant, and whether its content is worry or topic-shifting.",
+    "dependsOn": ["question:what-is-the-internal-state"],
+    "hasStatus": ["being-tested"]
   }
 ]

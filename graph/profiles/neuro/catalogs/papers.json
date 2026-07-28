@@ -329,5 +329,254 @@
     "url": "https://doi.org/10.1177/10731911231225190",
     "summary": "In an adult anxiety sample, several ASRS hyperactivity items loaded more strongly onto anxiety than ADHD; the scale captured non-ADHD symptoms and is susceptible to over-reporting.",
     "authoredBy": ["author:abeer-alarachi"]
+  },
+  {
+    "id": "paper:moffitt-2015-dunedin",
+    "label": "Is adult ADHD a childhood-onset neurodevelopmental disorder? Evidence from a four-decade longitudinal cohort study",
+    "year": 2015,
+    "venue": "American Journal of Psychiatry, 172(10):967–977",
+    "doi": "10.1176/appi.ajp.2015.14101266",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4591104/",
+    "summary": "Dunedin birth cohort: childhood-ADHD and adult-ADHD groups were virtually non-overlapping, and the adult group showed neither childhood neuropsychological deficits nor polygenic risk for childhood ADHD.",
+    "authoredBy": ["author:terrie-moffitt", "author:philip-asherson"]
+  },
+  {
+    "id": "paper:agnew-blais-2016",
+    "label": "Evaluation of the persistence, remission, and emergence of ADHD in young adulthood",
+    "year": 2016,
+    "venue": "JAMA Psychiatry, 73(7):713–720",
+    "doi": "10.1001/jamapsychiatry.2016.0465",
+    "url": "https://doi.org/10.1001/jamapsychiatry.2016.0465",
+    "summary": "E-Risk twin cohort: 67.5% of young adults with ADHD had never met criteria in childhood; the late-onset group had higher childhood IQ and fewer externalizing problems.",
+    "authoredBy": ["author:jessica-agnew-blais", "author:terrie-moffitt"]
+  },
+  {
+    "id": "paper:caye-2016-pelotas",
+    "label": "ADHD trajectories from childhood to young adulthood: evidence from a birth cohort supporting a late-onset syndrome",
+    "year": 2016,
+    "venue": "JAMA Psychiatry, 73(7):705–712",
+    "doi": "10.1001/jamapsychiatry.2016.0383",
+    "url": "https://doi.org/10.1001/jamapsychiatry.2016.0383",
+    "summary": "Pelotas birth cohort: only 17.2% of childhood cases persisted and only 12.6% of adult cases had childhood ADHD; the authors propose two syndromes with distinct trajectories.",
+    "authoredBy": ["author:arthur-caye"]
+  },
+  {
+    "id": "paper:sibley-2018-late-onset",
+    "label": "Late-onset ADHD reconsidered with comprehensive repeated assessments between ages 10 and 25",
+    "year": 2018,
+    "venue": "American Journal of Psychiatry, 175(2):140–149",
+    "doi": "10.1176/appi.ajp.2017.17030298",
+    "url": "https://psychiatryonline.org/doi/full/10.1176/appi.ajp.2017.17030298",
+    "summary": "Using eight repeated multi-informant assessments, ~95% of screen-positive late-onset cases were excluded on careful diagnosis; survivors are reframed as late-identified rather than late-onset.",
+    "authoredBy": ["author:margaret-sibley"]
+  },
+  {
+    "id": "paper:sibley-2022-remission",
+    "label": "Variable patterns of remission from ADHD in the Multimodal Treatment Study of ADHD",
+    "year": 2022,
+    "venue": "American Journal of Psychiatry, 179(2):142–151",
+    "doi": "10.1176/appi.ajp.2021.21010032",
+    "url": "https://psychiatryonline.org/doi/full/10.1176/appi.ajp.2021.21010032",
+    "summary": "Across 16 years, only 9.1% recovered and 10.8% were stably persistent; 63.8% showed fluctuating persistence and remission, motivating a person-environment fit framework.",
+    "authoredBy": ["author:margaret-sibley"]
+  },
+  {
+    "id": "paper:matte-2015-field-trial",
+    "label": "ADHD in DSM-5: a field trial in a large, representative sample of 18- to 19-year-old adults",
+    "year": 2015,
+    "venue": "Psychological Medicine, 45(2):361–373",
+    "doi": "10.1017/S0033291714001470",
+    "url": "https://doi.org/10.1017/S0033291714001470",
+    "summary": "Supports five inattention symptoms as the optimal adult cut-off while estimating a 27% increase in expected young-adult prevalence from DSM-IV to DSM-5.",
+    "authoredBy": ["author:bernardo-matte"]
+  },
+  {
+    "id": "paper:song-2021-prevalence",
+    "label": "The prevalence of adult attention-deficit hyperactivity disorder: a global systematic review and meta-analysis",
+    "year": 2021,
+    "venue": "Journal of Global Health, 11:04009",
+    "doi": "10.7189/jogh.11.04009",
+    "url": "https://jogh.org/wp-content/uploads/2021/07/jogh-11-04009.pdf",
+    "summary": "Persistent adult ADHD 2.58% vs symptomatic adult ADHD 6.76% — a ~2.6x difference driven purely by whether childhood onset is required; both decline with age.",
+    "authoredBy": ["author:peige-song"]
+  },
+  {
+    "id": "paper:staley-2024-mmwr",
+    "label": "ADHD diagnosis, treatment, and telehealth use in adults — National Center for Health Statistics Rapid Surveys System",
+    "year": 2024,
+    "venue": "MMWR Morbidity and Mortality Weekly Report, 73(40):890–895",
+    "doi": "10.15585/mmwr.mm7340a1",
+    "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7340a1.htm",
+    "summary": "6.0% of US adults had a current ADHD diagnosis in 2023; 55.9% were diagnosed at age 18 or older — late identification is the majority pathway.",
+    "authoredBy": ["author:brooke-staley"]
+  },
+  {
+    "id": "paper:ramtekkar-2010",
+    "label": "Sex and age differences in ADHD symptoms and diagnoses: implications for DSM-V and ICD-11",
+    "year": 2010,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 49(3):217–228",
+    "doi": "10.1016/j.jaac.2009.11.011",
+    "url": "https://doi.org/10.1016/j.jaac.2009.11.011",
+    "summary": "Community-ascertained male:female ratio of 2.28:1, well below clinic-based ratios, indicating females are underdiagnosed in the community.",
+    "authoredBy": ["author:ujjwal-ramtekkar"]
+  },
+  {
+    "id": "paper:mowlem-2019-sex",
+    "label": "Sex differences in predicting ADHD clinical diagnosis and pharmacological treatment",
+    "year": 2019,
+    "venue": "European Child & Adolescent Psychiatry, 28(4):481–489",
+    "doi": "10.1007/s00787-018-1211-3",
+    "url": "https://doi.org/10.1007/s00787-018-1211-3",
+    "summary": "Swedish cohort: diagnosed ratio 2.5:1 vs symptom-criteria ratio 1.8:1; externalizing behaviour drives referral, and females are missed without it.",
+    "authoredBy": ["author:florence-mowlem", "author:henrik-larsson", "author:philip-asherson"]
+  },
+  {
+    "id": "paper:hinshaw-2022-girls",
+    "label": "Annual Research Review: ADHD in girls and women — underrepresentation, longitudinal processes, and key directions",
+    "year": 2022,
+    "venue": "Journal of Child Psychology and Psychiatry, 63(4):484–496",
+    "doi": "10.1111/jcpp.13480",
+    "url": "https://doi.org/10.1111/jcpp.13480",
+    "summary": "Reviews presentation differences, the narrowing adult sex ratio, compensation/masking, and the male-referenced bias of ADHD symptom lists.",
+    "authoredBy": ["author:stephen-hinshaw"]
+  },
+  {
+    "id": "paper:willcutt-2012-prevalence",
+    "label": "The prevalence of DSM-IV attention-deficit/hyperactivity disorder: a meta-analytic review",
+    "year": 2012,
+    "venue": "Neurotherapeutics, 9(3):490–499",
+    "doi": "10.1007/s13311-012-0135-8",
+    "url": "https://doi.org/10.1007/s13311-012-0135-8",
+    "summary": "The inattentive presentation is most common in the population, but combined-type individuals are more likely to be referred for services — a structural referral filter.",
+    "authoredBy": ["author:erik-willcutt"]
+  },
+  {
+    "id": "paper:slobodin-2019",
+    "label": "Gender differences in objective and subjective measures of ADHD among clinic-referred children",
+    "year": 2019,
+    "venue": "Frontiers in Human Neuroscience, 13:441",
+    "doi": "10.3389/fnhum.2019.00441",
+    "url": "https://doi.org/10.3389/fnhum.2019.00441",
+    "summary": "Documents the 2:1 to 10:1 range of reported sex ratios and that higher ratios come specifically from clinical rather than population-based samples.",
+    "authoredBy": ["author:ortal-slobodin"]
+  },
+  {
+    "id": "paper:platania-2025",
+    "label": "Bias by gender: exploring gender-based differences in the endorsement of ADHD symptoms and impairment among adult patients",
+    "year": 2025,
+    "venue": "Frontiers in Global Women's Health, 6:1549028",
+    "doi": "10.3389/fgwh.2025.1549028",
+    "url": "https://doi.org/10.3389/fgwh.2025.1549028",
+    "summary": "Notes that only 21% of participants in the DSM-5/ICD-11 ADHD field trials were girls, so diagnostic tools were largely not designed with women in mind.",
+    "authoredBy": []
+  },
+  {
+    "id": "paper:sergeant-2005-cem",
+    "label": "Modeling attention-deficit/hyperactivity disorder: a critical appraisal of the cognitive-energetic model",
+    "year": 2005,
+    "venue": "Biological Psychiatry, 57(11):1248–1255",
+    "doi": "10.1016/j.biopsych.2004.09.010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15949995/",
+    "summary": "Argues inhibition deficits in ADHD may be partly explained by energetic (activation/effort) dysfunction, while conceding the model needs direct measures of the energetic pools.",
+    "authoredBy": ["author:joseph-sergeant"]
+  },
+  {
+    "id": "paper:metin-2013",
+    "label": "A comparison of two models of ADHD: state regulation versus delay aversion",
+    "year": 2013,
+    "venue": "Doctoral dissertation, Ghent University (ch. based on Metin et al. 2012, Biological Psychiatry 72:990–996)",
+    "url": "https://biblio.ugent.be/publication/4082266/file/4336537.pdf",
+    "summary": "Meta-analysis of event-rate effects showing ADHD performance deficits are condition-dependent; also states that the energetic pools are affected by stress, sleep-wake cycle and noise.",
+    "authoredBy": ["author:barkin-metin", "author:edmund-sonuga-barke"]
+  },
+  {
+    "id": "paper:isaac-2023-arousal",
+    "label": "Arousal dysregulation and executive dysfunction in attention deficit hyperactivity disorder (ADHD)",
+    "year": 2023,
+    "venue": "Frontiers in Psychiatry, 14:1336040",
+    "doi": "10.3389/fpsyt.2023.1336040",
+    "url": "https://doi.org/10.3389/fpsyt.2023.1336040",
+    "summary": "Reviews evidence that the ADHD impairment is in the ability to self-regulate arousal rather than a constant under- or over-aroused state, while noting mixed results.",
+    "authoredBy": ["author:valeria-isaac"]
+  },
+  {
+    "id": "paper:bozhilova-2018-mw",
+    "label": "Mind wandering perspective on attention-deficit/hyperactivity disorder",
+    "year": 2018,
+    "venue": "Neuroscience & Biobehavioral Reviews, 92:464–476",
+    "doi": "10.1016/j.neubiorev.2018.07.010",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6525148",
+    "summary": "Proposes that altered default-mode deactivation and DMN–executive interaction produce excessive spontaneous mind-wandering underpinning ADHD symptoms.",
+    "authoredBy": ["author:natali-bozhilova", "author:philip-asherson"]
+  },
+  {
+    "id": "paper:mowlem-2019-mews",
+    "label": "Validation of the Mind Excessively Wandering Scale and the relationship of mind wandering to impairment in adult ADHD",
+    "year": 2019,
+    "venue": "Journal of Attention Disorders, 23(6):624–634",
+    "doi": "10.1177/1087054716651927",
+    "url": "https://journals.sagepub.com/doi/pdf/10.1177/1087054716651927",
+    "summary": "Validates the MEWS (sensitivity .9, specificity .9) and finds mind-wandering contributes to impairment independently of core ADHD symptom dimensions.",
+    "authoredBy": ["author:florence-mowlem", "author:philip-asherson"]
+  },
+  {
+    "id": "paper:figueiredo-2020-mw",
+    "label": "Mind-wandering, depression, anxiety and ADHD: disentangling the relationship",
+    "year": 2020,
+    "venue": "Psychiatry Research, 285:112798",
+    "doi": "10.1016/j.psychres.2020.112798",
+    "url": "https://clinicacognus.net.br/wp-content/uploads/2025/06/figueiredo2020.pdf",
+    "summary": "Found no mind-wandering difference between ADHD and non-ADHD groups; mind-wandering tracked anxiety instead and 'cannot be considered a hallmark of ADHD'.",
+    "authoredBy": ["author:tatiana-figueiredo"]
+  },
+  {
+    "id": "paper:hvolby-2015-sleep",
+    "label": "Associations of sleep disturbance with ADHD: implications for treatment",
+    "year": 2015,
+    "venue": "ADHD Attention Deficit and Hyperactivity Disorders, 7(1):1–18",
+    "doi": "10.1007/s12402-014-0151-0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4340974/",
+    "summary": "Sets out four modes of ADHD-sleep interaction including that sleep problems may cause or mimic ADHD, and notes no experiment has shown sleep restriction induces hyperactivity.",
+    "authoredBy": ["author:allan-hvolby"]
+  },
+  {
+    "id": "paper:gruber-2012-sleep",
+    "label": "Impact of sleep extension and restriction on children's emotional lability and impulsivity",
+    "year": 2012,
+    "venue": "Pediatrics, 130(5):e1155–e1161",
+    "doi": "10.1542/peds.2012-0564",
+    "url": "https://doi.org/10.1542/peds.2012-0564",
+    "summary": "In healthy children with no sleep or behavioural problems, ~54 minutes of cumulative sleep restriction produced detectable deterioration on blinded teacher ratings.",
+    "authoredBy": ["author:reut-gruber"]
+  },
+  {
+    "id": "paper:becker-2019-sleep",
+    "label": "Sleep restriction and extension in adolescents with ADHD",
+    "year": 2019,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 58(4):433–442",
+    "doi": "10.1016/j.jaac.2018.09.439",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6441371/",
+    "summary": "Experimental evidence that sleep duration is a causal contributor to daytime behaviour in adolescents with ADHD; hyperactivity-impulsivity was lower under restriction.",
+    "authoredBy": ["author:stephen-becker"]
+  },
+  {
+    "id": "paper:cortese-2025-adult-adhd",
+    "label": "Attention-deficit/hyperactivity disorder (ADHD) in adults: evidence base, uncertainties and controversies",
+    "year": 2025,
+    "venue": "World Psychiatry, 24(3):347–371",
+    "doi": "10.1002/wps.21374",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12434367/",
+    "summary": "Comprehensive review of adult ADHD; sets out onset, trajectory and mechanism as the three tests for differential diagnosis, and describes adult hyperactivity as inner restlessness.",
+    "authoredBy": ["author:samuele-cortese"]
+  },
+  {
+    "id": "paper:lipszyc-schachar-2010",
+    "label": "Inhibitory control and psychopathology: a meta-analysis of studies using the stop signal task",
+    "year": 2010,
+    "venue": "Journal of the International Neuropsychological Society, 16(6):1064–1076",
+    "doi": "10.1017/S1355617710000895",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20719043/",
+    "summary": "Medium stop-signal deficits across ADHD (g=0.62), OCD (g=0.77) and schizophrenia (g=0.69) — inhibition impairment is transdiagnostic, and OCD's exceeds ADHD's.",
+    "authoredBy": ["author:jennifer-lipszyc", "author:russell-schachar"]
   }
 ]

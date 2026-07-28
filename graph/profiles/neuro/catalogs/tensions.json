@@ -19,5 +19,19 @@
     "summary": "The dominant taxometric, quantitative-genetic and impairment evidence favours a continuum, but some taxometric analyses recover categorical structure within ADHD samples (Fassbender 2018) and reviews warn that dimensional thinking can license overdiagnosis (Kazda 2021). A clinically justified action threshold is still required. Held open on purpose.",
     "tensionWith": ["hypothesis:adhd-dimensional-latent-structure", "hypothesis:diagnostic-threshold-arbitrary"],
     "documentedIn": ["note:literature-dimensional-continuum-adhd"]
+  },
+  {
+    "id": "tension:late-onset-vs-late-identification",
+    "label": "Is adult-identified ADHD a continuation, a separate syndrome, or a false positive?",
+    "summary": "Three birth cohorts found adult and childhood ADHD populations barely overlap, which would make adult ADHD a distinct syndrome. Careful reassessment instead excluded ~95% of screen-positive late-onset cases as better explained by substance use or another disorder, leaving masking-then-late-identification as the reading. All three possibilities bear on a first screening in adulthood, and the record cannot yet distinguish them.",
+    "tensionWith": ["hypothesis:late-identified-not-late-onset", "hypothesis:screening-warrants-evaluation"],
+    "documentedIn": ["note:dimensions-adult-late-diagnosis"]
+  },
+  {
+    "id": "tension:mind-wandering-specificity",
+    "label": "Mind-wandering is impairing but may not be ADHD-specific",
+    "summary": "The MEWS shows high sensitivity and specificity for ADHD diagnosis and mind-wandering adds impairment variance beyond core symptoms — yet an independent sample found no ADHD/non-ADHD difference and mind-wandering tracking anxiety instead. Small, underpowered samples on both sides; held open.",
+    "tensionWith": ["hypothesis:mind-wandering-is-transdiagnostic"],
+    "documentedIn": ["note:dimensions-arousal-and-mind-wandering"]
   }
 ]
