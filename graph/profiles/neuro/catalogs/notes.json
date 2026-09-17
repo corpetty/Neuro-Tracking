@@ -236,5 +236,16 @@
     "covers": ["mechanism:default-mode-interference", "mechanism:reaction-time-variability"],
     "argues": ["hypothesis:adhd-neurobiology-is-distributed-not-focal", "hypothesis:brain-differences-small-not-diagnostic"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-autism-and-adhd",
+    "label": "Autism & ADHD overlap — co-occurrence, shared causes, distinct categories",
+    "file": "literature/autism-and-adhd.md",
+    "summary": "Why autism and ADHD overlap — high co-occurrence, shared heritability and neurocognition — and why they nonetheless stay distinct diagnostic categories, with the boundary question held open.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:rommelse-2010-shared-heritability", "paper:antshel-russo-2019", "paper:leitner-2014", "paper:morton-2025"],
+    "covers": ["symptom:inattention", "tension:adhd-autism-boundary"],
+    "argues": ["hypothesis:adhd-autism-frequently-co-occur", "hypothesis:adhd-autism-share-etiology", "hypothesis:adhd-autism-remain-distinct-categories"],
+    "hasStatus": ["active"]
   }
 ]

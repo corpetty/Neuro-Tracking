@@ -778,5 +778,35 @@
     "url": "https://doi.org/10.1176/appi.ajp.2019.18091033",
     "summary": "ENIGMA cortical analysis: small surface-area reductions in children with ADHD (largest effect Cohen’s d=-0.21), with no surface-area or thickness differences detected in adolescents or adults — reinforcing that structural imaging is not an individual diagnostic test, least of all in adults.",
     "authoredBy": ["author:martine-hoogman"]
+  },
+  {
+    "id": "paper:rommelse-2010-shared-heritability",
+    "label": "Shared heritability of attention-deficit/hyperactivity disorder and autism spectrum disorder",
+    "year": 2010,
+    "venue": "European Child & Adolescent Psychiatry, 19(3):281–295",
+    "doi": "10.1007/s00787-010-0092-x",
+    "url": "https://doi.org/10.1007/s00787-010-0092-x",
+    "summary": "Review of family, twin and molecular-genetic studies: ADHD and ASD co-occur at high frequency (20–50% of ADHD children meet ASD criteria; 30–80% of ASD children meet ADHD criteria) and family/twin data support partly shared familial-genetic origins, with some candidate pleiotropic genes.",
+    "authoredBy": ["author:nanda-rommelse"]
+  },
+  {
+    "id": "paper:antshel-russo-2019",
+    "label": "Autism Spectrum Disorders and ADHD: Overlapping Phenomenology, Diagnostic Issues, and Treatment Considerations",
+    "year": 2019,
+    "venue": "Current Psychiatry Reports, 21(5):34",
+    "doi": "10.1007/s11920-019-1020-5",
+    "url": "https://doi.org/10.1007/s11920-019-1020-5",
+    "summary": "Review of the ASD+ADHD comorbid state: the two share genetic heritability and impairments in social and executive functioning, but differ enough in phenotypic presentation that they are held to be distinct diagnostic categories, and each must be considered when treating the other.",
+    "authoredBy": ["author:kevin-antshel"]
+  },
+  {
+    "id": "paper:leitner-2014",
+    "label": "The co-occurrence of autism and attention deficit hyperactivity disorder in children — what do we know?",
+    "year": 2014,
+    "venue": "Frontiers in Human Neuroscience, 8:268",
+    "doi": "10.3389/fnhum.2014.00268",
+    "url": "https://doi.org/10.3389/fnhum.2014.00268",
+    "summary": "Review of ASD–ADHD co-occurrence in children; notes that DSM-IV made an ASD diagnosis an exclusion criterion for ADHD (limiting research), that DSM-5 now permits a dual diagnosis, and that the two share phenotypic features but retain distinct diagnostic criteria.",
+    "authoredBy": ["author:yael-leitner"]
   }
 ]

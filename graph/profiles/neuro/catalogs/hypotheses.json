@@ -193,5 +193,23 @@
     "label": "Structural brain differences in ADHD are real at the group level but too small to diagnose an individual",
     "summary": "The largest imaging studies (ENIGMA) find real but tiny group differences — subcortical volumes at Cohen's d around -0.1 to -0.2, cortical effects no larger, and no detectable cortical differences at all in adolescents or adults. Group-level signal does not license an individual scan-based diagnosis, and the adult null is especially relevant to a first evaluation in adulthood.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-autism-frequently-co-occur",
+    "label": "ADHD and autism co-occur far above chance",
+    "summary": "Co-occurrence estimates run high (roughly 20–50% of children with ADHD meet ASD criteria and 30–80% of ASD children meet ADHD criteria). DSM-IV had barred diagnosing both, which suppressed research; DSM-5 now permits a dual diagnosis, and the overlap is now openly studied.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-autism-share-etiology",
+    "label": "ADHD and autism share heritable and neurocognitive substrates",
+    "summary": "Family and twin studies support partly shared familial-genetic origins, with candidate pleiotropic genes, and the two share impairments in social and executive functioning. The overlap is not merely superficial symptom sharing but reaches down to partly common causes.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-autism-remain-distinct-categories",
+    "label": "Despite the overlap, ADHD and autism remain distinct diagnostic categories",
+    "summary": "Shared genetics and impairments notwithstanding, the phenotypic presentations differ qualitatively and quantitatively enough that reviews conclude the two are sufficiently distinct to warrant separate diagnoses. Overlap at the level of causes does not collapse the clinical distinction.",
+    "hasStatus": ["supported"]
   }
 ]

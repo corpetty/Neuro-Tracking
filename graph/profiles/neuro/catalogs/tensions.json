@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": "tension:adhd-vs-anxiety-internal-restlessness",
     "label": "The same internal restlessness fits ADHD and anxiety equally well",
     "summary": "Held open deliberately. Internal hyperactivity and anxious arousal are near-indistinguishable from the inside, they co-occur often, and depression/stress/sleep produce similar churn. Nothing in the record currently discriminates between them.",
@@ -61,5 +61,12 @@
     "summary": "Sibley et al. found parent report more diagnostically sensitive than self-report, with ADHD adults underreporting and controls overreporting; Kooij et al. note that in adults the patient may actually be the best informant, while a collateral remains of great value. So the evaluation cannot simply trust one source — the discrepancy itself is informative, and the record currently holds only a self-administered screen.",
     "tensionWith": ["hypothesis:childhood-onset-hard-to-verify-retrospectively"],
     "documentedIn": ["note:literature-adult-adhd-assessment"]
+  },
+  {
+    "id": "tension:adhd-autism-boundary",
+    "label": "Shared substrate versus distinct categories — where is the ADHD/autism boundary?",
+    "summary": "The evidence pulls two ways at once. Genetics and neurocognition point to a partly shared substrate (pleiotropy, shared social/executive deficits), which would favour a common underlying dimension; yet the phenotypes differ enough that the field keeps ADHD and ASD as separate diagnostic categories. Both readings are supported, and this note holds the boundary question open rather than resolving it in either direction.",
+    "tensionWith": ["hypothesis:adhd-autism-share-etiology", "hypothesis:adhd-autism-remain-distinct-categories"],
+    "documentedIn": ["note:literature-autism-and-adhd"]
   }
 ]

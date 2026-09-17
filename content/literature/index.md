@@ -18,6 +18,7 @@ A running index of papers I've read and summarized. Each entry links to a struct
 | The adult ADHD assessment — what a full evaluation involves (survey) | [[literature/adult-adhd-assessment\|Summary]] | 4 sources — see note | Clinical guidelines / diagnosis / assessment | 2026-09-17 |
 | ADHD interventions — what works, and why response is not proof (survey) | [[literature/adhd-interventions\|Summary]] | 4 sources — see note | Treatment / medication / CBT / mindfulness | 2026-09-17 |
 | ADHD neurobiology & imaging — distributed networks, small effects (survey) | [[literature/adhd-neurobiology-imaging\|Summary]] | 4 sources — see note | Neurobiology / neuroimaging / ENIGMA | 2026-09-17 |
+| Autism & ADHD overlap — co-occurrence, shared causes, distinct categories (survey) | [[literature/autism-and-adhd\|Summary]] | 4 sources — see note | Autism / comorbidity / differential | 2026-09-17 |
 
 ## How this index works
 
