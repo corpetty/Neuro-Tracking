@@ -5,7 +5,15 @@ tags:
   - index
 ---
 
-A running index of papers I've read and summarized. Each entry links to a structured summary note and, where available, the source PDF.
+A running index of what I've read and summarized. Two kinds of entry live here. **Paper summaries** distil a single study — the [[literature/ADHD-traits-inhibition-learning|Horváth trade-off preprint]] is the seed, and links to its source PDF. **Surveys** pull several sources together around one question, quote each verbatim, and wire the result into the [[about-me/connections|personal case]] and the [[graph/index|knowledge graph]], where every claim is tracked as an evidence triple.
+
+The surveys now approach the central question — is this ADHD, and what would tell me? — from five angles:
+
+- **What ADHD *is*, structurally.** [[literature/dimensional-continuum-adhd|Dimensional & continuum models]] make the case that clinical ADHD is the extreme of a continuously distributed trait rather than a discrete category, which is what lets a screening score be read as a *location*, not a verdict.
+- **What the internal state *is*.** [[literature/internal-restlessness-and-cognitive-disengagement|Internal restlessness & cognitive disengagement]] offers two measured constructs for the "calm outside, churning inside" pattern — a restless pole and a foggy one — that point to different rivals.
+- **What it *isn't* — the differential.** [[literature/adhd-and-anxiety|ADHD & anxiety]] and [[literature/autism-and-adhd|Autism & ADHD overlap]] work through the conditions that produce the same surface picture, and what actually separates them.
+- **What to *do* about it.** [[literature/adult-adhd-assessment|The adult assessment]] turns a positive screen into a concrete next step, and [[literature/adhd-interventions|Interventions]] cover what treatment can and — crucially — cannot tell you about the diagnosis.
+- **What's *underneath*.** [[literature/adhd-neurobiology-imaging|Neurobiology & imaging]] adds the brain to the etiology level, along with why a scan cannot diagnose an individual.
 
 ## Papers
 

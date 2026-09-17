@@ -106,7 +106,7 @@ _Casual cross-links for navigation only — deliberately kept out of the argumen
 
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
-| `wikiLinks` | Note → Note \| Session \| Symptom \| Finding \| Instrument \| Intervention \| Mechanism \| Hypothesis \| Question \| Paper \| Tension \| Author | Wiki-style link parsed from prose. Navigation only — kept out of the argument graph. | 86 |
+| `wikiLinks` | Note → Note \| Session \| Symptom \| Finding \| Instrument \| Intervention \| Mechanism \| Hypothesis \| Question \| Paper \| Tension \| Author | Wiki-style link parsed from prose. Navigation only — kept out of the argument graph. | 88 |
 | `mentions` | Note → Mechanism \| Hypothesis \| Paper \| Symptom | Free-text mention — navigation, not argument. | 0 |
 
 ## Lifecycle statuses
@@ -132,4 +132,4 @@ Each node type is authored in one JSON file under `graph/profiles/neuro/catalogs
 | `catalogs/authors.json` | Author | — |
 | `catalogs/tensions.json` | Tension | `tensionWith`, `documentedIn` |
 
-_276 nodes · 691 edges · ontology v0.1.0._
+_276 nodes · 693 edges · ontology v0.1.0._
