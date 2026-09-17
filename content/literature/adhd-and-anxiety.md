@@ -36,7 +36,7 @@ Because the two co-occur so often, a natural question is which causes which — 
 2. **Anxiety → apparent ADHD.** Worry and hypervigilance fragment attention and produce restlessness that *looks* like ADHD. Treating the anxiety should then relieve the "ADHD."
 3. **Shared cause.** Common temperament or genetics generate both, and neither is downstream of the other.
 
-Jarrett & Ollendick (2008) treat the *"temporal relations between ADHD and anxiety"* as one of the substantive open questions the field must resolve, alongside temperament and genetics. Nothing in the personal record currently distinguishes these orderings, so the differential is held open rather than collapsed into one label — which is also the stance of `question:adhd-anxiety-sleep-or-mood`.
+Jarrett & Ollendick (2008) treat the temporal relations between ADHD and anxiety as one of the substantive open questions the field must resolve, alongside temperament and genetics. Nothing in the personal record currently distinguishes these orderings, so the differential is held open rather than collapsed into one label — which is also the stance of `question:adhd-anxiety-sleep-or-mood`.
 
 ## 4. What actually discriminates them: structure, not intensity
 
@@ -46,7 +46,7 @@ If intensity cannot separate ADHD from anxiety — a severe version of each feel
 - **Trajectory.** ADHD symptoms are relatively trait-like and situation-general; anxiety symptoms tend to track stressors and wax and wane with them.
 - **Counterfactual.** The sharpest question: *is the inattention and restlessness present even when there is nothing to be anxious about?* Attention problems that persist in calm, low-stakes conditions point toward ADHD; ones that appear only under worry point toward anxiety.
 
-None of these is a lab test, and Katzman et al.'s (2017) pragmatic guidance is that when they genuinely co-occur, *"the most severe, functionally impairing or destabilizing illness should be treated first, and comorbidities should be addressed in a stepwise fashion"* — the differential does not have to be fully resolved before anything can be done.
+None of these is a lab test, and Katzman et al.'s (2017) pragmatic guidance is that when the conditions genuinely co-occur, the most impairing or destabilizing one is treated first and the comorbidities addressed in a stepwise fashion — the differential does not have to be fully resolved before anything can be done.
 
 ## Where this leaves the personal case
 

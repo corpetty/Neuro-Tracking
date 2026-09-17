@@ -83,7 +83,7 @@ _What is contested: evidence, confounds, contradictions, supersession, open ques
 
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
-| `supports` | Paper → Hypothesis \| Mechanism · carries evidence | Paper supports this hypothesis/mechanism. The edge carries the verbatim quote + page locator + confidence + rationale, so a fact and its justification travel together. | 85 |
+| `supports` | Paper → Hypothesis \| Mechanism · carries evidence | Paper supports this hypothesis/mechanism. The edge carries the verbatim quote + page locator + confidence + rationale, so a fact and its justification travel together. | 86 |
 | `pressureTests` | Paper → Hypothesis \| Mechanism · carries evidence | Paper challenges/qualifies this hypothesis/mechanism. Same evidence payload. | 11 |
 | `confounds` | Mechanism \| Symptom \| Intervention → Hypothesis | A rival explanation that must be ruled out before the hypothesis can stand. The honesty predicate of this ontology. | 6 |
 | `contradicts` | Hypothesis \| Mechanism \| Finding → Hypothesis \| Mechanism \| Finding (undirected) | Direct contradiction. | 0 |
@@ -132,4 +132,4 @@ Each node type is authored in one JSON file under `graph/profiles/neuro/catalogs
 | `catalogs/authors.json` | Author | — |
 | `catalogs/tensions.json` | Tension | `tensionWith`, `documentedIn` |
 
-_265 nodes · 652 edges · ontology v0.1.0._
+_265 nodes · 653 edges · ontology v0.1.0._
