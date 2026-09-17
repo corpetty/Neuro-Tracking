@@ -214,5 +214,16 @@
     "argues": ["hypothesis:screening-warrants-evaluation", "hypothesis:no-single-measure-is-diagnostic", "hypothesis:childhood-onset-hard-to-verify-retrospectively"],
     "flagsOpenQuestion": ["question:next-clinical-step"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-interventions",
+    "label": "ADHD interventions — what works, and why response is not proof",
+    "file": "literature/adhd-interventions.md",
+    "summary": "The evidence base for ADHD treatment — medication, CBT, mindfulness — and the diagnostic caution that a positive stimulant response does not confirm ADHD because it also helps people without it.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:rapoport-1978-stimulants-normal", "paper:cortese-2018-nma", "paper:knouse-2017-cbt-meta", "paper:cairncross-2020-mindfulness"],
+    "covers": ["intervention:stimulant-medication", "intervention:cbt-adult-adhd", "intervention:mindfulness"],
+    "argues": ["hypothesis:stimulant-response-not-diagnostic", "hypothesis:adhd-treatments-are-efficacious"],
+    "hasStatus": ["active"]
   }
 ]

@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "intervention:stimulant-medication",
+    "label": "Stimulant medication (methylphenidate / amphetamines)",
+    "summary": "First-line pharmacological treatment for ADHD with the largest symptom-reduction effects. Listed here as an option on the table, not a treatment started — nothing is in the personal record. Its diagnostic relevance is a caution: because stimulants improve attention in people without ADHD too, feeling better on a trial would not confirm the diagnosis.",
+    "confounds": ["hypothesis:adhd-explains-internal-restlessness"],
+    "documentedIn": ["note:literature-adhd-interventions"],
+    "hasStatus": ["seed"]
+  },
+  {
+    "id": "intervention:cbt-adult-adhd",
+    "label": "Cognitive behavioural therapy for adult ADHD",
+    "summary": "Structured skills-based psychotherapy targeting organisation, planning and impulse control in adults with ADHD; meta-analytic effects comparable to well-established child behavioural treatments. An option on the table, not started.",
+    "documentedIn": ["note:literature-adhd-interventions"],
+    "hasStatus": ["seed"]
+  },
+  {
+    "id": "intervention:mindfulness",
+    "label": "Mindfulness-based therapy",
+    "summary": "Attention-training and acceptance-based practice studied as an adjunct for ADHD, with moderate meta-analytic effects on inattention and hyperactivity/impulsivity. Promising but tentatively evidenced; an option on the table, not started.",
+    "documentedIn": ["note:literature-adhd-interventions"],
+    "hasStatus": ["seed"]
+  }
+]

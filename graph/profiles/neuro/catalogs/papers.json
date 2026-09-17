@@ -698,5 +698,45 @@
     "url": "https://doi.org/10.1037/a0029098",
     "summary": "Childhood-diagnosed sample (N=321) showing parent report is more diagnostically sensitive than self-report: young adults with ADHD underreport symptoms while controls overreport, with no added benefit to combining self-report with parent report — argues for weighting informants and impairment.",
     "authoredBy": ["author:margaret-sibley"]
+  },
+  {
+    "id": "paper:rapoport-1978-stimulants-normal",
+    "label": "Dextroamphetamine: cognitive and behavioral effects in normal prepubertal boys",
+    "year": 1978,
+    "venue": "Science, 199(4328):560–563",
+    "doi": "10.1126/science.341313",
+    "url": "https://doi.org/10.1126/science.341313",
+    "summary": "Double-blind study of a single dextroamphetamine dose in 14 normal prepubertal boys: they showed reduced motor activity and improved cognitive performance just like hyperactive children, casting doubt on the idea of a stimulant response specific to ADHD — the classic evidence that medication response is not diagnostic.",
+    "authoredBy": ["author:judith-rapoport"]
+  },
+  {
+    "id": "paper:cortese-2018-nma",
+    "label": "Comparative efficacy and tolerability of medications for ADHD in children, adolescents, and adults: a systematic review and network meta-analysis",
+    "year": 2018,
+    "venue": "Lancet Psychiatry, 5(9):727–738",
+    "doi": "10.1016/S2215-0366(18)30269-4",
+    "url": "https://doi.org/10.1016/S2215-0366(18)30269-4",
+    "summary": "Network meta-analysis of 133 double-blind RCTs across the lifespan; taking efficacy and safety together, supports methylphenidate as first choice in children/adolescents and amphetamines in adults for short-term ADHD treatment, while flagging that long-term effects are under-studied.",
+    "authoredBy": ["author:samuele-cortese"]
+  },
+  {
+    "id": "paper:knouse-2017-cbt-meta",
+    "label": "Meta-analysis of cognitive-behavioral treatments for adult ADHD",
+    "year": 2017,
+    "venue": "Journal of Consulting and Clinical Psychology, 85(7):737–750",
+    "doi": "10.1037/ccp0000216",
+    "url": "https://doi.org/10.1037/ccp0000216",
+    "summary": "Meta-analysis of 32 CBT studies (up to 896 adults): medium-to-large pre-post effects and small-to-medium effects versus control, comparable to well-established behavioural treatments for children — evidence that non-pharmacological treatment meaningfully reduces adult ADHD symptoms.",
+    "authoredBy": ["author:laura-knouse"]
+  },
+  {
+    "id": "paper:cairncross-2020-mindfulness",
+    "label": "The Effectiveness of Mindfulness-Based Therapies for ADHD: A Meta-Analytic Review",
+    "year": 2020,
+    "venue": "Journal of Attention Disorders, 24(5):627–643",
+    "doi": "10.1177/1087054715625301",
+    "url": "https://doi.org/10.1177/1087054715625301",
+    "summary": "Meta-analysis of mindfulness-based therapies for ADHD: moderate effect sizes for inattention (d = -.66) and hyperactivity/impulsivity (d = -.53), suggesting mindfulness is a promising adjunct — though the authors frame the benefit tentatively.",
+    "authoredBy": ["author:molly-cairncross"]
   }
 ]

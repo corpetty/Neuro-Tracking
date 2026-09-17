@@ -168,5 +168,18 @@
     "summary": "DSM needs some symptoms present in childhood, but adult self-recall of childhood ADHD has a positive predictive value near 0.27, and young adults with ADHD tend to underreport. Guidelines therefore lean on contemporaneous records and collateral informants (a parent or partner). This bears directly on a first evaluation in adulthood with no childhood documentation.",
     "flagsOpenQuestion": ["question:next-clinical-step"],
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:stimulant-response-not-diagnostic",
+    "label": "A positive response to stimulant medication does not confirm ADHD",
+    "summary": "Normal children given dextroamphetamine show the same reduced activity and improved cognition as hyperactive children, so there is no ADHD-specific or 'paradoxical' stimulant response. Improvement on a medication trial is therefore not diagnostic evidence — a treatment-response confound on the personal ADHD hypothesis.",
+    "mayExplain": ["symptom:internal-restlessness"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-treatments-are-efficacious",
+    "label": "Evidence-based treatments meaningfully reduce adult ADHD symptoms",
+    "summary": "Medication (methylphenidate in youth, amphetamines in adults) has the largest short-term effects; CBT for adults reaches effect sizes comparable to well-established child behavioural treatments; mindfulness shows moderate but tentatively-framed benefit. Treatment works — separately from whether a given internal state is ADHD.",
+    "hasStatus": ["supported"]
   }
 ]
