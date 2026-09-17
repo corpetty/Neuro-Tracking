@@ -161,5 +161,12 @@
     "summary": "Emotion dysregulation is prevalent across the ADHD lifespan and a major contributor to impairment, and has been called a distinctive attribute of adult ADHD. But its status is explicitly unsettled: it is equally consistent with being a correlated-but-distinct dimension or a separate entity, so 'core' is one reading among three.",
     "flagsOpenQuestion": ["question:adhd-anxiety-sleep-or-mood"],
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:childhood-onset-hard-to-verify-retrospectively",
+    "label": "The DSM childhood-onset requirement is hard to verify from an adult's own recall, so collateral information matters",
+    "summary": "DSM needs some symptoms present in childhood, but adult self-recall of childhood ADHD has a positive predictive value near 0.27, and young adults with ADHD tend to underreport. Guidelines therefore lean on contemporaneous records and collateral informants (a parent or partner). This bears directly on a first evaluation in adulthood with no childhood documentation.",
+    "flagsOpenQuestion": ["question:next-clinical-step"],
+    "hasStatus": ["supported"]
   }
 ]

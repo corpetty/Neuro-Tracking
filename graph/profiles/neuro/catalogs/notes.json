@@ -202,5 +202,17 @@
     "argues": ["hypothesis:adhd-anxiety-frequently-comorbid", "hypothesis:emotional-dysregulation-is-core-adhd"],
     "flagsOpenQuestion": ["question:adhd-anxiety-sleep-or-mood"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adult-adhd-assessment",
+    "label": "The adult ADHD assessment — what a full evaluation involves",
+    "file": "literature/adult-adhd-assessment.md",
+    "summary": "What guideline-grade adult ADHD evaluation actually consists of (clinical interview, childhood history, collateral informants, impairment, ruling out mimics), why a self-report screen is the weakest tier, and what to bring to the appointment.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:faraone-2021-consensus", "paper:kooij-2019-consensus", "paper:mannuzza-2002-recall", "paper:sibley-2012-informants"],
+    "covers": ["instrument:asrs-v1-1", "instrument:diva-5", "question:next-clinical-step", "tension:late-onset-vs-late-identification", "tension:self-report-vs-informant"],
+    "argues": ["hypothesis:screening-warrants-evaluation", "hypothesis:no-single-measure-is-diagnostic", "hypothesis:childhood-onset-hard-to-verify-retrospectively"],
+    "flagsOpenQuestion": ["question:next-clinical-step"],
+    "hasStatus": ["active"]
   }
 ]

@@ -76,5 +76,12 @@
     "kind": "self-report scale",
     "summary": "Self-report scale (Weyandt et al., 2003) that operationalises the subjective/mental restlessness adults with ADHD report in place of overt motor hyperactivity; four factors — internal distractibility, internal impulsivity, internal restlessness, internal disorganization.",
     "measures": ["symptom:internal-restlessness"]
+  },
+  {
+    "id": "instrument:diva-5",
+    "label": "DIVA-5 (Diagnostic Interview for ADHD in Adults)",
+    "kind": "structured diagnostic interview",
+    "summary": "Structured clinical interview that walks each DSM ADHD symptom across childhood and adulthood with concrete real-life examples, designed to be supplemented by a collateral informant. The instrument a full evaluation uses — distinct from the ASRS screen — though still a clinician tool, not a stand-alone test.",
+    "measures": ["symptom:inattention", "symptom:impulsivity", "symptom:internal-restlessness"]
   }
 ]

@@ -658,5 +658,45 @@
     "url": "https://doi.org/10.1016/j.cpr.2008.05.004",
     "summary": "Conceptual review of ADHD–anxiety comorbidity (~25% of children with ADHD have an anxiety disorder); examines methodological and substantive causes including temperament, genetics and the temporal relations between the two, and argues progress needs more precise phenotypic classification of ADHD.",
     "authoredBy": ["author:matthew-jarrett"]
+  },
+  {
+    "id": "paper:faraone-2021-consensus",
+    "label": "The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder",
+    "year": 2021,
+    "venue": "Neuroscience & Biobehavioral Reviews, 128:789–818",
+    "doi": "10.1016/j.neubiorev.2021.01.022",
+    "url": "https://doi.org/10.1016/j.neubiorev.2021.01.022",
+    "summary": "Consensus statement (79 authors, 27 countries) distilling ADHD evidence into 208 numbered conclusions; Conclusion 14 states ADHD can only be diagnosed by a licensed clinician via interview and not by rating scales, neuropsychological tests or imaging alone.",
+    "authoredBy": ["author:stephen-faraone"]
+  },
+  {
+    "id": "paper:kooij-2019-consensus",
+    "label": "Updated European Consensus Statement on diagnosis and treatment of adult ADHD",
+    "year": 2019,
+    "venue": "European Psychiatry, 56:14–34",
+    "doi": "10.1016/j.eurpsy.2018.11.001",
+    "url": "https://doi.org/10.1016/j.eurpsy.2018.11.001",
+    "summary": "European consensus (63 experts) on adult ADHD assessment and treatment: the clinical interview is essential and covers childhood and adult symptoms/impairment; a collateral informant is of great value where retrospective recall is poor; a four-symptom adult cut-off is endorsed.",
+    "authoredBy": ["author:sandra-kooij"]
+  },
+  {
+    "id": "paper:mannuzza-2002-recall",
+    "label": "Accuracy of adult recall of childhood attention deficit hyperactivity disorder",
+    "year": 2002,
+    "venue": "American Journal of Psychiatry, 159(11):1882–1888",
+    "doi": "10.1176/appi.ajp.159.11.1882",
+    "url": "https://doi.org/10.1176/appi.ajp.159.11.1882",
+    "summary": "Prospective 16-year follow-up testing whether adults accurately recall childhood ADHD: positive predictive value of retrospective self-report was only 0.27, so most retrospective childhood diagnoses are invalid — underscoring the need for contemporaneous or collateral childhood information.",
+    "authoredBy": ["author:salvatore-mannuzza"]
+  },
+  {
+    "id": "paper:sibley-2012-informants",
+    "label": "When diagnosing ADHD in young adults emphasize informant reports, DSM items, and impairment",
+    "year": 2012,
+    "venue": "Journal of Consulting and Clinical Psychology, 80(6):1052–1061",
+    "doi": "10.1037/a0029098",
+    "url": "https://doi.org/10.1037/a0029098",
+    "summary": "Childhood-diagnosed sample (N=321) showing parent report is more diagnostically sensitive than self-report: young adults with ADHD underreport symptoms while controls overreport, with no added benefit to combining self-report with parent report — argues for weighting informants and impairment.",
+    "authoredBy": ["author:margaret-sibley"]
   }
 ]

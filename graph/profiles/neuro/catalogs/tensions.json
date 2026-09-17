@@ -54,5 +54,12 @@
     "summary": "Shaw et al. frame three models that make different predictions: emotion dysregulation and ADHD as correlated but distinct dimensions; emotion dysregulation as a core diagnostic feature of ADHD; or the combination as a separate nosological entity. The evidence does not yet choose between them, which matters here because a foggy/churning internal state might be emotional dysregulation rather than the attentional core.",
     "tensionWith": ["hypothesis:emotional-dysregulation-is-core-adhd"],
     "documentedIn": ["note:literature-adhd-and-anxiety"]
+  },
+  {
+    "id": "tension:self-report-vs-informant",
+    "label": "Self-report and informant accounts disagree, and which to weight is contested",
+    "summary": "Sibley et al. found parent report more diagnostically sensitive than self-report, with ADHD adults underreporting and controls overreporting; Kooij et al. note that in adults the patient may actually be the best informant, while a collateral remains of great value. So the evaluation cannot simply trust one source — the discrepancy itself is informative, and the record currently holds only a self-administered screen.",
+    "tensionWith": ["hypothesis:childhood-onset-hard-to-verify-retrospectively"],
+    "documentedIn": ["note:literature-adult-adhd-assessment"]
   }
 ]

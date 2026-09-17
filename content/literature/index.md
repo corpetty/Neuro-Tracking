@@ -15,6 +15,7 @@ A running index of papers I've read and summarized. Each entry links to a struct
 | Dimensional & continuum models of ADHD — state of the research (survey) | [[literature/dimensional-continuum-adhd\|Summary]] | 16 sources — see note | Taxometrics / genetics / classification | 2026-07-26 |
 | Internal restlessness & cognitive disengagement — naming the internal state (survey) | [[literature/internal-restlessness-and-cognitive-disengagement\|Summary]] | 4 sources — see note | Phenomenology / adult ADHD / SCT–CDS | 2026-09-17 |
 | ADHD & anxiety — overlap, direction, and what tells them apart (survey) | [[literature/adhd-and-anxiety\|Summary]] | 4 sources — see note | Comorbidity / emotional dysregulation / differential | 2026-09-17 |
+| The adult ADHD assessment — what a full evaluation involves (survey) | [[literature/adult-adhd-assessment\|Summary]] | 4 sources — see note | Clinical guidelines / diagnosis / assessment | 2026-09-17 |
 
 ## How this index works
 
