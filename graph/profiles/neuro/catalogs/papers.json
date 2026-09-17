@@ -828,5 +828,25 @@
     "url": "https://doi.org/10.1007/s12402-018-0271-z",
     "summary": "Review arguing delayed sleep phase disorder is present in 73–78% of people with ADHD, that ADHD may be cause, consequence, or shared-etiology with sleep disturbance, and proposing that part of ADHD symptomatology results from chronic circadian delay — a possible redefinition of a subgroup.",
     "authoredBy": ["author:denise-bijlenga"]
+  },
+  {
+    "id": "paper:meinzer-2014",
+    "label": "Attention-deficit/hyperactivity disorder in adolescence predicts onset of major depressive disorder through early adulthood",
+    "year": 2013,
+    "venue": "Depression and Anxiety, 30(6):546–553",
+    "doi": "10.1002/da.22082",
+    "url": "https://doi.org/10.1002/da.22082",
+    "summary": "Longitudinal Oregon Adolescent Depression Project (N=1507): a lifetime history of ADHD in mid-adolescence predicted onset of major depression through age 30, and the effect survived adjustment for gender, other disorders, impairment and coping (hazard ratio 1.81) — ADHD as a robust prospective risk factor for depression.",
+    "authoredBy": ["author:michael-meinzer"]
+  },
+  {
+    "id": "paper:riglin-2021",
+    "label": "ADHD and depression: investigating a causal explanation",
+    "year": 2021,
+    "venue": "Psychological Medicine, 51(11):1890–1897",
+    "doi": "10.1017/S0033291720000665",
+    "url": "https://doi.org/10.1017/S0033291720000665",
+    "summary": "Combines a longitudinal cohort (ALSPAC, N=8310) with two-sample Mendelian randomization: childhood ADHD predicted recurrent young-adult depression, and genetic liability for ADHD showed a causal effect on major depression — evidence the ADHD→depression link is partly causal, not only correlational.",
+    "authoredBy": ["author:lucy-riglin"]
   }
 ]

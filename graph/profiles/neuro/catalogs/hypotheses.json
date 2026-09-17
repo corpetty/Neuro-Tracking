@@ -224,5 +224,18 @@
     "label": "Delayed circadian phase is highly prevalent in ADHD and may be intrinsic, not merely comorbid",
     "summary": "Delayed sleep phase and delayed melatonin onset appear in most adults with ADHD who have insomnia, and delayed sleep phase disorder is reported in 73–78% of people with ADHD. Some argue part of the symptomatology is a downstream consequence of chronic circadian delay — which would move sleep from mimic to component for a subgroup.",
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-mood-frequently-comorbid",
+    "label": "ADHD co-occurs with depression well above chance",
+    "summary": "Depression is among the most frequent conditions accompanying ADHD, and people with an ADHD history carry a significantly elevated risk of major depression. The overlap is large enough that low mood and ADHD have to be considered together, not as alternatives.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-raises-depression-risk",
+    "label": "ADHD is a developmental risk factor for later depression, plausibly causal",
+    "summary": "Prospective data show ADHD in adolescence predicts later major depression after adjusting for confounders, and Mendelian-randomization evidence is consistent with a causal effect of ADHD genetic liability on major depression. This reframes some ADHD-plus-depression as ADHD giving rise to depression, not two independent conditions.",
+    "hasStatus": ["supported"]
   }
 ]

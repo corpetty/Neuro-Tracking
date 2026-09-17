@@ -75,5 +75,12 @@
     "summary": "Three readings compete for the same observation. Sleep loss demonstrably mimics inattention (the rival view already recorded here); but ADHD is also strongly associated with disturbed sleep and delayed circadian phase, which could be a consequence of ADHD or a shared cause, and one review proposes the delay is itself the underlying mechanism for a subgroup. The rival, consequence and shared-mechanism readings are all supported, and which applies in a given person is not settled — so the sleep thread is held open rather than filed as 'just a mimic'.",
     "tensionWith": ["hypothesis:sleep-rivals-inattention-not-restlessness", "hypothesis:adhd-circadian-delay-intrinsic"],
     "documentedIn": ["note:literature-adhd-and-sleep"]
+  },
+  {
+    "id": "tension:adhd-mood-directionality",
+    "label": "Is low mood a mimic of ADHD, a consequence of it, or shared liability?",
+    "summary": "Depression and ADHD share surface features — poor concentration, low drive, psychomotor and sleep changes — so low mood can mimic ADHD (the rival reading, mechanism:mood-disturbance). But ADHD also prospectively raises depression risk, with a causal genetic signal, so the depression can be downstream of the ADHD; and shared genetic liability is a third route. Which applies in a given person is not settled, and unlike a mimic that simply competes, the consequence reading means both can be true at once. Held open.",
+    "tensionWith": ["hypothesis:adhd-raises-depression-risk", "mechanism:mood-disturbance"],
+    "documentedIn": ["note:literature-adhd-and-mood"]
   }
 ]

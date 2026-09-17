@@ -258,5 +258,16 @@
     "covers": ["symptom:inattention", "mechanism:sleep-debt", "mechanism:circadian-delay", "tension:sleep-rival-or-consequence"],
     "argues": ["hypothesis:sleep-adhd-bidirectional", "hypothesis:adhd-circadian-delay-intrinsic"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-mood",
+    "label": "ADHD & mood — mimic, consequence, or shared liability",
+    "file": "literature/adhd-and-mood.md",
+    "summary": "Depression completes the differential: it co-occurs with ADHD, ADHD prospectively (and plausibly causally) raises depression risk, and the mimic/consequence/shared question is held open — with course (episodic vs chronic) the practical discriminator.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:meinzer-2014", "paper:riglin-2021", "paper:katzman-2017-comorbidity"],
+    "covers": ["symptom:inattention", "mechanism:mood-disturbance", "tension:adhd-mood-directionality"],
+    "argues": ["hypothesis:adhd-mood-frequently-comorbid", "hypothesis:adhd-raises-depression-risk"],
+    "hasStatus": ["active"]
   }
 ]
