@@ -11,7 +11,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 
 - **What ADHD *is*, structurally.** [[literature/dimensional-continuum-adhd|Dimensional & continuum models]] make the case that clinical ADHD is the extreme of a continuously distributed trait rather than a discrete category, which is what lets a screening score be read as a *location*, not a verdict.
 - **What the internal state *is*.** [[literature/internal-restlessness-and-cognitive-disengagement|Internal restlessness & cognitive disengagement]] offers two measured constructs for the "calm outside, churning inside" pattern — a restless pole and a foggy one — that point to different rivals.
-- **What it *isn't* — the differential.** [[literature/adhd-and-anxiety|ADHD & anxiety]] and [[literature/autism-and-adhd|Autism & ADHD overlap]] work through the conditions that produce the same surface picture, and what actually separates them.
+- **What it *isn't* — the differential.** [[literature/adhd-and-anxiety|ADHD & anxiety]], [[literature/autism-and-adhd|Autism & ADHD overlap]] and [[literature/adhd-and-sleep|ADHD & sleep]] work through the conditions that produce the same surface picture — and, in the case of sleep, may also be part of it — and what actually separates them.
 - **What to *do* about it.** [[literature/adult-adhd-assessment|The adult assessment]] turns a positive screen into a concrete next step, and [[literature/adhd-interventions|Interventions]] cover what treatment can and — crucially — cannot tell you about the diagnosis.
 - **What's *underneath*.** [[literature/adhd-neurobiology-imaging|Neurobiology & imaging]] adds the brain to the etiology level, along with why a scan cannot diagnose an individual.
 
@@ -27,6 +27,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 | ADHD interventions — what works, and why response is not proof (survey) | [[literature/adhd-interventions\|Summary]] | 4 sources — see note | Treatment / medication / CBT / mindfulness | 2026-09-17 |
 | ADHD neurobiology & imaging — distributed networks, small effects (survey) | [[literature/adhd-neurobiology-imaging\|Summary]] | 4 sources — see note | Neurobiology / neuroimaging / ENIGMA | 2026-09-17 |
 | Autism & ADHD overlap — co-occurrence, shared causes, distinct categories (survey) | [[literature/autism-and-adhd\|Summary]] | 4 sources — see note | Autism / comorbidity / differential | 2026-09-17 |
+| ADHD & sleep — mimic, consequence, or shared circadian clock (survey) | [[literature/adhd-and-sleep\|Summary]] | 3 sources — see note | Sleep / circadian rhythm / differential | 2026-09-17 |
 
 ## How this index works
 

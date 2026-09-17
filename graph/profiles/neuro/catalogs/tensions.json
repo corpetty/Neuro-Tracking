@@ -68,5 +68,12 @@
     "summary": "The evidence pulls two ways at once. Genetics and neurocognition point to a partly shared substrate (pleiotropy, shared social/executive deficits), which would favour a common underlying dimension; yet the phenotypes differ enough that the field keeps ADHD and ASD as separate diagnostic categories. Both readings are supported, and this note holds the boundary question open rather than resolving it in either direction.",
     "tensionWith": ["hypothesis:adhd-autism-share-etiology", "hypothesis:adhd-autism-remain-distinct-categories"],
     "documentedIn": ["note:literature-autism-and-adhd"]
+  },
+  {
+    "id": "tension:sleep-rival-or-consequence",
+    "label": "Is disturbed sleep a mimic of ADHD, a consequence of it, or a shared circadian mechanism?",
+    "summary": "Three readings compete for the same observation. Sleep loss demonstrably mimics inattention (the rival view already recorded here); but ADHD is also strongly associated with disturbed sleep and delayed circadian phase, which could be a consequence of ADHD or a shared cause, and one review proposes the delay is itself the underlying mechanism for a subgroup. The rival, consequence and shared-mechanism readings are all supported, and which applies in a given person is not settled — so the sleep thread is held open rather than filed as 'just a mimic'.",
+    "tensionWith": ["hypothesis:sleep-rivals-inattention-not-restlessness", "hypothesis:adhd-circadian-delay-intrinsic"],
+    "documentedIn": ["note:literature-adhd-and-sleep"]
   }
 ]

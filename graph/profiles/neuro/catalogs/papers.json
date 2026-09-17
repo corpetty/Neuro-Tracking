@@ -808,5 +808,25 @@
     "url": "https://doi.org/10.3389/fnhum.2014.00268",
     "summary": "Review of ASD–ADHD co-occurrence in children; notes that DSM-IV made an ASD diagnosis an exclusion criterion for ADHD (limiting research), that DSM-5 now permits a dual diagnosis, and that the two share phenotypic features but retain distinct diagnostic criteria.",
     "authoredBy": ["author:yael-leitner"]
+  },
+  {
+    "id": "paper:van-veen-2010",
+    "label": "Delayed circadian rhythm in adults with attention-deficit/hyperactivity disorder and chronic sleep-onset insomnia",
+    "year": 2010,
+    "venue": "Biological Psychiatry, 67(11):1091–1096",
+    "doi": "10.1016/j.biopsych.2009.12.032",
+    "url": "https://doi.org/10.1016/j.biopsych.2009.12.032",
+    "summary": "Actigraphy and salivary melatonin in 40 adults with ADHD: those with sleep-onset insomnia showed a delayed sleep period and delayed dim-light melatonin onset versus ADHD adults without insomnia and versus controls — objective evidence of circadian phase delay in the majority of adult ADHD with insomnia.",
+    "authoredBy": ["author:marije-van-veen"]
+  },
+  {
+    "id": "paper:bijlenga-2019",
+    "label": "The role of the circadian system in the etiology and pathophysiology of ADHD: time to redefine ADHD?",
+    "year": 2019,
+    "venue": "ADHD Attention Deficit and Hyperactivity Disorders, 11(1):5–19",
+    "doi": "10.1007/s12402-018-0271-z",
+    "url": "https://doi.org/10.1007/s12402-018-0271-z",
+    "summary": "Review arguing delayed sleep phase disorder is present in 73–78% of people with ADHD, that ADHD may be cause, consequence, or shared-etiology with sleep disturbance, and proposing that part of ADHD symptomatology results from chronic circadian delay — a possible redefinition of a subgroup.",
+    "authoredBy": ["author:denise-bijlenga"]
   }
 ]

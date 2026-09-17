@@ -136,5 +136,12 @@
     "summary": "A neurobiological model in which spontaneous low-frequency default-mode-network activity, normally suppressed during tasks, intrudes into task-positive processing and produces periodic attentional lapses. Proposed as a substrate for reaction-time variability and inattention, it links the mind-wandering and vigilance axes to a specific network rather than a single region.",
     "definedIn": ["note:literature-adhd-neurobiology-imaging"],
     "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"]
+  },
+  {
+    "id": "mechanism:circadian-delay",
+    "label": "Delayed circadian phase",
+    "summary": "A shift of the internal clock later than the day's demands — delayed dim-light melatonin onset, delayed sleep period, chronic sleep-onset insomnia. Distinct from acute sleep debt: it is a rhythm problem, not just a quantity problem. Highly prevalent in ADHD and proposed by some as intrinsic to a subgroup rather than merely comorbid, which is what makes it more than a mimic.",
+    "definedIn": ["note:literature-adhd-and-sleep"],
+    "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"]
   }
 ]

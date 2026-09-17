@@ -211,5 +211,18 @@
     "label": "Despite the overlap, ADHD and autism remain distinct diagnostic categories",
     "summary": "Shared genetics and impairments notwithstanding, the phenotypic presentations differ qualitatively and quantitatively enough that reviews conclude the two are sufficiently distinct to warrant separate diagnoses. Overlap at the level of causes does not collapse the clinical distinction.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:sleep-adhd-bidirectional",
+    "label": "ADHD and sleep problems are bidirectionally related, not a one-way mimic",
+    "summary": "The sleep–ADHD relationship runs both ways and more: sleep loss degrades attention (the mimic direction), while ADHD is associated with markedly disturbed sleep, and the two may share causes. Treating sleep purely as a rival to rule out understates a genuinely multidirectional link.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-circadian-delay-intrinsic",
+    "label": "Delayed circadian phase is highly prevalent in ADHD and may be intrinsic, not merely comorbid",
+    "summary": "Delayed sleep phase and delayed melatonin onset appear in most adults with ADHD who have insomnia, and delayed sleep phase disorder is reported in 73–78% of people with ADHD. Some argue part of the symptomatology is a downstream consequence of chronic circadian delay — which would move sleep from mimic to component for a subgroup.",
+    "hasStatus": ["being-tested"]
   }
 ]

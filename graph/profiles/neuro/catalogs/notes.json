@@ -247,5 +247,16 @@
     "covers": ["symptom:inattention", "tension:adhd-autism-boundary"],
     "argues": ["hypothesis:adhd-autism-frequently-co-occur", "hypothesis:adhd-autism-share-etiology", "hypothesis:adhd-autism-remain-distinct-categories"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-sleep",
+    "label": "ADHD & sleep — mimic, consequence, or shared circadian clock",
+    "file": "literature/adhd-and-sleep.md",
+    "summary": "Beyond sleep-as-rival: the ADHD–sleep link is bidirectional, delayed circadian phase is highly prevalent and may be intrinsic to a subgroup, and the mimic/consequence/shared-mechanism question is held open.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:van-veen-2010", "paper:bijlenga-2019", "paper:hvolby-2015-sleep"],
+    "covers": ["symptom:inattention", "mechanism:sleep-debt", "mechanism:circadian-delay", "tension:sleep-rival-or-consequence"],
+    "argues": ["hypothesis:sleep-adhd-bidirectional", "hypothesis:adhd-circadian-delay-intrinsic"],
+    "hasStatus": ["active"]
   }
 ]
