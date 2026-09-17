@@ -208,12 +208,34 @@
       };
       const DEBUG = new URLSearchParams(location.search).has("debug");
       const errEl = () => document.getElementById("err");
+      // A zero-sized container is usually transient (a lazily-loaded iframe still
+      // settling, or a first paint before flex resolves its height). We warn but
+      // keep the warning *recoverable* so the ResizeObserver can clear it once the
+      // container gains real dimensions and the graph is drawn — otherwise the
+      // banner goes stale over a graph that has actually rendered.
+      let sizeWarned = false;
       const fail = (m, detail) => {
+        sizeWarned = false; // a genuine failure supersedes the recoverable size warning
         const e = errEl();
         e.hidden = false;
         e.textContent = m + (detail ? "\n\n" + detail : "");
         document.getElementById("hint").textContent = "";
         console.error("[graph viewer]", m, detail || "");
+      };
+      const warnUnsized = (container) => {
+        sizeWarned = true;
+        const e = errEl();
+        e.hidden = false;
+        e.textContent =
+          "The graph canvas has no size yet, so nothing can be drawn.\n\ncontainer " +
+          container.clientWidth + "x" + container.clientHeight +
+          " — waiting for the embedding page to give it a height…";
+        console.warn("[graph viewer] container unsized", container.clientWidth, container.clientHeight);
+      };
+      const clearUnsizedWarning = () => {
+        if (!sizeWarned) return;
+        sizeWarned = false;
+        errEl().hidden = true;
       };
 
       // Cytoscape sizes its viewport from the container. Inside a lazily-loaded
@@ -578,10 +600,24 @@
                 lastW = container.clientWidth;
                 refit();
               }
+              // The container now has real dimensions and the graph has been
+              // (re)drawn — dismiss any earlier transient zero-size warning.
+              if (cy.width() && cy.height()) clearUnsizedWarning();
             }, 120);
           }).observe(document.getElementById("stage"));
         }
         window.addEventListener("resize", refit);
+
+        // Safety net for the transient case (and browsers without ResizeObserver):
+        // a container can gain its height a frame or two after first paint. If a
+        // size warning is showing but the container now has real dimensions,
+        // redraw and clear it.
+        setTimeout(() => {
+          if (sizeWarned && container.clientWidth && container.clientHeight) {
+            refit();
+            if (cy.width() && cy.height()) clearUnsizedWarning();
+          }
+        }, 400);
 
         const hint = document.getElementById("hint");
         const summary =
@@ -590,11 +626,7 @@
         hint.textContent = summary;
 
         if (!cy.width() || !cy.height()) {
-          fail(
-            "The graph canvas has no size, so nothing can be drawn.",
-            "container " + container.clientWidth + "x" + container.clientHeight +
-              " — the embedding page is giving the iframe zero height.",
-          );
+          warnUnsized(container);
         } else if (dropped) {
           hint.textContent = summary + " · " + dropped + " edge(s) skipped (missing endpoint)";
         }
