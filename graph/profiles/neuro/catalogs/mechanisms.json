@@ -122,5 +122,12 @@
     "definedIn": ["note:literature-internal-restlessness-and-cognitive-disengagement"],
     "mayExplain": ["symptom:internal-restlessness", "symptom:inattention"],
     "confounds": ["hypothesis:adhd-explains-internal-restlessness"]
+  },
+  {
+    "id": "mechanism:emotional-dysregulation",
+    "label": "Emotional dysregulation",
+    "summary": "Difficulty modulating emotional responses — lability, low frustration tolerance, quick temper, slow return to baseline. Prevalent across the ADHD lifespan and a major driver of impairment, proposed to arise from deficits in attention to emotional stimuli. It overlaps anxiety and mood by construction, so it both deepens the ADHD phenotype and blurs the boundary with the mimics; whether it is core to ADHD or a distinct dimension is unsettled.",
+    "definedIn": ["note:literature-adhd-and-anxiety"],
+    "mayExplain": ["symptom:internal-restlessness"]
   }
 ]

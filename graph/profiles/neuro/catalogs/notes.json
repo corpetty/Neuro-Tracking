@@ -190,5 +190,17 @@
     "covers": ["symptom:internal-restlessness", "mechanism:cognitive-disengagement", "instrument:internal-restlessness-scale", "question:what-is-the-internal-state", "tension:internal-restlessness-vs-cognitive-disengagement"],
     "argues": ["hypothesis:internal-restlessness-is-internalized-hyperactivity", "hypothesis:cds-distinct-from-inattention"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-anxiety",
+    "label": "ADHD & anxiety — overlap, direction, and what tells them apart",
+    "file": "literature/adhd-and-anxiety.md",
+    "summary": "Why ADHD and anxiety produce the same internal state (high comorbidity, symptom overlap, emotional dysregulation) and what actually discriminates them — structure and onset rather than intensity.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:kessler-2006-ncs-r", "paper:shaw-2014-emotion-dysregulation", "paper:katzman-2017-comorbidity", "paper:jarrett-ollendick-2008"],
+    "covers": ["symptom:internal-restlessness", "mechanism:emotional-dysregulation", "question:adhd-anxiety-sleep-or-mood", "tension:adhd-vs-anxiety-internal-restlessness", "tension:adhd-anxiety-directionality", "tension:emotional-dysregulation-core-vs-distinct"],
+    "argues": ["hypothesis:adhd-anxiety-frequently-comorbid", "hypothesis:emotional-dysregulation-is-core-adhd"],
+    "flagsOpenQuestion": ["question:adhd-anxiety-sleep-or-mood"],
+    "hasStatus": ["active"]
   }
 ]

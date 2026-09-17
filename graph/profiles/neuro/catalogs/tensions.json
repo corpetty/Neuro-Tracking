@@ -4,7 +4,7 @@
     "label": "The same internal restlessness fits ADHD and anxiety equally well",
     "summary": "Held open deliberately. Internal hyperactivity and anxious arousal are near-indistinguishable from the inside, they co-occur often, and depression/stress/sleep produce similar churn. Nothing in the record currently discriminates between them.",
     "tensionWith": ["hypothesis:adhd-explains-internal-restlessness", "symptom:internal-restlessness"],
-    "documentedIn": ["note:about-me-diagnostics", "note:about-me-connections"]
+    "documentedIn": ["note:about-me-diagnostics", "note:about-me-connections", "note:literature-adhd-and-anxiety"]
   },
   {
     "id": "tension:sample-generalisability",
@@ -40,5 +40,19 @@
     "summary": "Two named constructs carve the 'churning inside' feeling in opposite directions. Internalized hyperactivity (Weyandt) is a hyper-aroused, restless, racing pole on the ADHD hyperactivity axis; cognitive disengagement (Becker) is a hypo-aroused, foggy, daydreamy, mentally-slow pole tied to internalizing/depression. They imply different differentials — anxiety on one side, mood on the other — and nothing in the record yet says which the internal state actually is. Held open.",
     "tensionWith": ["symptom:internal-restlessness", "hypothesis:internal-restlessness-is-internalized-hyperactivity", "hypothesis:cds-distinct-from-inattention"],
     "documentedIn": ["note:literature-internal-restlessness-and-cognitive-disengagement"]
+  },
+  {
+    "id": "tension:adhd-anxiety-directionality",
+    "label": "ADHD and anxiety co-occur, but the direction of the relationship is unresolved",
+    "summary": "Given how often ADHD and anxiety travel together, three orderings compete: ADHD-driven failure breeds secondary anxiety; anxiety mimics/produces inattention that looks like ADHD; or shared temperament/genetics generate both. Reviews treat the temporal relations as an open substantive question, and the record cannot yet say which applies to the internal state. Held open.",
+    "tensionWith": ["hypothesis:adhd-anxiety-frequently-comorbid", "symptom:internal-restlessness"],
+    "documentedIn": ["note:literature-adhd-and-anxiety"]
+  },
+  {
+    "id": "tension:emotional-dysregulation-core-vs-distinct",
+    "label": "Is emotional dysregulation core to ADHD or a correlated-but-distinct dimension?",
+    "summary": "Shaw et al. frame three models that make different predictions: emotion dysregulation and ADHD as correlated but distinct dimensions; emotion dysregulation as a core diagnostic feature of ADHD; or the combination as a separate nosological entity. The evidence does not yet choose between them, which matters here because a foggy/churning internal state might be emotional dysregulation rather than the attentional core.",
+    "tensionWith": ["hypothesis:emotional-dysregulation-is-core-adhd"],
+    "documentedIn": ["note:literature-adhd-and-anxiety"]
   }
 ]

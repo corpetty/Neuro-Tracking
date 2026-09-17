@@ -146,5 +146,20 @@
     "summary": "Factor-analytic and meta-analytic work separates cognitive disengagement syndrome (formerly SCT) from ADHD inattention and links it more to depression/internalizing than to hyperactivity/impulsivity. If the internal state is foggy and disengaged rather than restless, CDS — not ADHD hyperactivity — may be the better description, and it points toward the mood differential.",
     "flagsOpenQuestion": ["question:what-is-the-internal-state"],
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-anxiety-frequently-comorbid",
+    "label": "ADHD and anxiety co-occur far above chance across the lifespan",
+    "summary": "Adult ADHD is highly comorbid with other DSM disorders, up to ~80% carry at least one, and ~25% of children with ADHD have an anxiety disorder. High comorbidity is why the ADHD-vs-anxiety differential is genuinely hard rather than a technicality — the two really do travel together.",
+    "mayExplain": ["symptom:internal-restlessness"],
+    "flagsOpenQuestion": ["question:adhd-anxiety-sleep-or-mood"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:emotional-dysregulation-is-core-adhd",
+    "label": "Emotional dysregulation is a core feature of ADHD, not merely a comorbidity",
+    "summary": "Emotion dysregulation is prevalent across the ADHD lifespan and a major contributor to impairment, and has been called a distinctive attribute of adult ADHD. But its status is explicitly unsettled: it is equally consistent with being a correlated-but-distinct dimension or a separate entity, so 'core' is one reading among three.",
+    "flagsOpenQuestion": ["question:adhd-anxiety-sleep-or-mood"],
+    "hasStatus": ["being-tested"]
   }
 ]

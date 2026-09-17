@@ -618,5 +618,45 @@
     "url": "https://doi.org/10.1016/j.jaac.2022.07.821",
     "summary": "Consensus paper renaming SCT to cognitive disengagement syndrome (CDS); defines it as cognitive disengagement/decoupling of attention (staring, daydreaming, mental fogginess) plus hypoactivity, empirically distinct from ADHD inattention and linked to depression, with data across the lifespan.",
     "authoredBy": ["author:stephen-becker", "author:erik-willcutt"]
+  },
+  {
+    "id": "paper:kessler-2006-ncs-r",
+    "label": "The prevalence and correlates of adult ADHD in the United States: results from the National Comorbidity Survey Replication",
+    "year": 2006,
+    "venue": "American Journal of Psychiatry, 163(4):716–723",
+    "doi": "10.1176/ajp.2006.163.4.716",
+    "url": "https://doi.org/10.1176/ajp.2006.163.4.716",
+    "summary": "Nationally representative US survey (NCS-R): current adult ADHD prevalence 4.4%, highly comorbid with other DSM-IV disorders and substantially impairing; most cases untreated though often treated for the comorbidities — evidence the disorder frequently hides behind its co-occurring conditions.",
+    "authoredBy": ["author:ronald-kessler"]
+  },
+  {
+    "id": "paper:shaw-2014-emotion-dysregulation",
+    "label": "Emotion dysregulation in attention deficit hyperactivity disorder",
+    "year": 2014,
+    "venue": "American Journal of Psychiatry, 171(3):276–293",
+    "doi": "10.1176/appi.ajp.2013.13070966",
+    "url": "https://doi.org/10.1176/appi.ajp.2013.13070966",
+    "summary": "Review concluding emotion dysregulation is prevalent across the ADHD lifespan and a major source of impairment, arising from attention-to-emotion deficits in a striato-amygdalo-medial-prefrontal network; explicitly lays out three competing models of how it relates to ADHD (distinct dimension / core feature / separate entity).",
+    "authoredBy": ["author:philip-shaw"]
+  },
+  {
+    "id": "paper:katzman-2017-comorbidity",
+    "label": "Adult ADHD and comorbid disorders: clinical implications of a dimensional approach",
+    "year": 2017,
+    "venue": "BMC Psychiatry, 17:302",
+    "doi": "10.1186/s12888-017-1463-3",
+    "url": "https://doi.org/10.1186/s12888-017-1463-3",
+    "summary": "Review of adult ADHD comorbidity: up to 80% have a coexisting psychiatric disorder (most often mood/anxiety), overlapping symptoms complicate diagnosis, and a spectrum/dimensional framing plus treat-the-most-impairing-first is advocated; emotional dysregulation described as a distinctive attribute of adult ADHD.",
+    "authoredBy": ["author:martin-katzman"]
+  },
+  {
+    "id": "paper:jarrett-ollendick-2008",
+    "label": "A conceptual review of the comorbidity of attention-deficit/hyperactivity disorder and anxiety: implications for future research and practice",
+    "year": 2008,
+    "venue": "Clinical Psychology Review, 28(7):1266–1280",
+    "doi": "10.1016/j.cpr.2008.05.004",
+    "url": "https://doi.org/10.1016/j.cpr.2008.05.004",
+    "summary": "Conceptual review of ADHD–anxiety comorbidity (~25% of children with ADHD have an anxiety disorder); examines methodological and substantive causes including temperament, genetics and the temporal relations between the two, and argues progress needs more precise phenotypic classification of ADHD.",
+    "authoredBy": ["author:matthew-jarrett"]
   }
 ]
