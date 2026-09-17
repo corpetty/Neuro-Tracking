@@ -33,5 +33,12 @@
     "summary": "The MEWS shows high sensitivity and specificity for ADHD diagnosis and mind-wandering adds impairment variance beyond core symptoms — yet an independent sample found no ADHD/non-ADHD difference and mind-wandering tracking anxiety instead. Small, underpowered samples on both sides; held open.",
     "tensionWith": ["hypothesis:mind-wandering-is-transdiagnostic"],
     "documentedIn": ["note:dimensions-arousal-and-mind-wandering"]
+  },
+  {
+    "id": "tension:internal-restlessness-vs-cognitive-disengagement",
+    "label": "The internal state could be internalized hyperactivity or cognitive disengagement — opposite arousal poles",
+    "summary": "Two named constructs carve the 'churning inside' feeling in opposite directions. Internalized hyperactivity (Weyandt) is a hyper-aroused, restless, racing pole on the ADHD hyperactivity axis; cognitive disengagement (Becker) is a hypo-aroused, foggy, daydreamy, mentally-slow pole tied to internalizing/depression. They imply different differentials — anxiety on one side, mood on the other — and nothing in the record yet says which the internal state actually is. Held open.",
+    "tensionWith": ["symptom:internal-restlessness", "hypothesis:internal-restlessness-is-internalized-hyperactivity", "hypothesis:cds-distinct-from-inattention"],
+    "documentedIn": ["note:literature-internal-restlessness-and-cognitive-disengagement"]
   }
 ]

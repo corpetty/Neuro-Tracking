@@ -114,5 +114,13 @@
     "summary": "Perception and reproduction of time intervals. A third dissociable component in multiple-pathway models, independent of inhibition and delay aversion.",
     "definedIn": ["note:dimensions-orthogonality"],
     "mayExplain": ["symptom:impulsivity"]
+  },
+  {
+    "id": "mechanism:cognitive-disengagement",
+    "label": "Cognitive disengagement syndrome (formerly sluggish cognitive tempo)",
+    "summary": "A construct of attention decoupling from the external context — staring, daydreaming, mental fogginess, slowed thinking and hypoactivity. Distinct from ADHD inattention in factor-analytic work and more strongly tied to internalizing (depression) than to hyperactivity/impulsivity, which makes it a rival reading of a foggy, disengaged 'internal state' rather than an anxious, churning one.",
+    "definedIn": ["note:literature-internal-restlessness-and-cognitive-disengagement"],
+    "mayExplain": ["symptom:internal-restlessness", "symptom:inattention"],
+    "confounds": ["hypothesis:adhd-explains-internal-restlessness"]
   }
 ]

@@ -131,5 +131,20 @@
     "summary": "Because both conditions produce internal restlessness and the rating items measuring it are partly anxiety items, the discriminating evidence is structural: whether the restlessness predates any anxiety, persists in its absence, is situational or constant, and whether its content is worry or topic-shifting.",
     "dependsOn": ["question:what-is-the-internal-state"],
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:internal-restlessness-is-internalized-hyperactivity",
+    "label": "The 'calm outside, churning inside' state is internalized hyperactivity — subjective restlessness — not overt motor hyperactivity",
+    "summary": "DSM allows adult hyperactivity to present as subjective restlessness, and adults with ADHD report mental restlessness in place of fidgeting; the IRS measures it and separates ADHD from non-ADHD students. This reframes the internal state as the adult form of the hyperactive axis — but the same internalized presentation is where anxiety is hardest to distinguish from ADHD.",
+    "mayExplain": ["symptom:internal-restlessness"],
+    "flagsOpenQuestion": ["question:what-is-the-internal-state"],
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:cds-distinct-from-inattention",
+    "label": "Cognitive disengagement (daydreamy, foggy, mentally slow) is a construct distinct from ADHD inattention and more tied to internalizing",
+    "summary": "Factor-analytic and meta-analytic work separates cognitive disengagement syndrome (formerly SCT) from ADHD inattention and links it more to depression/internalizing than to hyperactivity/impulsivity. If the internal state is foggy and disengaged rather than restless, CDS — not ADHD hyperactivity — may be the better description, and it points toward the mood differential.",
+    "flagsOpenQuestion": ["question:what-is-the-internal-state"],
+    "hasStatus": ["being-tested"]
   }
 ]

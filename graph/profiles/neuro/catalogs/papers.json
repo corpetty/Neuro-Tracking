@@ -578,5 +578,45 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/20719043/",
     "summary": "Medium stop-signal deficits across ADHD (g=0.62), OCD (g=0.77) and schizophrenia (g=0.69) — inhibition impairment is transdiagnostic, and OCD's exceeds ADHD's.",
     "authoredBy": ["author:jennifer-lipszyc", "author:russell-schachar"]
+  },
+  {
+    "id": "paper:weyandt-2003-irs",
+    "label": "The Internal Restlessness Scale: performance of college students with and without ADHD",
+    "year": 2003,
+    "venue": "Journal of Learning Disabilities, 36(4):382–389",
+    "doi": "10.1177/00222194030360040801",
+    "url": "https://doi.org/10.1177/00222194030360040801",
+    "summary": "Develops the Internal Restlessness Scale (IRS) to measure the mental/subjective restlessness that adults with ADHD report in place of overt motor hyperactivity; ADHD college students score significantly higher, and the scale shows a four-factor structure.",
+    "authoredBy": ["author:lisa-weyandt"]
+  },
+  {
+    "id": "paper:weibel-2020-adult-adhd",
+    "label": "Practical considerations for the evaluation and management of Attention Deficit Hyperactivity Disorder (ADHD) in adults",
+    "year": 2020,
+    "venue": "L'Encéphale, 46(1):30–40",
+    "doi": "10.1016/j.encep.2019.06.005",
+    "url": "https://doi.org/10.1016/j.encep.2019.06.005",
+    "summary": "Clinician-facing review of adult ADHD; notes that in adulthood hyperactivity is more often internalized and that inattention can be masked by anxiety or obsessive-like compensation — directly relevant to the internal-restlessness / anxiety differential.",
+    "authoredBy": ["author:sebastien-weibel"]
+  },
+  {
+    "id": "paper:becker-2016-sct-meta",
+    "label": "The Internal, External, and Diagnostic Validity of Sluggish Cognitive Tempo: A Meta-Analysis and Critical Review",
+    "year": 2016,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 55(3):163–178",
+    "doi": "10.1016/j.jaac.2015.12.006",
+    "url": "https://doi.org/10.1016/j.jaac.2015.12.006",
+    "summary": "First meta-analysis of sluggish cognitive tempo (SCT): across >19,000 individuals 13 SCT items load on an SCT factor separable from ADHD; SCT correlates more with internalizing than with hyperactivity/impulsivity and predicts impairment — evidence for a construct distinct from ADHD inattention.",
+    "authoredBy": ["author:stephen-becker", "author:erik-willcutt"]
+  },
+  {
+    "id": "paper:becker-2023-cds-consensus",
+    "label": "Report of a Work Group on Sluggish Cognitive Tempo: Key Research Directions and a Consensus Change in Terminology to Cognitive Disengagement Syndrome",
+    "year": 2023,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 62(6):629–645",
+    "doi": "10.1016/j.jaac.2022.07.821",
+    "url": "https://doi.org/10.1016/j.jaac.2022.07.821",
+    "summary": "Consensus paper renaming SCT to cognitive disengagement syndrome (CDS); defines it as cognitive disengagement/decoupling of attention (staring, daydreaming, mental fogginess) plus hypoactivity, empirically distinct from ADHD inattention and linked to depression, with data across the lifespan.",
+    "authoredBy": ["author:stephen-becker", "author:erik-willcutt"]
   }
 ]

@@ -179,5 +179,16 @@
     "summary": "The maintenance loop: add a note, record the case facts, connect them, rebuild, query.",
     "partOf": ["note:graph-index"],
     "hasStatus": ["stable"]
+  },
+  {
+    "id": "note:literature-internal-restlessness-and-cognitive-disengagement",
+    "label": "Internal restlessness & cognitive disengagement",
+    "file": "literature/internal-restlessness-and-cognitive-disengagement.md",
+    "summary": "Two measured constructs for the 'calm outside, churning inside' state: internalized hyperactivity (the restless pole) and cognitive disengagement syndrome (the foggy pole), and why they point to different differentials.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:weyandt-2003-irs", "paper:weibel-2020-adult-adhd", "paper:becker-2016-sct-meta", "paper:becker-2023-cds-consensus"],
+    "covers": ["symptom:internal-restlessness", "mechanism:cognitive-disengagement", "instrument:internal-restlessness-scale", "question:what-is-the-internal-state", "tension:internal-restlessness-vs-cognitive-disengagement"],
+    "argues": ["hypothesis:internal-restlessness-is-internalized-hyperactivity", "hypothesis:cds-distinct-from-inattention"],
+    "hasStatus": ["active"]
   }
 ]

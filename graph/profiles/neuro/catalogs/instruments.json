@@ -69,5 +69,12 @@
     "kind": "trait inventory",
     "summary": "Dimensional maladaptive-trait inventory; its Disinhibition domain (and Distractibility facet) places a person on the HiTOP disinhibited-externalizing spectrum rather than in the ADHD category.",
     "measures": ["symptom:impulsivity", "symptom:inattention"]
+  },
+  {
+    "id": "instrument:internal-restlessness-scale",
+    "label": "Internal Restlessness Scale (IRS)",
+    "kind": "self-report scale",
+    "summary": "Self-report scale (Weyandt et al., 2003) that operationalises the subjective/mental restlessness adults with ADHD report in place of overt motor hyperactivity; four factors — internal distractibility, internal impulsivity, internal restlessness, internal disorganization.",
+    "measures": ["symptom:internal-restlessness"]
   }
 ]
