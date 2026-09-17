@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": "note:index",
     "label": "Neuro-Tracking (home)",
     "file": "index.md",
@@ -224,6 +224,17 @@
     "cites": ["paper:rapoport-1978-stimulants-normal", "paper:cortese-2018-nma", "paper:knouse-2017-cbt-meta", "paper:cairncross-2020-mindfulness"],
     "covers": ["intervention:stimulant-medication", "intervention:cbt-adult-adhd", "intervention:mindfulness"],
     "argues": ["hypothesis:stimulant-response-not-diagnostic", "hypothesis:adhd-treatments-are-efficacious"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-neurobiology-imaging",
+    "label": "ADHD neurobiology & imaging — distributed networks, small effects",
+    "file": "literature/adhd-neurobiology-imaging.md",
+    "summary": "What neurobiology has found — default-mode interference and distributed large-scale networks rather than a single locus — and why the structural-imaging differences are real but far too small (and in adults absent) to diagnose anyone.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:sonuga-barke-castellanos-2007", "paper:castellanos-proal-2012", "paper:hoogman-2017-subcortical", "paper:hoogman-2019-cortical"],
+    "covers": ["mechanism:default-mode-interference", "mechanism:reaction-time-variability"],
+    "argues": ["hypothesis:adhd-neurobiology-is-distributed-not-focal", "hypothesis:brain-differences-small-not-diagnostic"],
     "hasStatus": ["active"]
   }
 ]

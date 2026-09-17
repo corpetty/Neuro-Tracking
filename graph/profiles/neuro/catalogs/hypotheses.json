@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": "hypothesis:adhd-explains-internal-restlessness",
     "label": "My disruptive internal state is ADHD-driven rather than anxiety-, sleep-, or mood-driven",
     "summary": "The load-bearing personal hypothesis. Three rival mechanisms confound it and none has been ruled out; it cannot advance until the internal state is described concretely.",
@@ -180,6 +180,18 @@
     "id": "hypothesis:adhd-treatments-are-efficacious",
     "label": "Evidence-based treatments meaningfully reduce adult ADHD symptoms",
     "summary": "Medication (methylphenidate in youth, amphetamines in adults) has the largest short-term effects; CBT for adults reaches effect sizes comparable to well-established child behavioural treatments; mindfulness shows moderate but tentatively-framed benefit. Treatment works — separately from whether a given internal state is ADHD.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-neurobiology-is-distributed-not-focal",
+    "label": "ADHD reflects altered function across large-scale brain networks, not a single region or lesion",
+    "summary": "The older prefrontal-striatal model has given way to systems-level accounts spanning multiple resting-state networks (frontoparietal, dorsal attention, default, visual). There is no ADHD 'spot' in the brain; the biology is distributed and network-level, which is consistent with a graded, dimensional phenotype rather than a discrete lesion.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:brain-differences-small-not-diagnostic",
+    "label": "Structural brain differences in ADHD are real at the group level but too small to diagnose an individual",
+    "summary": "The largest imaging studies (ENIGMA) find real but tiny group differences — subcortical volumes at Cohen's d around -0.1 to -0.2, cortical effects no larger, and no detectable cortical differences at all in adolescents or adults. Group-level signal does not license an individual scan-based diagnosis, and the adult null is especially relevant to a first evaluation in adulthood.",
     "hasStatus": ["supported"]
   }
 ]

@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": "paper:horvath-2026-adhd-traits",
     "label": "ADHD-like traits reshape the balance between inhibitory control and predictive processes",
     "year": 2026,
@@ -738,5 +738,45 @@
     "url": "https://doi.org/10.1177/1087054715625301",
     "summary": "Meta-analysis of mindfulness-based therapies for ADHD: moderate effect sizes for inattention (d = -.66) and hyperactivity/impulsivity (d = -.53), suggesting mindfulness is a promising adjunct — though the authors frame the benefit tentatively.",
     "authoredBy": ["author:molly-cairncross"]
+  },
+  {
+    "id": "paper:sonuga-barke-castellanos-2007",
+    "label": "Spontaneous attentional fluctuations in impaired states and pathological conditions: a neurobiological hypothesis",
+    "year": 2007,
+    "venue": "Neuroscience & Biobehavioral Reviews, 31(7):977–986",
+    "doi": "10.1016/j.neubiorev.2007.02.005",
+    "url": "https://doi.org/10.1016/j.neubiorev.2007.02.005",
+    "summary": "The default-mode interference hypothesis: low-frequency default-mode-network activity active during rest can intrude into task periods, producing periodic attentional lapses that compete with goal-directed behaviour — proposed as a cause of performance (reaction-time) variability in ADHD.",
+    "authoredBy": ["author:edmund-sonuga-barke", "author:francisco-castellanos"]
+  },
+  {
+    "id": "paper:castellanos-proal-2012",
+    "label": "Large-scale brain systems in ADHD: beyond the prefrontal-striatal model",
+    "year": 2012,
+    "venue": "Trends in Cognitive Sciences, 16(1):17–26",
+    "doi": "10.1016/j.tics.2011.11.007",
+    "url": "https://doi.org/10.1016/j.tics.2011.11.007",
+    "summary": "Reframes ADHD away from a single prefrontal-striatal locus toward dysfunction distributed across multiple large-scale resting-state networks (frontoparietal, dorsal attention, motor, visual, default) — a systems-level, non-focal model of the disorder.",
+    "authoredBy": ["author:francisco-castellanos"]
+  },
+  {
+    "id": "paper:hoogman-2017-subcortical",
+    "label": "Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults: a cross-sectional mega-analysis",
+    "year": 2017,
+    "venue": "Lancet Psychiatry, 4(4):310–319",
+    "doi": "10.1016/S2215-0366(17)30049-4",
+    "url": "https://doi.org/10.1016/S2215-0366(17)30049-4",
+    "summary": "ENIGMA mega-analysis (1713 ADHD, 1529 controls, 23 sites): several subcortical volumes are smaller in ADHD but with very small effect sizes (Cohen’s d roughly -0.10 to -0.19), largest in children and negligible in adults — real group differences that are far too small to diagnose an individual.",
+    "authoredBy": ["author:martine-hoogman"]
+  },
+  {
+    "id": "paper:hoogman-2019-cortical",
+    "label": "Brain Imaging of the Cortex in ADHD: A Coordinated Analysis of Large-Scale Clinical and Population-Based Samples",
+    "year": 2019,
+    "venue": "American Journal of Psychiatry, 176(7):531–542",
+    "doi": "10.1176/appi.ajp.2019.18091033",
+    "url": "https://doi.org/10.1176/appi.ajp.2019.18091033",
+    "summary": "ENIGMA cortical analysis: small surface-area reductions in children with ADHD (largest effect Cohen’s d=-0.21), with no surface-area or thickness differences detected in adolescents or adults — reinforcing that structural imaging is not an individual diagnostic test, least of all in adults.",
+    "authoredBy": ["author:martine-hoogman"]
   }
 ]

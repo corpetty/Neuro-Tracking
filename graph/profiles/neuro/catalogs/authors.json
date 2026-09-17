@@ -1,5 +1,5 @@
 [
-  { "id": "author:karolina-horvath", "label": "Karolina Horváth" },
+{ "id": "author:karolina-horvath", "label": "Karolina Horváth" },
   { "id": "author:bianka-brezoczki", "label": "Bianka Brezóczki" },
   { "id": "author:adrienn-holczer", "label": "Adrienn Holczer" },
   { "id": "author:teodora-vekony", "label": "Teodóra Vékony" },
@@ -66,5 +66,7 @@
   { "id": "author:salvatore-mannuzza", "label": "Salvatore Mannuzza" },
   { "id": "author:judith-rapoport", "label": "Judith L. Rapoport" },
   { "id": "author:laura-knouse", "label": "Laura E. Knouse" },
-  { "id": "author:molly-cairncross", "label": "Molly Cairncross" }
+  { "id": "author:molly-cairncross", "label": "Molly Cairncross" },
+  { "id": "author:francisco-castellanos", "label": "F. Xavier Castellanos" },
+  { "id": "author:martine-hoogman", "label": "Martine Hoogman" }
 ]
