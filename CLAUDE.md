@@ -76,6 +76,20 @@ interactive page *download* instead of render, and one makes it invisible to sea
    crawlers. The parent markdown note should also carry the same content in prose, so the
    text is indexable at the note level regardless of the iframe.
 
+**Checking they render locally.** The viewer does `fetch("./graph-data.json")`, so `file://`
+fails on CORS — serve `content/` first: from that dir, `python3 -m http.server 8765`, then open
+`http://localhost:8765/graph/viewer.htm` (or `/dimensions/orthogonality-map.htm`). Confirm zero
+console errors. For the graph viewer, `content/graph/graph-data.json` must be committed and current
+(`make site`); verify it actually drew from the live Cytoscape instance —
+`document.getElementById("cy")._cyreg.cy` — checking `cy.nodes().length` / `cy.edges().length`
+against the build's counts and that a given id is present and `.visible()` (the viewer's node total
+excludes the `Status` hub nodes, so it runs a few below `make stats`). The dimensions map is
+self-contained (no fetch); confirm JS enhancement ran via `document.body.classList.contains("pe")`.
+The viewer shows a *recoverable* "canvas has no size yet" banner while its container is still
+unsized and clears it once drawn (a ResizeObserver plus a 400 ms safety net): a banner that
+persists over a **drawn** graph is a bug; a banner with **no** graph means the embedding really is
+giving the iframe zero height.
+
 ## Layout
 
 | Path | What |
