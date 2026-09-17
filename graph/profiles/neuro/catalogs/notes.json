@@ -269,5 +269,16 @@
     "covers": ["symptom:inattention", "mechanism:mood-disturbance", "tension:adhd-mood-directionality"],
     "argues": ["hypothesis:adhd-mood-frequently-comorbid", "hypothesis:adhd-raises-depression-risk"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-in-women-and-girls",
+    "label": "ADHD in women & girls — missed, harmed when missed, and hormone-modulated",
+    "file": "literature/adhd-in-women-and-girls.md",
+    "summary": "Beyond the skewed sex ratio: girls and women present more inattentively and get missed, the miss is costly (elevated self-harm), and symptom expression is modulated by reproductive hormones — a female-specific axis male-referenced models ignore.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:hinshaw-2012-bgals", "paper:young-2020-females", "paper:roberts-2018-hormones", "paper:hinshaw-2022-girls"],
+    "covers": ["symptom:inattention", "mechanism:reproductive-hormone-modulation", "tension:sample-generalisability"],
+    "argues": ["hypothesis:sex-ratio-reflects-ascertainment", "hypothesis:missed-adhd-in-females-harms-outcomes", "hypothesis:female-adhd-symptoms-hormone-sensitive"],
+    "hasStatus": ["active"]
   }
 ]

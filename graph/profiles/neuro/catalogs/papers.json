@@ -848,5 +848,35 @@
     "url": "https://doi.org/10.1017/S0033291720000665",
     "summary": "Combines a longitudinal cohort (ALSPAC, N=8310) with two-sample Mendelian randomization: childhood ADHD predicted recurrent young-adult depression, and genetic liability for ADHD showed a causal effect on major depression — evidence the ADHD→depression link is partly causal, not only correlational.",
     "authoredBy": ["author:lucy-riglin"]
+  },
+  {
+    "id": "paper:hinshaw-2012-bgals",
+    "label": "Prospective follow-up of girls with attention-deficit/hyperactivity disorder into early adulthood: continuing impairment includes elevated risk for suicide attempts and self-injury",
+    "year": 2012,
+    "venue": "Journal of Consulting and Clinical Psychology, 80(6):1041–1051",
+    "doi": "10.1037/a0029451",
+    "url": "https://doi.org/10.1037/a0029451",
+    "summary": "The Berkeley Girls with ADHD Longitudinal Study: a 10-year follow-up of 140 childhood-diagnosed girls plus 88 comparisons. Girls with ADHD showed persistent symptoms, serious impairment, and markedly higher rates of suicide attempts and self-injury, with effect sizes up to very large — evidence that ADHD in girls is far from benign.",
+    "authoredBy": ["author:stephen-hinshaw"]
+  },
+  {
+    "id": "paper:young-2020-females",
+    "label": "Females with ADHD: An expert consensus statement taking a lifespan approach providing guidance for the identification and treatment of ADHD in girls and women",
+    "year": 2020,
+    "venue": "BMC Psychiatry, 20(1):404",
+    "doi": "10.1186/s12888-020-02707-9",
+    "url": "https://doi.org/10.1186/s12888-020-02707-9",
+    "summary": "UK expert-consensus statement on females with ADHD across the lifespan: the male:female diagnostic ratio partly reflects lack of recognition and referral bias, females differ in symptom profile, comorbidity and functioning, and practical guidance is offered to improve identification and treatment.",
+    "authoredBy": ["author:susan-young"]
+  },
+  {
+    "id": "paper:roberts-2018-hormones",
+    "label": "Reproductive steroids and ADHD symptoms across the menstrual cycle",
+    "year": 2018,
+    "venue": "Psychoneuroendocrinology, 88:105–114",
+    "doi": "10.1016/j.psyneuen.2017.11.015",
+    "url": "https://doi.org/10.1016/j.psyneuen.2017.11.015",
+    "summary": "Daily-diary study of 32 regularly-cycling young women: lower estradiol combined with higher progesterone or testosterone predicted higher next-day ADHD symptoms, especially in high-impulsivity women, with symptom peaks in the early follicular and early luteal phases — evidence that ADHD expression tracks reproductive-hormone fluctuations.",
+    "authoredBy": ["author:b-roberts"]
   }
 ]

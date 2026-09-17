@@ -237,5 +237,17 @@
     "label": "ADHD is a developmental risk factor for later depression, plausibly causal",
     "summary": "Prospective data show ADHD in adolescence predicts later major depression after adjusting for confounders, and Mendelian-randomization evidence is consistent with a causal effect of ADHD genetic liability on major depression. This reframes some ADHD-plus-depression as ADHD giving rise to depression, not two independent conditions.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:missed-adhd-in-females-harms-outcomes",
+    "label": "Under-identifying ADHD in girls and women is not benign — missed cases carry serious impairment, including elevated self-harm",
+    "summary": "Longitudinal follow-up of childhood-diagnosed girls shows persistent impairment and markedly elevated suicide attempts and self-injury into early adulthood, and reviews single out self-harm as a heightened risk for females with ADHD. The under-recognition documented elsewhere therefore has real stakes, not merely epidemiological ones.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:female-adhd-symptoms-hormone-sensitive",
+    "label": "ADHD symptom expression in women fluctuates with reproductive hormones",
+    "summary": "Within-person, ADHD symptoms in regularly-cycling women rise when estradiol falls relative to progesterone or testosterone, peaking in specific menstrual phases. Symptom severity can thus move with the hormonal cycle independently of the underlying trait — a female-specific source of variability that male-referenced criteria and single-timepoint assessments miss.",
+    "hasStatus": ["being-tested"]
   }
 ]

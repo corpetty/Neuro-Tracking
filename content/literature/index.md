@@ -29,6 +29,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 | Autism & ADHD overlap — co-occurrence, shared causes, distinct categories (survey) | [[literature/autism-and-adhd\|Summary]] | 4 sources — see note | Autism / comorbidity / differential | 2026-09-17 |
 | ADHD & sleep — mimic, consequence, or shared circadian clock (survey) | [[literature/adhd-and-sleep\|Summary]] | 3 sources — see note | Sleep / circadian rhythm / differential | 2026-09-17 |
 | ADHD & mood — mimic, consequence, or shared liability (survey) | [[literature/adhd-and-mood\|Summary]] | 3 sources — see note | Depression / mood / differential | 2026-09-17 |
+| ADHD in women & girls — missed, harmed when missed, and hormone-modulated (survey) | [[literature/adhd-in-women-and-girls\|Summary]] | 4 sources — see note | Sex & gender / women / outcomes | 2026-09-17 |
 
 ## How this index works
 
