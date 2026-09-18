@@ -291,5 +291,16 @@
     "covers": ["symptom:inattention", "symptom:impulsivity", "mechanism:executive-function", "mechanism:response-inhibition", "tension:ef-core-vs-one-component"],
     "argues": ["hypothesis:adhd-as-executive-inhibition-deficit", "hypothesis:ef-deficits-neither-necessary-nor-sufficient", "hypothesis:multiple-neurocognitive-pathways", "hypothesis:rating-task-dissociation"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-rejection-sensitivity",
+    "label": "ADHD & rejection sensitivity — a real construct behind a popular label",
+    "file": "literature/adhd-and-rejection-sensitivity.md",
+    "summary": "Separates the popular 'rejection sensitive dysphoria' label from the evidence: rejection sensitivity is a validated general construct and a plausible facet of ADHD's emotional dysregulation, but the RSD-as-ADHD-syndrome framing is under-evidenced and clinically risky.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:downey-feldman-1996", "paper:van-asselt-2026", "paper:rowney-smith-2026", "paper:shaw-2014-emotion-dysregulation"],
+    "covers": ["symptom:internal-restlessness", "mechanism:rejection-sensitivity", "mechanism:emotional-dysregulation", "tension:rsd-validation-vs-rigor"],
+    "argues": ["hypothesis:rsd-is-under-evidenced-popular-label", "hypothesis:rejection-sensitivity-part-of-adhd-ED", "hypothesis:emotional-dysregulation-is-core-adhd"],
+    "hasStatus": ["active"]
   }
 ]

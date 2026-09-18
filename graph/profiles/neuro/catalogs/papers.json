@@ -898,5 +898,34 @@
     "url": "https://doi.org/10.1080/87565641.2010.549877",
     "summary": "Longitudinal follow-up (hyperactive N=135, controls N=75) to adulthood comparing self-reported EF deficits against EF tests: the ratings predicted impairment in major life activities and occupational functioning far better than the tests did, most of which were unrelated to work history — an ecological-validity gap between real-world EF and lab EF.",
     "authoredBy": ["author:russell-barkley"]
+  },
+  {
+    "id": "paper:downey-feldman-1996",
+    "label": "Implications of rejection sensitivity for intimate relationships",
+    "year": 1996,
+    "venue": "Journal of Personality and Social Psychology, 70(6):1327–1343",
+    "doi": "10.1037/0022-3514.70.6.1327",
+    "url": "https://doi.org/10.1037/0022-3514.70.6.1327",
+    "summary": "The foundational operationalisation of rejection sensitivity as a general cognitive-affective disposition to anxiously expect, readily perceive, and overreact to rejection; four studies link it to dissatisfaction and conflict in intimate relationships. Not ADHD-specific — the established construct that predates the ADHD label.",
+    "authoredBy": ["author:geraldine-downey"]
+  },
+  {
+    "id": "paper:van-asselt-2026",
+    "label": "Rejection sensitivity dysphoria: a critical reflection",
+    "year": 2026,
+    "venue": "Tijdschrift voor Psychiatrie, 68(3):127–130",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41944472/",
+    "summary": "Critical reflection in the Dutch journal of psychiatry on \"rejection sensitivity dysphoria\" (RSD): a social-media-popularised term coined by William Dodson from clinical experience, whose clinical use carries four risks — self-stigmatisation, framing as innate, terminological confusion, and limited empirical evidence — with the established rejection-sensitivity spectrum offered as the better alternative.",
+    "authoredBy": ["author:a-van-asselt"]
+  },
+  {
+    "id": "paper:rowney-smith-2026",
+    "label": "The lived experience of rejection sensitivity in ADHD — A qualitative exploration",
+    "year": 2026,
+    "venue": "PLOS ONE, 21(1):e0314669",
+    "doi": "10.1371/journal.pone.0314669",
+    "url": "https://doi.org/10.1371/journal.pone.0314669",
+    "summary": "Small qualitative focus-group study (five undergraduates) framing rejection sensitivity as an under-explored aspect of ADHD-related emotional dysregulation; thematic analysis surfaced withdrawal, masking, and bodily sensations. Illustrative of the phenomenon and of how thin and early-stage the ADHD-specific evidence still is.",
+    "authoredBy": ["author:a-rowney-smith"]
   }
 ]

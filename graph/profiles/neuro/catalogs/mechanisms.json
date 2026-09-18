@@ -157,5 +157,13 @@
     "summary": "The set of self-regulatory control processes — response inhibition, working memory, sustained attention, planning and self-monitoring — that organise goal-directed behaviour. In leading theory ADHD is a primary executive/inhibition deficit, but empirically EF weakness is neither universal in ADHD nor specific to it, and lab EF tests capture it poorly relative to real-world ratings.",
     "definedIn": ["note:literature-adhd-and-executive-function"],
     "mayExplain": ["symptom:inattention", "symptom:impulsivity"]
+  },
+  {
+    "id": "mechanism:rejection-sensitivity",
+    "label": "Rejection sensitivity",
+    "summary": "A cognitive-affective disposition to anxiously expect, readily perceive, and overreact to social rejection or criticism. A validated general-psychology construct (not ADHD-specific), studied across depression, anxiety and personality disorders; in ADHD it is treated as a facet of emotional dysregulation. Distinct from the popular label 'rejection sensitive dysphoria', which names the same experience but lacks the construct's evidence base.",
+    "definedIn": ["note:literature-adhd-and-rejection-sensitivity"],
+    "derivesFrom": ["mechanism:emotional-dysregulation"],
+    "mayExplain": ["symptom:internal-restlessness"]
   }
 ]

@@ -262,5 +262,18 @@
     "label": "Executive-function deficits are real and central in ADHD on average, but neither necessary nor sufficient",
     "summary": "Meta-analysis finds significant EF impairment across all domains (medium effect sizes, strongest for inhibition, vigilance, working memory, planning), yet the deficits are not universal among people with ADHD and not specific to it. EF weakness is one important component of a heterogeneous neuropsychology, not the defining lesion — consistent with the multiple-pathways view.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:rsd-is-under-evidenced-popular-label",
+    "label": "'Rejection sensitive dysphoria' is a popular but under-validated label for a real, established phenomenon",
+    "summary": "RSD spread through social media and clinical anecdote (coined by Dodson) rather than through validation studies, and critical appraisal flags limited empirical evidence plus risks of stigma and reifying it as innate. The experience it names is real and better captured by the established rejection-sensitivity construct — so the phenomenon is genuine even though the specific ADHD-syndrome label is not well grounded.",
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:rejection-sensitivity-part-of-adhd-ED",
+    "label": "Heightened rejection sensitivity is an under-explored facet of ADHD-related emotional dysregulation",
+    "summary": "Rejection sensitivity is treated as one aspect of the emotional dysregulation that is prevalent and impairing in ADHD, but the ADHD-specific evidence is thin — small, mostly qualitative studies. Plausible and clinically resonant, not yet firmly established, and not specific to ADHD (rejection sensitivity also marks depression, anxiety and personality disorders).",
+    "mayExplain": ["symptom:internal-restlessness"],
+    "hasStatus": ["being-tested"]
   }
 ]
