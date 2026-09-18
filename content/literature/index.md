@@ -16,7 +16,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 - **Who gets identified.** [[literature/adhd-in-women-and-girls|ADHD in women & girls]] shows how a quieter, inattentive presentation is under-recognised — at real cost — and how symptom expression can shift with reproductive hormones, a reminder that *who* the evidence is measured in shapes what it says.
 - **What to *do* about it.** [[literature/adult-adhd-assessment|The adult assessment]] turns a positive screen into a concrete next step, and [[literature/adhd-interventions|Interventions]] cover what treatment can and — crucially — cannot tell you about the diagnosis.
 - **What's *underneath*.** [[literature/adhd-neurobiology-imaging|Neurobiology & imaging]] adds the brain to the etiology level, along with why a scan cannot diagnose an individual.
-- **Reading the popular claims.** [[literature/adhd-and-rejection-sensitivity|Rejection sensitivity]] separates a fast-spreading label — "rejection sensitive dysphoria" — from the evidence: a validated construct underneath, but a thin and non-specific ADHD case. A template for taking a popular ADHD idea seriously without swallowing it whole.
+- **Reading the popular claims.** [[literature/adhd-and-rejection-sensitivity|Rejection sensitivity]] and [[literature/adhd-and-hyperfocus|hyperfocus]] each separate a fast-spreading label from the evidence — a real phenomenon underneath, but a thin, non-specific ADHD case. A template for taking a popular ADHD idea seriously without swallowing it whole.
 
 ## Papers
 
