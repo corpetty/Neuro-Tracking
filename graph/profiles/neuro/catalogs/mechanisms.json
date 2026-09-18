@@ -186,5 +186,11 @@
     "summary": "Over- or under-responsiveness to sensory input — sound, light, texture, touch — and difficulty modulating it. Elevated in ADHD in both directions (hyper and hypo), dimensionally related to ADHD trait level, and present irrespective of autistic symptoms, though it is also a core feature of autism and thus not specific. A plausible contributor to distractibility and to sensory-driven restlessness.",
     "definedIn": ["note:literature-adhd-and-sensory-sensitivity"],
     "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"]
+  },
+  {
+    "id": "mechanism:low-self-esteem",
+    "label": "Low self-esteem / negative self-concept",
+    "summary": "A negative view of one's own worth and abilities, lower across the ADHD lifespan and on all measured domains. Understood as accumulated rather than intrinsic — built from years of negative feedback, criticism and underperformance — which makes it a plausible link in the demoralization pathway toward depression, and, importantly, remediable rather than fixed.",
+    "definedIn": ["note:literature-adhd-and-self-esteem"]
   }
 ]

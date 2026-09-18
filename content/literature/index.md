@@ -7,7 +7,7 @@ tags:
 
 A running index of what I've read and summarized. Two kinds of entry live here. **Paper summaries** distil a single study — the [[literature/ADHD-traits-inhibition-learning|Horváth trade-off preprint]] is the seed, and links to its source PDF. **Surveys** pull several sources together around one question, quote each verbatim, and wire the result into the [[about-me/connections|personal case]] and the [[graph/index|knowledge graph]], where every claim is tracked as an evidence triple.
 
-The surveys now approach the central question — is this ADHD, and what would tell me? — from eight angles:
+The surveys now approach the central question — is this ADHD, and what would tell me? — from nine angles:
 
 - **What ADHD *is*, structurally.** [[literature/dimensional-continuum-adhd|Dimensional & continuum models]] make the case that clinical ADHD is the extreme of a continuously distributed trait rather than a discrete category, which is what lets a screening score be read as a *location*, not a verdict.
 - **What the internal state *is*.** [[literature/internal-restlessness-and-cognitive-disengagement|Internal restlessness & cognitive disengagement]] offers two measured constructs for the "calm outside, churning inside" pattern — a restless pole and a foggy one — that point to different rivals; [[literature/adhd-and-sensory-sensitivity|sensory sensitivity]] adds the over- and under-responsiveness to sound, light and texture that is elevated in ADHD and scales with the trait.
@@ -17,6 +17,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 - **What to *do* about it.** [[literature/adult-adhd-assessment|The adult assessment]] turns a positive screen into a concrete next step, and [[literature/adhd-interventions|Interventions]] cover what treatment can and — crucially — cannot tell you about the diagnosis.
 - **What's *underneath*.** [[literature/adhd-neurobiology-imaging|Neurobiology & imaging]] adds the brain to the etiology level, along with why a scan cannot diagnose an individual.
 - **Reading the popular claims.** [[literature/adhd-and-rejection-sensitivity|Rejection sensitivity]] and [[literature/adhd-and-hyperfocus|hyperfocus]] each separate a fast-spreading label from the evidence — a real phenomenon underneath, but a thin, non-specific ADHD case. A template for taking a popular ADHD idea seriously without swallowing it whole.
+- **Living with it — the human cost.** [[literature/adhd-and-self-esteem|Self-esteem]] traces how years of negative feedback erode self-worth in ADHD — reframing the "lazy/unreliable" self-story as an accumulated consequence rather than a character fact, and one that improves with treatment and support.
 
 ## Papers
 
@@ -41,6 +42,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 | ADHD & working memory — a robust deficit, and the movement that helps it (survey) | [[literature/adhd-and-working-memory\|Summary]] | 4 sources — see note | Working memory / neuropsychology | 2026-09-18 |
 | ADHD & sensory sensitivity — atypical, dimensional, and not only autism (survey) | [[literature/adhd-and-sensory-sensitivity\|Summary]] | 3 sources — see note | Sensory processing / phenotype | 2026-09-18 |
 | ADHD comorbidity overview — the differential is usually "and", not "or" (survey) | [[literature/adhd-comorbidity-overview\|Summary]] | 4 sources — see note | Comorbidity / substance use / differential | 2026-09-18 |
+| ADHD & self-esteem — a consequence of accumulated failure, and a modifiable one (survey) | [[literature/adhd-and-self-esteem\|Summary]] | 3 sources — see note | Self-esteem / outcomes / lived experience | 2026-09-18 |
 
 ## How this index works
 

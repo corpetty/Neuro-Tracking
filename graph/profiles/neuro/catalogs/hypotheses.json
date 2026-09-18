@@ -355,5 +355,17 @@
     "label": "ADHD elevates risk for substance use disorders, and is over-represented among people with SUD",
     "summary": "Prospective follow-up shows childhood ADHD predicts later abuse/dependence across nicotine, alcohol, marijuana and cocaine, and about a quarter of substance-use-disorder patients meet criteria for ADHD. The relationship runs both ways, making substance use a comorbidity worth screening for on either side.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-lowers-self-esteem",
+    "label": "ADHD is associated with lower self-esteem across the lifespan, built from accumulated negative feedback",
+    "summary": "Children, adolescents and adults with ADHD score lower on self-esteem than controls, across domains and over long-term follow-up. The leading account is not that ADHD directly lowers self-worth but that growing up with negative messages, criticism and repeated underperformance erodes it — a consequence, not a core symptom.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:self-esteem-improves-with-treatment",
+    "label": "Low self-esteem in ADHD is not fixed — it improves with treatment and support",
+    "summary": "Self-esteem difficulties in ADHD respond to intervention: long-term outcome reviews find treatment associated with improvement in most self-esteem outcomes, and psychotherapeutic work can at least partly remedy them. The negative self-concept is a modifiable consequence, which matters for how the whole picture is framed.",
+    "hasStatus": ["supported"]
   }
 ]

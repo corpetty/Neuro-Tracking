@@ -1107,5 +1107,35 @@
     "url": "https://doi.org/10.1016/j.drugalcdep.2011.12.007",
     "summary": "Meta-analysis of 29 studies: about 23% of substance-use-disorder patients meet criteria for comorbid ADHD (varying by substance and assessment method) — the reciprocal of the ADHD-to-SUD risk, showing ADHD is heavily over-represented in addiction populations.",
     "authoredBy": ["author:van-emmerik"]
+  },
+  {
+    "id": "paper:cook-2014",
+    "label": "The self-esteem of adults diagnosed with attention-deficit/hyperactivity disorder (ADHD): a systematic review of the literature",
+    "year": 2014,
+    "venue": "ADHD Attention Deficit and Hyperactivity Disorders, 6(4):249–268",
+    "doi": "10.1007/s12402-014-0133-2",
+    "url": "https://doi.org/10.1007/s12402-014-0133-2",
+    "summary": "Systematic review of 13 studies on self-esteem in adults with ADHD: adults with ADHD, who often grow up with negative messages about their abilities, show lower self-esteem, and these difficulties can be at least partly remedied by psychotherapeutic work.",
+    "authoredBy": ["author:j-cook"]
+  },
+  {
+    "id": "paper:harpin-2016",
+    "label": "Long-Term Outcomes of ADHD: A Systematic Review of Self-Esteem and Social Function",
+    "year": 2016,
+    "venue": "Journal of Attention Disorders, 20(4):295–305",
+    "doi": "10.1177/1087054713486516",
+    "url": "https://doi.org/10.1177/1087054713486516",
+    "summary": "Systematic review of 127 studies on long-term (≥2 year) outcomes: untreated ADHD was associated with poorer self-esteem and social function than non-ADHD controls, and treatment (pharmacological or not) was associated with improvement in the majority of self-esteem outcomes.",
+    "authoredBy": ["author:val-harpin"]
+  },
+  {
+    "id": "paper:mazzone-2013",
+    "label": "Self-esteem evaluation in children and adolescents suffering from ADHD",
+    "year": 2013,
+    "venue": "Clinical Practice & Epidemiology in Mental Health, 9:96–102",
+    "doi": "10.2174/1745017901309010096",
+    "url": "https://doi.org/10.2174/1745017901309010096",
+    "summary": "Case-control study (85 ADHD youth, 26 controls) using a multidimensional self-esteem test: ADHD subjects scored lower on all self-esteem domains, with far higher rates in the pathological range than controls, drug-free and drug-treated alike.",
+    "authoredBy": ["author:luigi-mazzone"]
   }
 ]

@@ -368,5 +368,16 @@
     "covers": ["symptom:inattention", "tension:adhd-vs-anxiety-internal-restlessness"],
     "argues": ["hypothesis:comorbidity-is-the-rule-in-adhd", "hypothesis:adhd-elevates-substance-use-risk", "hypothesis:adhd-anxiety-frequently-comorbid", "hypothesis:adhd-mood-frequently-comorbid", "hypothesis:adhd-autism-frequently-co-occur"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-self-esteem",
+    "label": "ADHD & self-esteem — a consequence of accumulated failure, and a modifiable one",
+    "file": "literature/adhd-and-self-esteem.md",
+    "summary": "Self-esteem is lower across the ADHD lifespan, built from years of negative feedback rather than intrinsic, part of the demoralization pathway toward depression — and it improves with treatment and support.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:cook-2014", "paper:harpin-2016", "paper:mazzone-2013"],
+    "covers": ["mechanism:low-self-esteem", "mechanism:mood-disturbance"],
+    "argues": ["hypothesis:adhd-lowers-self-esteem", "hypothesis:self-esteem-improves-with-treatment", "hypothesis:adhd-raises-depression-risk"],
+    "hasStatus": ["active"]
   }
 ]
