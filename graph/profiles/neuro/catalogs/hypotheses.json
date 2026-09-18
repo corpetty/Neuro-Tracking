@@ -405,5 +405,18 @@
     "summary": "Restriction/elimination diets, food-color avoidance and omega-3 supplementation all show small effect sizes that benefit subgroups rather than everyone, with food-color effects especially bias-prone. Reasonable low-risk adjuncts with modest expectations, not a substitute for evaluation and standard treatment.",
     "mayExplain": ["symptom:inattention"],
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:screen-media-adhd-association-is-small",
+    "label": "The association between screen/media use and ADHD-related behaviors is statistically small",
+    "summary": "Across a meta-analysis (r+ = .12), a four-decade review, and a prospective cohort, screen media use is only weakly related to ADHD-related behaviors. The link is real but modest — far from the strong causal story of public worry.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:screen-adhd-causality-unresolved",
+    "label": "Whether screen use causes ADHD is unresolved, and the relationship is plausibly bidirectional",
+    "summary": "Even the prospective evidence stops short of causation, and reviews call explicitly for causal research. Reverse causation is plausible: ADHD-related reward-seeking and need for stimulation may drive intense screen use as much as the reverse, so screens may be an expression of the trait as well as a possible contributor.",
+    "hasStatus": ["being-tested"]
   }
 ]

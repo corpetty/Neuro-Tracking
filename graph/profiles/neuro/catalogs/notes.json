@@ -412,5 +412,16 @@
     "covers": ["symptom:inattention", "symptom:impulsivity", "intervention:dietary-modification"],
     "argues": ["hypothesis:sugar-does-not-cause-hyperactivity", "hypothesis:dietary-effects-on-adhd-are-small"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-screen-time",
+    "label": "ADHD & screen time — a small association, and an unresolved arrow",
+    "file": "literature/adhd-and-screen-time.md",
+    "summary": "The screen-media/ADHD association is statistically small across meta-analysis, review and prospective cohort, and causality is unresolved and plausibly bidirectional — the 'screens cause ADHD' claim outruns the evidence.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:nikkelen-2014", "paper:ra-2018", "paper:beyens-2018"],
+    "covers": ["symptom:inattention", "symptom:impulsivity", "mechanism:reward-motivation"],
+    "argues": ["hypothesis:screen-media-adhd-association-is-small", "hypothesis:screen-adhd-causality-unresolved"],
+    "hasStatus": ["active"]
   }
 ]

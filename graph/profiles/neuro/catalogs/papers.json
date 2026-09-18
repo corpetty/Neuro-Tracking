@@ -1227,5 +1227,35 @@
     "url": "https://doi.org/10.1001/jama.1995.03530200053037",
     "summary": "Meta-analysis of 23 blinded, placebo-controlled sugar-challenge studies: sugar did not affect the behaviour or cognition of children, with the strong parental belief attributed to expectancy and association — the classic debunking of the sugar-causes-hyperactivity myth.",
     "authoredBy": ["author:mark-wolraich"]
+  },
+  {
+    "id": "paper:nikkelen-2014",
+    "label": "Media use and ADHD-related behaviors in children and adolescents: A meta-analysis",
+    "year": 2014,
+    "venue": "Developmental Psychology, 50(9):2228–2241",
+    "doi": "10.1037/a0037318",
+    "url": "https://doi.org/10.1037/a0037318",
+    "summary": "Meta-analysis of 45 studies on media use and ADHD-related behaviors (attention problems, hyperactivity, impulsivity): a small but significant overall relationship (r+ = .12), after decades of inconsistent findings.",
+    "authoredBy": ["author:sanne-nikkelen"]
+  },
+  {
+    "id": "paper:ra-2018",
+    "label": "Association of Digital Media Use With Subsequent Symptoms of Attention-Deficit/Hyperactivity Disorder Among Adolescents",
+    "year": 2018,
+    "venue": "JAMA, 320(3):255–263",
+    "doi": "10.1001/jama.2018.8931",
+    "url": "https://doi.org/10.1001/jama.2018.8931",
+    "summary": "Prospective cohort of 2,587 adolescents without significant ADHD symptoms at baseline, followed 24 months: higher-frequency digital media use was associated with a statistically significant but modest increase in subsequent ADHD symptoms, with causality left open.",
+    "authoredBy": ["author:chaelin-ra"]
+  },
+  {
+    "id": "paper:beyens-2018",
+    "label": "Screen media use and ADHD-related behaviors: Four decades of research",
+    "year": 2018,
+    "venue": "Proceedings of the National Academy of Sciences, 115(40):9875–9881",
+    "doi": "10.1073/pnas.1611611114",
+    "url": "https://doi.org/10.1073/pnas.1611611114",
+    "summary": "Systematic review of four decades of research on screen media use and ADHD-related behaviors: the evidence indicates a statistically small relationship, moderated by individual child differences, with a clear need for research on causality and mechanisms.",
+    "authoredBy": ["author:ine-beyens"]
   }
 ]
