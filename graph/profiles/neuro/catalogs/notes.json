@@ -390,5 +390,16 @@
     "covers": ["symptom:inattention", "symptom:impulsivity", "mechanism:emotional-dysregulation"],
     "argues": ["hypothesis:adhd-impairs-relationship-quality", "hypothesis:emotion-dysregulation-mediates-adhd-relationship-impact"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-exercise",
+    "label": "ADHD & exercise — a modest, real, low-risk adjunct",
+    "file": "literature/adhd-and-exercise.md",
+    "summary": "Aerobic exercise produces moderate improvements in core ADHD symptoms and executive function, acutely and chronically, plausibly via catecholamines; the effect is modest and dose-dependent, making it a low-risk adjunct rather than a replacement.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:cerrillo-urbina-2015", "paper:den-heijer-2017", "paper:vysniauske-2020"],
+    "covers": ["symptom:inattention", "symptom:impulsivity", "intervention:exercise"],
+    "argues": ["hypothesis:exercise-reduces-adhd-symptoms", "hypothesis:exercise-benefit-modest-and-dose-dependent"],
+    "hasStatus": ["active"]
   }
 ]

@@ -379,5 +379,18 @@
     "label": "The relationship impact of ADHD is partly mediated by emotional dysregulation and conflict",
     "summary": "The link between ADHD symptoms and lower relationship quality is not direct: emotion-regulation problems and hostile conflict carry much of it. This ties relationship difficulty back to the emotional-dysregulation axis rather than to inattention alone, and points to what treatment might target.",
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:exercise-reduces-adhd-symptoms",
+    "label": "Physical (especially aerobic) exercise improves ADHD symptoms and executive function, acutely and chronically",
+    "summary": "Meta-analyses and reviews find aerobic/cardio exercise produces moderate improvements in core ADHD symptoms (attention, hyperactivity, impulsivity) and in executive functions, with both acute post-bout effects and chronic effects of sustained training. A genuine, replicated behavioural benefit — plausibly catecholaminergic, in the same direction as medication.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:exercise-benefit-modest-and-dose-dependent",
+    "label": "The exercise benefit for ADHD is modest and dose-dependent — an adjunct, not a replacement",
+    "summary": "Pooled effects on functional outcomes are modest (around g=0.6) and grow with longer intervention duration rather than intensity, so exercise complements rather than substitutes for other treatment. Real and worth doing, but not a stand-alone fix, and mostly studied in children.",
+    "hasStatus": ["supported"]
   }
 ]

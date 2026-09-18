@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": "intervention:stimulant-medication",
     "label": "Stimulant medication (methylphenidate / amphetamines)",
     "summary": "First-line pharmacological treatment for ADHD with the largest symptom-reduction effects. Listed here as an option on the table, not a treatment started — nothing is in the personal record. Its diagnostic relevance is a caution: because stimulants improve attention in people without ADHD too, feeling better on a trial would not confirm the diagnosis.",
@@ -19,6 +19,14 @@
     "label": "Mindfulness-based therapy",
     "summary": "Attention-training and acceptance-based practice studied as an adjunct for ADHD, with moderate meta-analytic effects on inattention and hyperactivity/impulsivity. Promising but tentatively evidenced; an option on the table, not started.",
     "documentedIn": ["note:literature-adhd-interventions"],
+    "hasStatus": ["seed"]
+  },
+  {
+    "id": "intervention:exercise",
+    "label": "Physical exercise (aerobic / cardio)",
+    "summary": "Regular aerobic exercise as an evidence-based adjunct for ADHD: meta-analyses show moderate improvements in core symptoms and executive function, acutely and chronically, plausibly via catecholamine upregulation in the same direction as stimulants. Modest and dose-dependent (longer/more consistent helps more), a low-risk complement rather than a replacement. An option on the table, not a tracked protocol.",
+    "affects": ["symptom:inattention", "symptom:impulsivity"],
+    "documentedIn": ["note:literature-adhd-and-exercise"],
     "hasStatus": ["seed"]
   }
 ]

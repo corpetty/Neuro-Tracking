@@ -1167,5 +1167,35 @@
     "url": "https://doi.org/10.1080/07448481.2014.975717",
     "summary": "Survey of 189 undergraduates: those with clinically significant hyperactive-impulsive and inattentive symptoms reported lower romantic relationship quality than non-ADHD peers, an association mediated by emotion-regulation problems and hostile relationship conflict.",
     "authoredBy": ["author:m-bruner"]
+  },
+  {
+    "id": "paper:cerrillo-urbina-2015",
+    "label": "The effects of physical exercise in children with attention deficit hyperactivity disorder: a systematic review and meta-analysis of randomized control trials",
+    "year": 2015,
+    "venue": "Child: Care, Health and Development, 41(6):779–788",
+    "doi": "10.1111/cch.12255",
+    "url": "https://doi.org/10.1111/cch.12255",
+    "summary": "Meta-analysis of 8 RCTs (n=249): aerobic exercise had a moderate-to-large effect on core ADHD symptoms — attention (SMD 0.84), hyperactivity (0.56) and impulsivity (0.56) — in children and adolescents.",
+    "authoredBy": ["author:cerrillo-urbina"]
+  },
+  {
+    "id": "paper:den-heijer-2017",
+    "label": "Sweat it out? The effects of physical exercise on cognition and behavior in children and adults with ADHD: a systematic literature review",
+    "year": 2017,
+    "venue": "Journal of Neural Transmission, 124(Suppl 1):3–26",
+    "doi": "10.1007/s00702-016-1593-7",
+    "url": "https://doi.org/10.1007/s00702-016-1593-7",
+    "summary": "Systematic review of physical exercise in ADHD organised by exercise type, acute versus chronic effect, and outcome: cardio exercise is acutely beneficial for executive functions (e.g., impulsivity), response time and physical measures, with beneficial chronic effects as well.",
+    "authoredBy": ["author:den-heijer"]
+  },
+  {
+    "id": "paper:vysniauske-2020",
+    "label": "The Effects of Physical Exercise on Functional Outcomes in the Treatment of ADHD: A Meta-Analysis",
+    "year": 2020,
+    "venue": "Journal of Attention Disorders, 24(5):644–654",
+    "doi": "10.1177/1087054715627489",
+    "url": "https://doi.org/10.1177/1087054715627489",
+    "summary": "Meta-analysis of 10 studies of exercise effects on motor skills and executive functions in children with ADHD: a significant overall effect (g=0.627), larger with longer intervention duration and unrelated to intensity, age or gender — a modest, dose-dependent benefit.",
+    "authoredBy": ["author:vysniauske"]
   }
 ]
