@@ -1197,5 +1197,35 @@
     "url": "https://doi.org/10.1177/1087054715627489",
     "summary": "Meta-analysis of 10 studies of exercise effects on motor skills and executive functions in children with ADHD: a significant overall effect (g=0.627), larger with longer intervention duration and unrelated to intensity, age or gender — a modest, dose-dependent benefit.",
     "authoredBy": ["author:vysniauske"]
+  },
+  {
+    "id": "paper:nigg-2012",
+    "label": "Meta-analysis of attention-deficit/hyperactivity disorder or attention-deficit/hyperactivity disorder symptoms, restriction diet, and synthetic food color additives",
+    "year": 2012,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 51(1):86–97",
+    "doi": "10.1016/j.jaac.2011.10.015",
+    "url": "https://doi.org/10.1016/j.jaac.2011.10.015",
+    "summary": "Meta-analysis of restriction diets (g=0.29) and synthetic food colors (parent-rated g=0.18, falling to 0.12 after publication-bias correction): a restriction diet benefits some children, while food-color effects are small and susceptible to bias — modest, subgroup-specific dietary effects.",
+    "authoredBy": ["author:joel-nigg"]
+  },
+  {
+    "id": "paper:bloch-2011",
+    "label": "Omega-3 fatty acid supplementation for the treatment of children with attention-deficit/hyperactivity disorder symptomatology: systematic review and meta-analysis",
+    "year": 2011,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 50(10):991–1000",
+    "doi": "10.1016/j.jaac.2011.06.008",
+    "url": "https://doi.org/10.1016/j.jaac.2011.06.008",
+    "summary": "Meta-analysis of 10 RCTs (699 children): omega-3 supplementation, especially higher-EPA formulations, was modestly effective for ADHD symptoms — less than standard pharmacotherapy, but with a benign side-effect profile, reasonable as augmentation or where medication is declined.",
+    "authoredBy": ["author:michael-bloch"]
+  },
+  {
+    "id": "paper:wolraich-1995",
+    "label": "The effect of sugar on behavior or cognition in children. A meta-analysis",
+    "year": 1995,
+    "venue": "JAMA, 274(20):1617–1621",
+    "doi": "10.1001/jama.1995.03530200053037",
+    "url": "https://doi.org/10.1001/jama.1995.03530200053037",
+    "summary": "Meta-analysis of 23 blinded, placebo-controlled sugar-challenge studies: sugar did not affect the behaviour or cognition of children, with the strong parental belief attributed to expectancy and association — the classic debunking of the sugar-causes-hyperactivity myth.",
+    "authoredBy": ["author:mark-wolraich"]
   }
 ]

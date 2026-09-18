@@ -28,5 +28,12 @@
     "affects": ["symptom:inattention", "symptom:impulsivity"],
     "documentedIn": ["note:literature-adhd-and-exercise"],
     "hasStatus": ["seed"]
+  },
+  {
+    "id": "intervention:dietary-modification",
+    "label": "Dietary modification (elimination diet, omega-3, additive avoidance)",
+    "summary": "Dietary approaches to ADHD with modest, variable evidence: restriction/elimination diets help some children (g≈0.29), omega-3 supplementation is modestly effective (below medication), and synthetic-food-color avoidance shows small, bias-prone effects. Not a primary treatment; a low-risk adjunct worth trying with modest expectations for a subgroup. Notably, the sugar-causes-hyperactivity belief is not supported.",
+    "documentedIn": ["note:literature-adhd-and-diet"],
+    "hasStatus": ["seed"]
   }
 ]

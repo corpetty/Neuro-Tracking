@@ -392,5 +392,18 @@
     "label": "The exercise benefit for ADHD is modest and dose-dependent — an adjunct, not a replacement",
     "summary": "Pooled effects on functional outcomes are modest (around g=0.6) and grow with longer intervention duration rather than intensity, so exercise complements rather than substitutes for other treatment. Real and worth doing, but not a stand-alone fix, and mostly studied in children.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:sugar-does-not-cause-hyperactivity",
+    "label": "The popular belief that sugar causes hyperactivity is not supported",
+    "summary": "Blinded, placebo-controlled sugar-challenge studies find no effect of sugar on children's behaviour or cognition; the widespread parental conviction is attributed to expectancy and coincidental association. One of the most entrenched ADHD folk beliefs, and a false one.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:dietary-effects-on-adhd-are-small",
+    "label": "Dietary interventions have small, variable effects on ADHD — helpful for some, not a primary treatment",
+    "summary": "Restriction/elimination diets, food-color avoidance and omega-3 supplementation all show small effect sizes that benefit subgroups rather than everyone, with food-color effects especially bias-prone. Reasonable low-risk adjuncts with modest expectations, not a substitute for evaluation and standard treatment.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
   }
 ]

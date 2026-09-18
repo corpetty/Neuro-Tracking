@@ -106,5 +106,7 @@
   { "id": "author:m-bruner", "label": "M. R. Bruner" },
   { "id": "author:cerrillo-urbina", "label": "A. J. Cerrillo-Urbina" },
   { "id": "author:den-heijer", "label": "A. E. Den Heijer" },
-  { "id": "author:vysniauske", "label": "R. Vysniauske" }
+  { "id": "author:vysniauske", "label": "R. Vysniauske" },
+  { "id": "author:michael-bloch", "label": "Michael H. Bloch" },
+  { "id": "author:mark-wolraich", "label": "Mark L. Wolraich" }
 ]

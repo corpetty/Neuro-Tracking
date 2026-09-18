@@ -401,5 +401,16 @@
     "covers": ["symptom:inattention", "symptom:impulsivity", "intervention:exercise"],
     "argues": ["hypothesis:exercise-reduces-adhd-symptoms", "hypothesis:exercise-benefit-modest-and-dose-dependent"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-diet",
+    "label": "ADHD & diet — the sugar myth, and the small print on the rest",
+    "file": "literature/adhd-and-diet.md",
+    "summary": "The sugar-causes-hyperactivity belief is unsupported; elimination diets, omega-3 and food-color avoidance have small, subgroup-specific effects — diet is a low-risk adjunct with modest expectations, not a primary treatment.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:nigg-2012", "paper:bloch-2011", "paper:wolraich-1995"],
+    "covers": ["symptom:inattention", "symptom:impulsivity", "intervention:dietary-modification"],
+    "argues": ["hypothesis:sugar-does-not-cause-hyperactivity", "hypothesis:dietary-effects-on-adhd-are-small"],
+    "hasStatus": ["active"]
   }
 ]
