@@ -1,6 +1,6 @@
 {
   "nodes": 321,
-  "edges": 853,
+  "edges": 854,
   "warnings": 0,
   "byNodeType": {
     "Status": 9,
@@ -36,7 +36,7 @@
     "dependsOn": 9,
     "authoredBy": 116,
     "tensionWith": 26,
-    "wikiLinks": 114,
+    "wikiLinks": 115,
     "supports": 114,
     "pressureTests": 11
   }
