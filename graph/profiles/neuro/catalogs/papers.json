@@ -1287,5 +1287,35 @@
     "url": "https://doi.org/10.1037/0033-2909.133.1.65",
     "summary": "Meta-analysis of 691 correlations on procrastination: its strong, consistent predictors are task aversiveness, task delay, low self-efficacy and impulsiveness (plus low conscientiousness, self-control, distractibility), consistent with temporal motivation theory built on hyperbolic discounting — a general self-regulatory failure.",
     "authoredBy": ["author:piers-steel"]
+  },
+  {
+    "id": "paper:mueller-2012",
+    "label": "Stigma in attention deficit hyperactivity disorder",
+    "year": 2012,
+    "venue": "ADHD Attention Deficit and Hyperactivity Disorders, 4(3):101–114",
+    "doi": "10.1007/s12402-012-0085-3",
+    "url": "https://doi.org/10.1007/s12402-012-0085-3",
+    "summary": "Review of empirical research on ADHD stigma across children, adults and relatives: people with ADHD are at high risk of stigma, prejudice and discrimination, with contributors including public uncertainty about the validity of the ADHD diagnosis, perceived dangerousness, and skepticism toward ADHD medication.",
+    "authoredBy": ["author:anna-mueller"]
+  },
+  {
+    "id": "paper:masuch-2019",
+    "label": "Internalized stigma, anticipated discrimination and perceived public stigma in adults with ADHD",
+    "year": 2019,
+    "venue": "ADHD Attention Deficit and Hyperactivity Disorders, 11(2):211–220",
+    "doi": "10.1007/s12402-018-0274-9",
+    "url": "https://doi.org/10.1007/s12402-018-0274-9",
+    "summary": "Survey of 104 adults with ADHD: 23% reported high internalized stigma, 89% anticipated discrimination and 69% perceived public stigma; stigma correlated with symptoms, distress, self-esteem, impairment and quality of life, and the most frequent stereotype was doubt about the validity of ADHD as a disorder.",
+    "authoredBy": ["author:t-masuch"]
+  },
+  {
+    "id": "paper:lebowitz-2016",
+    "label": "Stigmatization of ADHD: A Developmental Review",
+    "year": 2016,
+    "venue": "Journal of Attention Disorders, 20(3):199–205",
+    "doi": "10.1177/1087054712475211",
+    "url": "https://doi.org/10.1177/1087054712475211",
+    "summary": "Developmental review of ADHD stigma across ages of target and perceiver: nationally representative, experimental, survey and qualitative evidence indicates people of all ages with ADHD symptoms face substantial stigmatization, present throughout development.",
+    "authoredBy": ["author:matthew-lebowitz"]
   }
 ]

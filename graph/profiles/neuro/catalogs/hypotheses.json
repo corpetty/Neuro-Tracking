@@ -432,5 +432,17 @@
     "summary": "Procrastination is best understood as failure of self-regulation and volition — predicted by executive-function weaknesses and by impulsiveness, distractibility and task-delay, and captured by temporal-motivation/hyperbolic-discounting models. That profile is precisely ADHD's, so ADHD is the extreme of the procrastination-prone temperament rather than a separate story.",
     "mayExplain": ["symptom:inattention"],
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-carries-substantial-stigma",
+    "label": "ADHD carries substantial stigma across the lifespan, driven largely by public doubt about the disorder’s validity",
+    "summary": "People with ADHD symptoms of all ages face substantial stigma, prejudice and discrimination, and the most frequent stereotype is doubt about whether ADHD is a real disorder. The stigma rests substantially on a factual question the dimensional, genetic and neurobiological evidence in this notebook already answers.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:internalized-stigma-adds-burden",
+    "label": "Internalized stigma and anticipated discrimination are prevalent in adults with ADHD and add to the burden of disease",
+    "summary": "A large fraction of adults with ADHD internalize stigma and anticipate discrimination, and these correlate with symptoms, distress, lower self-esteem, impairment and reduced quality of life. Stigma is not just an external attitude but a measurable added load carried by the person.",
+    "hasStatus": ["supported"]
   }
 ]

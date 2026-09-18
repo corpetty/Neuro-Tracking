@@ -434,5 +434,16 @@
     "covers": ["symptom:inattention", "mechanism:executive-function", "mechanism:reward-delay-aversion"],
     "argues": ["hypothesis:procrastination-linked-to-adhd", "hypothesis:procrastination-is-self-regulation-failure"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-stigma",
+    "label": "ADHD & stigma — the \"is it even real\" problem, inside and out",
+    "file": "literature/adhd-and-stigma.md",
+    "summary": "ADHD faces substantial lifelong stigma driven largely by public doubt about its validity; adults commonly internalize it, which adds to the burden and lowers self-esteem — a doubt the notebook’s own evidence base directly answers.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:mueller-2012", "paper:masuch-2019", "paper:lebowitz-2016"],
+    "covers": ["mechanism:low-self-esteem"],
+    "argues": ["hypothesis:adhd-carries-substantial-stigma", "hypothesis:internalized-stigma-adds-burden"],
+    "hasStatus": ["active"]
   }
 ]

@@ -17,7 +17,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 - **What to *do* about it.** [[literature/adult-adhd-assessment|The adult assessment]] turns a positive screen into a concrete next step, [[literature/adhd-interventions|Interventions]] cover what treatment can and — crucially — cannot tell you about the diagnosis, [[literature/adhd-and-exercise|exercise]] is the best-evidenced no-prescription lever, modest but real, and [[literature/adhd-and-diet|diet]] calibrates the lifestyle claims — the sugar myth debunked, the rest small.
 - **What's *underneath*.** [[literature/adhd-neurobiology-imaging|Neurobiology & imaging]] adds the brain to the etiology level, along with why a scan cannot diagnose an individual.
 - **Reading the popular claims.** [[literature/adhd-and-rejection-sensitivity|Rejection sensitivity]] and [[literature/adhd-and-hyperfocus|hyperfocus]] each separate a fast-spreading label from the evidence — a real phenomenon underneath, but a thin, non-specific ADHD case — and [[literature/adhd-and-screen-time|screen time]] calibrates the "screens cause ADHD" worry: a small association with an unresolved, plausibly bidirectional arrow. A template for taking a popular ADHD idea seriously without swallowing it whole.
-- **Living with it — the human cost.** [[literature/adhd-and-self-esteem|Self-esteem]] traces how years of negative feedback erode self-worth in ADHD — reframing the "lazy/unreliable" self-story as an accumulated consequence rather than a character fact, and one that improves with treatment and support; [[literature/adhd-and-relationships|relationships]] shows the strain ADHD puts on couples and families, carried substantially by emotional dysregulation rather than inattention alone.
+- **Living with it — the human cost.** [[literature/adhd-and-self-esteem|Self-esteem]] traces how years of negative feedback erode self-worth in ADHD — reframing the "lazy/unreliable" self-story as an accumulated consequence rather than a character fact, and one that improves with treatment and support; [[literature/adhd-and-relationships|relationships]] shows the strain ADHD puts on couples and families, carried substantially by emotional dysregulation rather than inattention alone; and [[literature/adhd-and-stigma|stigma]] documents the substantial, internalized "is it even real" prejudice — whose validity premise the notebook's own evidence refutes.
 
 ## Papers
 
@@ -48,6 +48,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 | ADHD & diet — the sugar myth, and the small print on the rest (survey) | [[literature/adhd-and-diet\|Summary]] | 3 sources — see note | Intervention / diet / evidence appraisal | 2026-09-18 |
 | ADHD & screen time — a small association, and an unresolved arrow (survey) | [[literature/adhd-and-screen-time\|Summary]] | 3 sources — see note | Digital media / evidence appraisal | 2026-09-18 |
 | ADHD & procrastination — a self-regulation failure, not a scheduling one (survey) | [[literature/adhd-and-procrastination\|Summary]] | 3 sources — see note | Self-regulation / executive function | 2026-09-18 |
+| ADHD & stigma — the "is it even real" problem, inside and out (survey) | [[literature/adhd-and-stigma\|Summary]] | 3 sources — see note | Stigma / validity / lived experience | 2026-09-18 |
 
 ## How this index works
 
