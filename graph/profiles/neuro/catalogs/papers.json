@@ -1087,5 +1087,25 @@
     "url": "https://doi.org/10.1016/j.comppsych.2017.10.008",
     "summary": "Online study of 234 adults: ADHD traits correlated highly with the frequency of sensory processing problems across all modalities, ADHD traits predicted sensory difficulties, and a factor combined ADHD-trait and sensory items — the first general-population evidence that sensory difficulty tracks ADHD traits dimensionally.",
     "authoredBy": ["author:maria-panagiotidi"]
+  },
+  {
+    "id": "paper:lee-2011",
+    "label": "Prospective association of childhood attention-deficit/hyperactivity disorder (ADHD) and substance use and abuse/dependence: a meta-analytic review",
+    "year": 2011,
+    "venue": "Clinical Psychology Review, 31(3):328–341",
+    "doi": "10.1016/j.cpr.2011.01.006",
+    "url": "https://doi.org/10.1016/j.cpr.2011.01.006",
+    "summary": "Meta-analysis of longitudinal studies following children with and without ADHD into adolescence/adulthood: childhood ADHD predicted later abuse/dependence for nicotine, alcohol, marijuana, cocaine and other substances — prospective evidence that ADHD is an early risk factor for substance disorders.",
+    "authoredBy": ["author:steve-lee"]
+  },
+  {
+    "id": "paper:van-emmerik-2012",
+    "label": "Prevalence of attention-deficit hyperactivity disorder in substance use disorder patients: a meta-analysis and meta-regression analysis",
+    "year": 2012,
+    "venue": "Drug and Alcohol Dependence, 122(1-2):11–19",
+    "doi": "10.1016/j.drugalcdep.2011.12.007",
+    "url": "https://doi.org/10.1016/j.drugalcdep.2011.12.007",
+    "summary": "Meta-analysis of 29 studies: about 23% of substance-use-disorder patients meet criteria for comorbid ADHD (varying by substance and assessment method) — the reciprocal of the ADHD-to-SUD risk, showing ADHD is heavily over-represented in addiction populations.",
+    "authoredBy": ["author:van-emmerik"]
   }
 ]

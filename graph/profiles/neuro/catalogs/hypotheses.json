@@ -342,5 +342,18 @@
     "label": "Sensory difficulties may be part of the ADHD phenotype itself, not merely autism comorbidity",
     "summary": "Sensory atypicality is a core feature of autism, and ADHD and autism co-occur — but atypical sensory profiles appear in adult ADHD irrespective of autistic symptoms, and general-population data suggest sensory difficulty could be part of the ADHD phenotype. The area remains under-studied and questionnaire-based, so this is emerging rather than settled.",
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:comorbidity-is-the-rule-in-adhd",
+    "label": "In ADHD, comorbidity is the rule rather than the exception",
+    "summary": "Most adults with ADHD carry at least one co-occurring psychiatric disorder — anxiety, mood, substance use, personality, autism, sleep and learning disorders foremost. This makes the differential usually a matter of 'and', not 'or': the question is rarely ADHD versus one rival but which conditions co-occur and how they interact.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-elevates-substance-use-risk",
+    "label": "ADHD elevates risk for substance use disorders, and is over-represented among people with SUD",
+    "summary": "Prospective follow-up shows childhood ADHD predicts later abuse/dependence across nicotine, alcohol, marijuana and cocaine, and about a quarter of substance-use-disorder patients meet criteria for ADHD. The relationship runs both ways, making substance use a comorbidity worth screening for on either side.",
+    "hasStatus": ["supported"]
   }
 ]
