@@ -1397,5 +1397,25 @@
     "url": "https://doi.org/10.3389/fgwh.2025.1613628",
     "summary": "Eunethydis Special Interest Group review of female ADHD across the lifespan, framing the lifelong interplay of hormonal fluctuations with mood, cognition and disease, and highlighting late diagnosis, puberty, hormonal birth control, executive-function difficulties and associated gynaecological disorders.",
     "authoredBy": ["author:sandra-kooij"]
+  },
+  {
+    "id": "paper:hoogman-creativity-2020",
+    "label": "Creativity and ADHD: A review of behavioral studies, the effect of psychostimulants and neural underpinnings",
+    "year": 2020,
+    "venue": "Neuroscience & Biobehavioral Reviews, 119:66–85",
+    "doi": "10.1016/j.neubiorev.2020.09.029",
+    "url": "https://doi.org/10.1016/j.neubiorev.2020.09.029",
+    "summary": "Review of 31 behavioral studies on creativity and ADHD: increased divergent thinking appears mainly at subclinical (high-trait) rather than clinical levels, creative abilities/achievements are high in both, there is no convergent-thinking advantage, and psychostimulants do not overall reduce creativity.",
+    "authoredBy": ["author:martine-hoogman"]
+  },
+  {
+    "id": "paper:boot-2020",
+    "label": "Creativity in ADHD: Goal-Directed Motivation and Domain Specificity",
+    "year": 2020,
+    "venue": "Journal of Attention Disorders, 24(13):1857–1866",
+    "doi": "10.1177/1087054717727352",
+    "url": "https://doi.org/10.1177/1087054717727352",
+    "summary": "Two studies of adults with ADHD: they reported more real-world creative achievements and generated more original ideas when competing for a bonus, suggesting goal-directed motivation drives their creative achievement and that they selectively excel in self-chosen creative domains.",
+    "authoredBy": ["author:nathalie-boot"]
   }
 ]

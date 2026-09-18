@@ -478,5 +478,16 @@
     "covers": ["symptom:inattention", "mechanism:reproductive-hormone-modulation", "mechanism:mood-disturbance"],
     "argues": ["hypothesis:sex-hormones-modulate-adhd-across-lifespan", "hypothesis:hormone-related-mood-disorders-elevated-in-adhd", "hypothesis:female-adhd-symptoms-hormone-sensitive"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-creativity",
+    "label": "ADHD & creativity — a real, trait-level, interest-driven edge, not a superpower",
+    "file": "literature/adhd-and-creativity.md",
+    "summary": "ADHD's creativity link is real but nuanced: a divergent-thinking advantage at trait (not clinical) level and for idea generation only, with real-world achievement driven by goal-directed motivation in self-chosen domains — the 'superpower' framing overstates it.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:hoogman-creativity-2020", "paper:boot-2020"],
+    "covers": ["mechanism:reward-motivation"],
+    "argues": ["hypothesis:adhd-creativity-link-is-real-but-nuanced", "hypothesis:adhd-creative-achievement-is-motivation-and-domain-driven"],
+    "hasStatus": ["active"]
   }
 ]
