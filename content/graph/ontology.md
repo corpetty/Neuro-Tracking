@@ -15,17 +15,17 @@ Ontology for Neuro-Tracking: a personal neuro/cognitive research notebook. Two a
 
 | Type | Id prefix | Is… | Count |
 |---|---|---|---|
-| **Note** | `note:` | A page in the garden — a paper summary, a symptom log, a session note, an index. The only type that owns prose on the site. | 34 |
+| **Note** | `note:` | A page in the garden — a paper summary, a symptom log, a session note, an index. The only type that owns prose on the site. | 35 |
 | **Session** | `session:` | A dated event in the case: a self-administered test, a therapy conversation, a clinical appointment, a deliberate journalling pass. The unit of 'what we did and when'. | 1 |
 | **Symptom** | `symptom:` | An experienced pattern being tracked — described phenomenologically, not diagnostically. | 3 |
 | **Instrument** | `instrument:` | A measurement tool: a screener, a questionnaire, a cognitive task, a lab panel, a wearable metric. | 12 |
 | **Finding** | `finding:` | A concrete result produced by a Session — a score, a clinician's observation, a lab value. Facts about the case, distinct from what they might mean. | 3 |
 | **Intervention** | `intervention:` | Something deliberately changed and tracked over time: medication, sleep protocol, therapy, exercise, caffeine, environment. | 3 |
-| **Mechanism** | `mechanism:` | A named cognitive/neural construct the notebook reuses: response inhibition, statistical learning, mind-wandering, executive function. | 25 |
-| **Hypothesis** | `hypothesis:` | A load-bearing assertion the notebook is trying to defend or falsify. Never a diagnosis — always something that can be pressure-tested. | 51 |
+| **Mechanism** | `mechanism:` | A named cognitive/neural construct the notebook reuses: response inhibition, statistical learning, mind-wandering, executive function. | 26 |
+| **Hypothesis** | `hypothesis:` | A load-bearing assertion the notebook is trying to defend or falsify. Never a diagnosis — always something that can be pressure-tested. | 53 |
 | **Question** | `question:` | An open problem the notebook is working on; can gate a Note, a Hypothesis, or a next Session. | 4 |
-| **Paper** | `paper:` | An external work cited: journal article, preprint, book, clinical guideline. | 106 |
-| **Author** | `author:` | Who produced a Paper. | 95 |
+| **Paper** | `paper:` | An external work cited: journal article, preprint, book, clinical guideline. | 109 |
+| **Author** | `author:` | Who produced a Paper. | 97 |
 | **Tension** | `tension:` | A competing-explanation or trade-off held open on purpose — e.g. ADHD vs. anxiety as the source of the same symptom. Reified so it cannot quietly resolve itself. | 16 |
 | **Status** | `status:` | Lifecycle status (a hub-transit type: reachable but never traversed through). | 9 |
 
@@ -39,10 +39,10 @@ _Where a thing sits: containment, coverage, what measures what._
 
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
-| `partOf` | Note → Note | Note belongs to a parent Note (section index). | 33 |
-| `covers` | Note → Symptom \| Finding \| Session \| Instrument \| Intervention \| Mechanism \| Hypothesis \| Question \| Tension | This note is where the thing is written up. | 68 |
+| `partOf` | Note → Note | Note belongs to a parent Note (section index). | 34 |
+| `covers` | Note → Symptom \| Finding \| Session \| Instrument \| Intervention \| Mechanism \| Hypothesis \| Question \| Tension | This note is where the thing is written up. | 71 |
 | `measures` | Instrument → Symptom \| Mechanism | Instrument is designed to measure this symptom domain or construct. | 23 |
-| `hasStatus` | Note \| Hypothesis \| Question \| Intervention → Status | Node has this lifecycle status. | 88 |
+| `hasStatus` | Note \| Hypothesis \| Question \| Intervention → Status | Node has this lifecycle status. | 91 |
 
 ### temporal
 
@@ -62,7 +62,7 @@ _What might explain or affect what. Always hypothetical in this corpus._
 
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
-| `mayExplain` | Mechanism \| Hypothesis \| Intervention → Symptom \| Finding | Candidate explanation for an experience or result. HYPOTHETICAL by construction — never a diagnosis. | 49 |
+| `mayExplain` | Mechanism \| Hypothesis \| Intervention → Symptom \| Finding | Candidate explanation for an experience or result. HYPOTHETICAL by construction — never a diagnosis. | 53 |
 | `affects` | Intervention → Symptom \| Mechanism \| Finding | Intervention is being tracked for its effect on this. | 0 |
 | `derivesFrom` | Mechanism \| Hypothesis → Mechanism \| Hypothesis | X is built on / specialises Y. | 5 |
 
@@ -73,9 +73,9 @@ _Where a thing came from: which note records it, which paper, which author._
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
 | `documentedIn` | Session \| Finding \| Symptom \| Intervention \| Tension → Note | The case fact is written up in this note. | 28 |
-| `definedIn` | Mechanism → Note | Mechanism has its primary development in this note. | 25 |
-| `cites` | Note → Paper | Note cites a paper (a deliberate act, never inferred from prose). | 115 |
-| `authoredBy` | Paper → Author | Paper authored by Author. | 129 |
+| `definedIn` | Mechanism → Note | Mechanism has its primary development in this note. | 26 |
+| `cites` | Note → Paper | Note cites a paper (a deliberate act, never inferred from prose). | 118 |
+| `authoredBy` | Paper → Author | Paper authored by Author. | 132 |
 
 ### dialectical
 
@@ -83,8 +83,8 @@ _What is contested: evidence, confounds, contradictions, supersession, open ques
 
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
-| `supports` | Paper → Hypothesis \| Mechanism · carries evidence | Paper supports this hypothesis/mechanism. The edge carries the verbatim quote + page locator + confidence + rationale, so a fact and its justification travel together. | 135 |
-| `pressureTests` | Paper → Hypothesis \| Mechanism · carries evidence | Paper challenges/qualifies this hypothesis/mechanism. Same evidence payload. | 12 |
+| `supports` | Paper → Hypothesis \| Mechanism · carries evidence | Paper supports this hypothesis/mechanism. The edge carries the verbatim quote + page locator + confidence + rationale, so a fact and its justification travel together. | 140 |
+| `pressureTests` | Paper → Hypothesis \| Mechanism · carries evidence | Paper challenges/qualifies this hypothesis/mechanism. Same evidence payload. | 13 |
 | `confounds` | Mechanism \| Symptom \| Intervention → Hypothesis | A rival explanation that must be ruled out before the hypothesis can stand. The honesty predicate of this ontology. | 6 |
 | `contradicts` | Hypothesis \| Mechanism \| Finding → Hypothesis \| Mechanism \| Finding (undirected) | Direct contradiction. | 0 |
 | `tensionWith` | Hypothesis \| Mechanism \| Symptom \| Finding \| Tension → Hypothesis \| Mechanism \| Symptom \| Finding (undirected) | In unresolved tension with (both endpoints stay live). | 30 |
@@ -97,7 +97,7 @@ _Argument structure: arguing, depending._
 
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
-| `argues` | Note → Hypothesis | Note argues this hypothesis. | 60 |
+| `argues` | Note → Hypothesis | Note argues this hypothesis. | 62 |
 | `dependsOn` | Hypothesis → Hypothesis \| Question \| Finding | Hypothesis rests on another hypothesis, on a question resolving a particular way, or on a finding holding up. | 9 |
 
 ### weak
@@ -106,7 +106,7 @@ _Casual cross-links for navigation only — deliberately kept out of the argumen
 
 | Predicate | Shape | Means | Count |
 |---|---|---|---|
-| `wikiLinks` | Note → Note \| Session \| Symptom \| Finding \| Instrument \| Intervention \| Mechanism \| Hypothesis \| Question \| Paper \| Tension \| Author | Wiki-style link parsed from prose. Navigation only — kept out of the argument graph. | 136 |
+| `wikiLinks` | Note → Note \| Session \| Symptom \| Finding \| Instrument \| Intervention \| Mechanism \| Hypothesis \| Question \| Paper \| Tension \| Author | Wiki-style link parsed from prose. Navigation only — kept out of the argument graph. | 141 |
 | `mentions` | Note → Mechanism \| Hypothesis \| Paper \| Symptom | Free-text mention — navigation, not argument. | 0 |
 
 ## Lifecycle statuses
@@ -132,4 +132,4 @@ Each node type is authored in one JSON file under `graph/profiles/neuro/catalogs
 | `catalogs/authors.json` | Author | — |
 | `catalogs/tensions.json` | Tension | `tensionWith`, `documentedIn` |
 
-_362 nodes · 981 edges · ontology v0.1.0._
+_371 nodes · 1012 edges · ontology v0.1.0._

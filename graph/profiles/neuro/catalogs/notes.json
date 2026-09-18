@@ -346,5 +346,16 @@
     "covers": ["symptom:inattention", "symptom:internal-restlessness", "mechanism:working-memory", "instrument:working-memory-task", "tension:hyperactivity-deficit-or-compensation"],
     "argues": ["hypothesis:wm-deficit-central-and-persistent", "hypothesis:hyperactivity-may-be-compensatory-for-wm", "hypothesis:multiple-neurocognitive-pathways"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-sensory-sensitivity",
+    "label": "ADHD & sensory sensitivity — atypical, dimensional, and not only autism",
+    "file": "literature/adhd-and-sensory-sensitivity.md",
+    "summary": "Sensory hyper- and hyposensitivity is elevated in ADHD, tracks ADHD traits dimensionally, and appears irrespective of autistic symptoms — an emerging, under-studied and transdiagnostic feature rather than a diagnostic sign.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:bijlenga-2017", "paper:ghanizadeh-2011", "paper:panagiotidi-2018"],
+    "covers": ["symptom:inattention", "symptom:internal-restlessness", "mechanism:sensory-sensitivity"],
+    "argues": ["hypothesis:sensory-sensitivity-elevated-in-adhd", "hypothesis:sensory-difficulties-part-of-adhd-phenotype-not-just-autism"],
+    "hasStatus": ["active"]
   }
 ]

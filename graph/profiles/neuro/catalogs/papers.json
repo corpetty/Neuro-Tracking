@@ -1057,5 +1057,35 @@
     "url": "https://doi.org/10.1007/s10802-015-0011-1",
     "summary": "Objective study of gross motor activity during working-memory tasks in boys with ADHD (n=29) vs controls (n=23): higher activity predicted significantly better (though not normalised) working-memory performance in ADHD, but somewhat worse performance in typically developing children — evidence that hyperactivity may be partly compensatory.",
     "authoredBy": ["author:dustin-sarver"]
+  },
+  {
+    "id": "paper:bijlenga-2017",
+    "label": "Atypical sensory profiles as core features of adult ADHD, irrespective of autistic symptoms",
+    "year": 2017,
+    "venue": "European Psychiatry, 43:51–57",
+    "doi": "10.1016/j.eurpsy.2017.02.481",
+    "url": "https://doi.org/10.1016/j.eurpsy.2017.02.481",
+    "summary": "116 adults with ADHD completed the Adolescent/Adult Sensory Profile and Autism-spectrum Quotient: they showed both more hyper- and hyposensitivity than norms (especially auditory and activity-level), with a dose-response relationship to ADHD severity, present irrespective of autistic symptoms.",
+    "authoredBy": ["author:denise-bijlenga"]
+  },
+  {
+    "id": "paper:ghanizadeh-2011",
+    "label": "Sensory processing problems in children with ADHD, a systematic review",
+    "year": 2011,
+    "venue": "Psychiatry Investigation, 8(2):89–94",
+    "doi": "10.4306/pi.2011.8.2.89",
+    "url": "https://doi.org/10.4306/pi.2011.8.2.89",
+    "summary": "Systematic review (11 ADHD studies): sensory processing problems are more common in children with ADHD than in typically developing children, do not distinguish ADHD subtypes, and are worse with comorbid ODD/anxiety — while noting the area is not well studied.",
+    "authoredBy": ["author:ahmad-ghanizadeh"]
+  },
+  {
+    "id": "paper:panagiotidi-2018",
+    "label": "The relationship between ADHD traits and sensory sensitivity in the general population",
+    "year": 2018,
+    "venue": "Comprehensive Psychiatry, 80:179–185",
+    "doi": "10.1016/j.comppsych.2017.10.008",
+    "url": "https://doi.org/10.1016/j.comppsych.2017.10.008",
+    "summary": "Online study of 234 adults: ADHD traits correlated highly with the frequency of sensory processing problems across all modalities, ADHD traits predicted sensory difficulties, and a factor combined ADHD-trait and sensory items — the first general-population evidence that sensory difficulty tracks ADHD traits dimensionally.",
+    "authoredBy": ["author:maria-panagiotidi"]
   }
 ]

@@ -329,5 +329,18 @@
     "summary": "When gross motor activity was measured during working-memory tasks, higher activity predicted better working-memory performance in children with ADHD (but worse in typically developing children). This reframes at least some hyperactivity and restlessness as a compensatory mechanism recruited to support cognition, not purely a symptom to suppress.",
     "mayExplain": ["symptom:internal-restlessness"],
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:sensory-sensitivity-elevated-in-adhd",
+    "label": "Atypical sensory sensitivity (hyper- and hypo-) is elevated in ADHD and tracks ADHD traits dimensionally",
+    "summary": "Adults and children with ADHD report more sensory hyper- and hyposensitivity than norm groups, and in the general population sensory difficulty rises with ADHD-trait level (a dose-response, all-modalities relationship). Consistent across clinical and non-clinical samples, fitting the trait-continuum view.",
+    "mayExplain": ["symptom:inattention", "symptom:internal-restlessness"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:sensory-difficulties-part-of-adhd-phenotype-not-just-autism",
+    "label": "Sensory difficulties may be part of the ADHD phenotype itself, not merely autism comorbidity",
+    "summary": "Sensory atypicality is a core feature of autism, and ADHD and autism co-occur — but atypical sensory profiles appear in adult ADHD irrespective of autistic symptoms, and general-population data suggest sensory difficulty could be part of the ADHD phenotype. The area remains under-studied and questionnaire-based, so this is emerging rather than settled.",
+    "hasStatus": ["being-tested"]
   }
 ]
