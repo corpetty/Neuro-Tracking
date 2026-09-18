@@ -457,5 +457,18 @@
     "label": "Melatonin reliably advances sleep onset and circadian phase in ADHD but does not directly improve ADHD symptoms",
     "summary": "In a randomised trial, melatonin advanced sleep onset and dim-light melatonin onset and increased total sleep, but had no significant effect on behaviour, cognition or quality of life. It targets the delayed body clock, which matters given the circadian delay common in ADHD, but is a sleep treatment rather than an ADHD treatment.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:coping-skills-reduce-adhd-symptoms",
+    "label": "CBT-taught coping and self-management skills reduce ADHD symptoms, even in medicated adults",
+    "summary": "A skills-based CBT (organisation, planning, coping, cognitive restructuring) added to stable medication lowered clinician- and self-rated ADHD symptoms and global severity relative to medication alone. Learnable coping strategies are an evidence-based lever that adds to, rather than merely substitutes for, other treatment.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:compensation-is-effortful-and-uneven",
+    "label": "Compensatory coping in ADHD works but is effortful, and its long-term quality-of-life payoff is uneven",
+    "summary": "Adults with ADHD lean on effortful strategies — routine and habit, reframing, symptom-specific tactics — and simply must work harder than peers to keep up; yet the long-term quality-of-life benefit of coping-focused CBT was not confirmed. Coping reduces symptoms more reliably than it lifts life quality, and the effort itself is a cost worth naming.",
+    "hasStatus": ["being-tested"]
   }
 ]

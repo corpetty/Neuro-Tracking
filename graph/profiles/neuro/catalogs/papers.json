@@ -1337,5 +1337,35 @@
     "url": "https://doi.org/10.1136/bmj.h68",
     "summary": "RCT of a brief sleep-hygiene plus behavioural sleep intervention in 244 children with ADHD: the intervention reduced ADHD symptom severity at three and six months and roughly halved moderate-severe sleep problems, with about a half to a third of the symptom benefit mediated through improved sleep.",
     "authoredBy": ["author:harriet-hiscock"]
+  },
+  {
+    "id": "paper:kreider-2019",
+    "label": "Strategies for Coping with Time-Related and Productivity Challenges of Young People with Learning Disabilities and Attention-Deficit/Hyperactivity Disorder",
+    "year": 2019,
+    "venue": "Children, 6(2):28",
+    "doi": "10.3390/children6020028",
+    "url": "https://doi.org/10.3390/children6020028",
+    "summary": "Qualitative study of 52 college students with LD/ADHD: they must work longer and harder than peers, and the coping strategies they use for time and productivity fall into habit/routine use, reframing, and symptom-specific strategies — a multidimensional mix of cognitive and behavioural tactics.",
+    "authoredBy": ["author:consuelo-kreider"]
+  },
+  {
+    "id": "paper:safren-2005",
+    "label": "Cognitive-behavioral therapy for ADHD in medication-treated adults with continued symptoms",
+    "year": 2005,
+    "venue": "Behaviour Research and Therapy, 43(7):831–842",
+    "doi": "10.1016/j.brat.2004.07.001",
+    "url": "https://doi.org/10.1016/j.brat.2004.07.001",
+    "summary": "RCT of a skills-based CBT (organisation, planning, coping) added to stable medication in 31 adults with ADHD and residual symptoms: the CBT group had significantly lower clinician- and self-rated ADHD symptoms, global severity, anxiety and depression than medication alone — coping skills add benefit beyond medication.",
+    "authoredBy": ["author:steven-safren"]
+  },
+  {
+    "id": "paper:wettstein-2026",
+    "label": "Long-term effects of cognitive behavioural therapy on the quality of life in adult ADHD",
+    "year": 2026,
+    "venue": "PLOS ONE, 21(8):e0356825",
+    "doi": "10.1371/journal.pone.0356825",
+    "url": "https://doi.org/10.1371/journal.pone.0356825",
+    "summary": "Long-term (4–8 year) follow-up of 159 adults who had received CBT plus pharmacotherapy and psychoeducation: no significant added effect of CBT on quality of life over time — the delayed skill-building/coping benefit hypothesised for quality of life was not confirmed.",
+    "authoredBy": ["author:r-wettstein"]
   }
 ]

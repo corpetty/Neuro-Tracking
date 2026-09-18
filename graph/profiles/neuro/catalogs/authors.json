@@ -119,5 +119,8 @@
   { "id": "author:t-masuch", "label": "T. V. Masuch" },
   { "id": "author:matthew-lebowitz", "label": "Matthew S. Lebowitz" },
   { "id": "author:van-der-heijden", "label": "Kristiaan B. Van der Heijden" },
-  { "id": "author:harriet-hiscock", "label": "Harriet Hiscock" }
+  { "id": "author:harriet-hiscock", "label": "Harriet Hiscock" },
+  { "id": "author:consuelo-kreider", "label": "Consuelo M. Kreider" },
+  { "id": "author:steven-safren", "label": "Steven A. Safren" },
+  { "id": "author:r-wettstein", "label": "R. Wettstein" }
 ]

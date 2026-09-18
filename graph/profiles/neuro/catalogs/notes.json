@@ -456,5 +456,16 @@
     "covers": ["symptom:inattention", "mechanism:sleep-debt", "mechanism:circadian-delay", "intervention:sleep-management"],
     "argues": ["hypothesis:sleep-intervention-improves-adhd", "hypothesis:melatonin-advances-sleep-not-symptoms"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-coping-strategies",
+    "label": "ADHD & coping strategies — effortful compensation that works, with limits",
+    "file": "literature/adhd-and-coping-strategies.md",
+    "summary": "Coping strategies (routine, externalising, reframing, CBT skills) are evidence-based compensation that reduces ADHD symptoms — but they are effortful, cost extra work, and their long-term quality-of-life payoff is uneven.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:kreider-2019", "paper:safren-2005", "paper:wettstein-2026"],
+    "covers": ["symptom:inattention", "mechanism:executive-function", "intervention:cbt-adult-adhd"],
+    "argues": ["hypothesis:coping-skills-reduce-adhd-symptoms", "hypothesis:compensation-is-effortful-and-uneven", "hypothesis:adhd-treatments-are-efficacious"],
+    "hasStatus": ["active"]
   }
 ]
