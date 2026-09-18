@@ -84,5 +84,7 @@
   { "id": "author:a-rowney-smith", "label": "A. Rowney-Smith" },
   { "id": "author:kaitlin-hupfeld", "label": "Kaitlin E. Hupfeld" },
   { "id": "author:brandon-ashinoff", "label": "Brandon K. Ashinoff" },
-  { "id": "author:e-ozel-kizil", "label": "E. T. Ozel-Kizil" }
+  { "id": "author:e-ozel-kizil", "label": "E. T. Ozel-Kizil" },
+  { "id": "author:valdas-noreika", "label": "Valdas Noreika" },
+  { "id": "author:radek-ptacek", "label": "Radek Ptáček" }
 ]

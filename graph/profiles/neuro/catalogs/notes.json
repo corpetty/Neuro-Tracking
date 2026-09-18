@@ -313,5 +313,16 @@
     "covers": ["symptom:inattention", "mechanism:hyperfocus", "mechanism:sustained-attention"],
     "argues": ["hypothesis:hyperfocus-elevated-in-adhd", "hypothesis:adhd-is-attention-dysregulation-not-deficit"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-time-perception",
+    "label": "ADHD & time perception — timing deficits, \"time blindness\", and a contested marker",
+    "file": "literature/adhd-and-time-perception.md",
+    "summary": "ADHD is consistently impaired across timing domains and people describe time slipping away ('time blindness'); the deficit is real at the group level but non-specific, and its proposal as a diagnostic marker is held open.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:noreika-2013", "paper:ptacek-2019", "paper:toplak-2006"],
+    "covers": ["symptom:inattention", "mechanism:temporal-processing", "tension:time-perception-marker-vs-nonspecific"],
+    "argues": ["hypothesis:adhd-impairs-time-perception", "hypothesis:time-perception-candidate-diagnostic-marker", "hypothesis:adhd-is-attention-dysregulation-not-deficit"],
+    "hasStatus": ["active"]
   }
 ]

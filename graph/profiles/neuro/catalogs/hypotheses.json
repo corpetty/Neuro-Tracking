@@ -288,5 +288,18 @@
     "summary": "That the same people who cannot sustain attention on demand can also become unable to disengage from an absorbing task points to a regulation problem — attention deployed in the wrong amounts at the wrong times — rather than a straightforward shortage of attention. Hyperfocus is the over-deployed pole of that dysregulation.",
     "mayExplain": ["symptom:inattention"],
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-impairs-time-perception",
+    "label": "ADHD is associated with consistent deficits in perceiving and reproducing time",
+    "summary": "Reviews find ADHD consistently impaired across timing domains — motor timing, perceptual timing (duration discrimination and reproduction) and temporal foresight — from milliseconds to long intervals, alongside the lived sense that time slips away. Robust as a group-level finding; the felt 'time blindness' has a real cognitive basis.",
+    "mayExplain": ["symptom:inattention", "symptom:impulsivity"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:time-perception-candidate-diagnostic-marker",
+    "label": "Impaired time perception has been proposed as a possible diagnostic characteristic of ADHD",
+    "summary": "Some reviews propose time-perception impairment as a candidate diagnostic feature of ADHD. But timing deficits are not specific to ADHD (they occur in other conditions), the measures and paradigms are heterogeneous, and the evidence needs replication — so the marker claim is a proposal, not an established diagnostic test.",
+    "hasStatus": ["being-tested"]
   }
 ]

@@ -957,5 +957,35 @@
     "url": "https://doi.org/10.1016/j.ridd.2016.09.016",
     "summary": "Case-control study (ADHD stimulant-naive n=53, on stimulants n=79, controls n=65) using a Hyperfocusing Scale: hyperfocusing scores were higher in ADHD than controls and did not differ by stimulant use, supporting hyperfocusing as a separate dimension of adult ADHD and reframing it as an inability to shift attention as well as to focus.",
     "authoredBy": ["author:e-ozel-kizil"]
+  },
+  {
+    "id": "paper:noreika-2013",
+    "label": "Timing deficits in attention-deficit/hyperactivity disorder (ADHD): evidence from neurocognitive and neuroimaging studies",
+    "year": 2013,
+    "venue": "Neuropsychologia, 51(2):235–266",
+    "doi": "10.1016/j.neuropsychologia.2012.09.036",
+    "url": "https://doi.org/10.1016/j.neuropsychologia.2012.09.036",
+    "summary": "Integrative review of timing in ADHD across neurocognitive and neuroimaging studies, concluding ADHD is consistently impaired in three timing domains — motor timing, perceptual timing and temporal foresight — across timescales from milliseconds to years.",
+    "authoredBy": ["author:valdas-noreika"]
+  },
+  {
+    "id": "paper:ptacek-2019",
+    "label": "Clinical Implications of the Perception of Time in Attention Deficit Hyperactivity Disorder (ADHD): A Review",
+    "year": 2019,
+    "venue": "Medical Science Monitor, 25:3918–3924",
+    "doi": "10.12659/MSM.914225",
+    "url": "https://doi.org/10.12659/MSM.914225",
+    "summary": "Review of time perception in ADHD emphasising the clinical/lived side: difficulties in time estimation and discrimination plus the felt sense that time slips away without tasks being completed well; proposes impaired time perception as a possible diagnostic characteristic.",
+    "authoredBy": ["author:radek-ptacek"]
+  },
+  {
+    "id": "paper:toplak-2006",
+    "label": "Temporal information processing in ADHD: findings to date and new methods",
+    "year": 2006,
+    "venue": "Journal of Neuroscience Methods, 151(1):15–29",
+    "doi": "10.1016/j.jneumeth.2005.09.018",
+    "url": "https://doi.org/10.1016/j.jneumeth.2005.09.018",
+    "summary": "Review of temporal information processing in ADHD: growing but still-to-be-replicated evidence of problems in duration discrimination, duration reproduction and finger tapping, implicating cerebellar, basal-ganglia and prefrontal substrates — framing timing as a more basic cognitive mechanism than usually linked to ADHD.",
+    "authoredBy": ["author:maggie-toplak"]
   }
 ]

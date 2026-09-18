@@ -96,5 +96,12 @@
     "summary": "The term rejection sensitivity dysphoria gives many people with ADHD a sense of recognition and connectedness, which has real clinical value. But the same critical appraisal that grants this warns that clinical use risks self-stigmatisation, framing the trait as innate and immutable, terminological confusion, and resting on limited empirical evidence. The pull between felt validation and scientific rigour is genuine, and this note keeps both in view rather than either endorsing or dismissing the label wholesale.",
     "tensionWith": ["hypothesis:rsd-is-under-evidenced-popular-label", "hypothesis:rejection-sensitivity-part-of-adhd-ED"],
     "documentedIn": ["note:literature-adhd-and-rejection-sensitivity"]
+  },
+  {
+    "id": "tension:time-perception-marker-vs-nonspecific",
+    "label": "Candidate diagnostic marker, or a real but non-specific deficit?",
+    "summary": "Time-perception impairment is consistent enough in ADHD that some propose it as a diagnostic characteristic. Against that: timing deficits appear in other neurodevelopmental and psychiatric conditions, the paradigms vary widely, and reviews still call for replication — so a real group-level deficit does not license an individual diagnostic marker. Held open, in the same spirit as the imaging and EF measures elsewhere in this notebook.",
+    "tensionWith": ["hypothesis:time-perception-candidate-diagnostic-marker", "hypothesis:no-single-measure-is-diagnostic"],
+    "documentedIn": ["note:literature-adhd-and-time-perception"]
   }
 ]
