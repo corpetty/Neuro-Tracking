@@ -418,5 +418,19 @@
     "label": "Whether screen use causes ADHD is unresolved, and the relationship is plausibly bidirectional",
     "summary": "Even the prospective evidence stops short of causation, and reviews call explicitly for causal research. Reverse causation is plausible: ADHD-related reward-seeking and need for stimulation may drive intense screen use as much as the reverse, so screens may be an expression of the trait as well as a possible contributor.",
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:procrastination-linked-to-adhd",
+    "label": "Procrastination is strongly linked to ADHD — clinically central though not a formal criterion — driven especially by inattention",
+    "summary": "Procrastination is routinely targeted in ADHD psychotherapy but is not an official DSM symptom; where studied, it correlates with ADHD-related behaviour, and specifically with inattention rather than impulsivity once the two are separated. A near-universal ADHD complaint that the diagnostic criteria do not name.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:procrastination-is-self-regulation-failure",
+    "label": "Procrastination is a self-regulation and delay-discounting failure, not a time-management flaw",
+    "summary": "Procrastination is best understood as failure of self-regulation and volition — predicted by executive-function weaknesses and by impulsiveness, distractibility and task-delay, and captured by temporal-motivation/hyperbolic-discounting models. That profile is precisely ADHD's, so ADHD is the extreme of the procrastination-prone temperament rather than a separate story.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
   }
 ]

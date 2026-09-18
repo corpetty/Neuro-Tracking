@@ -1257,5 +1257,35 @@
     "url": "https://doi.org/10.1073/pnas.1611611114",
     "summary": "Systematic review of four decades of research on screen media use and ADHD-related behaviors: the evidence indicates a statistically small relationship, moderated by individual child differences, with a clear need for research on causality and mechanisms.",
     "authoredBy": ["author:ine-beyens"]
+  },
+  {
+    "id": "paper:niermann-scheres-2014",
+    "label": "The relation between procrastination and symptoms of attention-deficit hyperactivity disorder (ADHD) in undergraduate students",
+    "year": 2014,
+    "venue": "International Journal of Methods in Psychiatric Research, 23(4):411–421",
+    "doi": "10.1002/mpr.1440",
+    "url": "https://doi.org/10.1002/mpr.1440",
+    "summary": "Study of 54 undergraduates across a range of ADHD-related behaviour: procrastination is often targeted in ADHD psychotherapy but is not a formal ADHD symptom; after correcting for the other domain, only inattention (not impulsivity) correlated with general procrastination.",
+    "authoredBy": ["author:hannah-niermann"]
+  },
+  {
+    "id": "paper:rabin-2011",
+    "label": "Academic procrastination in college students: the role of self-reported executive function",
+    "year": 2011,
+    "venue": "Journal of Clinical and Experimental Neuropsychology, 33(3):344–357",
+    "doi": "10.1080/13803395.2010.518597",
+    "url": "https://doi.org/10.1080/13803395.2010.518597",
+    "summary": "Study of 212 college students framing procrastination as self-regulation/volition failure: executive-function domains — initiation, plan/organize, inhibit, self-monitor, working memory, task monitor, organization of materials — significantly predicted academic procrastination, over and above IQ, mood and conscientiousness.",
+    "authoredBy": ["author:laura-rabin"]
+  },
+  {
+    "id": "paper:steel-2007",
+    "label": "The nature of procrastination: a meta-analytic and theoretical review of quintessential self-regulatory failure",
+    "year": 2007,
+    "venue": "Psychological Bulletin, 133(1):65–94",
+    "doi": "10.1037/0033-2909.133.1.65",
+    "url": "https://doi.org/10.1037/0033-2909.133.1.65",
+    "summary": "Meta-analysis of 691 correlations on procrastination: its strong, consistent predictors are task aversiveness, task delay, low self-efficacy and impulsiveness (plus low conscientiousness, self-control, distractibility), consistent with temporal motivation theory built on hyperbolic discounting — a general self-regulatory failure.",
+    "authoredBy": ["author:piers-steel"]
   }
 ]

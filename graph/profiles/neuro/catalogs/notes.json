@@ -423,5 +423,16 @@
     "covers": ["symptom:inattention", "symptom:impulsivity", "mechanism:reward-motivation"],
     "argues": ["hypothesis:screen-media-adhd-association-is-small", "hypothesis:screen-adhd-causality-unresolved"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-procrastination",
+    "label": "ADHD & procrastination — a self-regulation failure, not a scheduling one",
+    "file": "literature/adhd-and-procrastination.md",
+    "summary": "Procrastination is a near-universal but unnamed ADHD complaint, driven by inattention, and best understood as self-regulation and delay-discounting failure rather than poor time management — the same profile ADHD represents in the extreme.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:niermann-scheres-2014", "paper:rabin-2011", "paper:steel-2007"],
+    "covers": ["symptom:inattention", "mechanism:executive-function", "mechanism:reward-delay-aversion"],
+    "argues": ["hypothesis:procrastination-linked-to-adhd", "hypothesis:procrastination-is-self-regulation-failure"],
+    "hasStatus": ["active"]
   }
 ]
