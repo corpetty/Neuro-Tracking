@@ -489,5 +489,16 @@
     "covers": ["mechanism:reward-motivation"],
     "argues": ["hypothesis:adhd-creativity-link-is-real-but-nuanced", "hypothesis:adhd-creative-achievement-is-motivation-and-domain-driven"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-impulsivity",
+    "label": "ADHD & impulsivity — not one thing, and not ADHD-specific",
+    "file": "literature/adhd-and-impulsivity.md",
+    "summary": "Impulsivity in ADHD is multidimensional — motor inhibition, choice/delay discounting and emotional urgency dissociate with different biology — and transdiagnostic, so it describes rather than distinguishes ADHD.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:winstanley-2006", "paper:nigg-2017", "paper:lipszyc-schachar-2010", "paper:jackson-mackillop-2016"],
+    "covers": ["symptom:impulsivity", "mechanism:response-inhibition", "mechanism:reward-delay-aversion", "mechanism:emotional-dysregulation"],
+    "argues": ["hypothesis:impulsivity-is-multidimensional", "hypothesis:impulsivity-is-transdiagnostic-not-adhd-specific", "hypothesis:multiple-neurocognitive-pathways"],
+    "hasStatus": ["active"]
   }
 ]

@@ -495,5 +495,18 @@
     "label": "Real-world creative achievement is elevated in ADHD and driven by goal-directed motivation in self-selected domains",
     "summary": "Creative abilities and achievements are high in ADHD, and experimental work links this to goal-directed motivation (more original ideas when competing for a reward) and to selectively engaging domains that fit one's skills and interests. Creativity flourishes where interest and reward align — the reward-motivation account applied to a strength rather than a deficit.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:impulsivity-is-multidimensional",
+    "label": "Impulsivity in ADHD is not one thing but several dissociable facets with different biological bases",
+    "summary": "Impulsivity fractionates into distinct components — motor/response inhibition (stop-signal), choice impulsivity (delay discounting), and emotional urgency — measured by different paradigms and with different neural substrates, and it sits within a broader self-regulation spanning action, emotion and cognition. A person can show one facet strongly and another not at all, consistent with the dissociable-pathways view.",
+    "mayExplain": ["symptom:impulsivity"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:impulsivity-is-transdiagnostic-not-adhd-specific",
+    "label": "Impulsivity is transdiagnostic — it describes ADHD but does not distinguish it",
+    "summary": "Impulsivity is a component of many conditions (ADHD, mania, substance use), and stop-signal inhibition deficits appear in ADHD, OCD and schizophrenia at comparable magnitude. So 'impulsive' is a real feature of ADHD but a shared one — it characterises without discriminating.",
+    "hasStatus": ["supported"]
   }
 ]

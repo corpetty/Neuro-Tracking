@@ -1417,5 +1417,25 @@
     "url": "https://doi.org/10.1177/1087054717727352",
     "summary": "Two studies of adults with ADHD: they reported more real-world creative achievements and generated more original ideas when competing for a bonus, suggesting goal-directed motivation drives their creative achievement and that they selectively excel in self-chosen creative domains.",
     "authoredBy": ["author:nathalie-boot"]
+  },
+  {
+    "id": "paper:winstanley-2006",
+    "label": "Behavioral models of impulsivity in relation to ADHD: translation between clinical and preclinical studies",
+    "year": 2006,
+    "venue": "Clinical Psychology Review, 26(4):379–395",
+    "doi": "10.1016/j.cpr.2006.01.001",
+    "url": "https://doi.org/10.1016/j.cpr.2006.01.001",
+    "summary": "Review arguing impulsivity (action without foresight) is not a unitary construct but a set of related phenomena with different biological bases, fractionated by distinct paradigms (five-choice serial reaction time, stop-signal, delay-discounting); relevant across ADHD, mania and substance abuse.",
+    "authoredBy": ["author:catharine-winstanley"]
+  },
+  {
+    "id": "paper:nigg-2017",
+    "label": "Annual Research Review: On the relations among self-regulation, self-control, executive functioning, effortful control, cognitive control, impulsivity, risk-taking, and inhibition for developmental psychopathology",
+    "year": 2017,
+    "venue": "Journal of Child Psychology and Psychiatry, 58(4):361–383",
+    "doi": "10.1111/jcpp.12675",
+    "url": "https://doi.org/10.1111/jcpp.12675",
+    "summary": "Conceptual review untangling the overlapping terms around self-regulation, arguing for a domain-general self-regulation construct spanning action, emotion and cognition with both top-down and bottom-up processes — situating impulsivity as dysregulation of action within a broader, multi-domain self-regulation framework.",
+    "authoredBy": ["author:joel-nigg"]
   }
 ]
