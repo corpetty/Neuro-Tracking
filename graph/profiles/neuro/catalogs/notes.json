@@ -324,5 +324,16 @@
     "covers": ["symptom:inattention", "mechanism:temporal-processing", "tension:time-perception-marker-vs-nonspecific"],
     "argues": ["hypothesis:adhd-impairs-time-perception", "hypothesis:time-perception-candidate-diagnostic-marker", "hypothesis:adhd-is-attention-dysregulation-not-deficit"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-motivation",
+    "label": "ADHD & motivation — a reward-processing difference, not laziness",
+    "file": "literature/adhd-and-motivation.md",
+    "summary": "Motivation as a third axis of ADHD: reduced dopamine reward-pathway function (Volkow), altered reinforcement sensitivity and contingency-dependent performance (Luman, Morsink) — reframing interest/urgency-driven performance as reward processing rather than a character flaw.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:volkow-2011", "paper:luman-2005", "paper:morsink-2017"],
+    "covers": ["symptom:inattention", "mechanism:reward-motivation", "mechanism:reward-delay-aversion"],
+    "argues": ["hypothesis:adhd-involves-motivation-reward-dysfunction", "hypothesis:adhd-performance-is-contingency-dependent", "hypothesis:multiple-neurocognitive-pathways"],
+    "hasStatus": ["active"]
   }
 ]

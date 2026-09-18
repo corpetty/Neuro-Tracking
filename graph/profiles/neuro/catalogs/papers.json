@@ -987,5 +987,35 @@
     "url": "https://doi.org/10.1016/j.jneumeth.2005.09.018",
     "summary": "Review of temporal information processing in ADHD: growing but still-to-be-replicated evidence of problems in duration discrimination, duration reproduction and finger tapping, implicating cerebellar, basal-ganglia and prefrontal substrates — framing timing as a more basic cognitive mechanism than usually linked to ADHD.",
     "authoredBy": ["author:maggie-toplak"]
+  },
+  {
+    "id": "paper:volkow-2011",
+    "label": "Motivation deficit in ADHD is associated with dysfunction of the dopamine reward pathway",
+    "year": 2011,
+    "venue": "Molecular Psychiatry, 16(11):1147–1154",
+    "doi": "10.1038/mp.2010.97",
+    "url": "https://doi.org/10.1038/mp.2010.97",
+    "summary": "PET study of 45 adults with ADHD vs 41 controls: decreased dopamine reward-pathway function (D2/D3 receptors and transporters in accumbens/midbrain) correlated with lower trait motivation in ADHD but not controls — direct neurobiological evidence linking a motivation deficit to reward-pathway dysfunction.",
+    "authoredBy": ["author:nora-volkow"]
+  },
+  {
+    "id": "paper:luman-2005",
+    "label": "The impact of reinforcement contingencies on AD/HD: a review and theoretical appraisal",
+    "year": 2005,
+    "venue": "Clinical Psychology Review, 25(2):183–213",
+    "doi": "10.1016/j.cpr.2004.11.001",
+    "url": "https://doi.org/10.1016/j.cpr.2004.11.001",
+    "summary": "Review of 22 studies (N=1181 children) on reinforcement and ADHD: an aberrant sensitivity to reinforcement is proposed as a core deficit; reward improves task performance and motivation (somewhat more in ADHD), high-intensity reinforcement is effective, and children with ADHD prefer immediate over delayed reward.",
+    "authoredBy": ["author:marjolein-luman"]
+  },
+  {
+    "id": "paper:morsink-2017",
+    "label": "What motivates individuals with ADHD? A qualitative analysis from the adolescent’s point of view",
+    "year": 2017,
+    "venue": "European Child & Adolescent Psychiatry, 26(8):923–932",
+    "doi": "10.1007/s00787-017-0961-7",
+    "url": "https://doi.org/10.1007/s00787-017-0961-7",
+    "summary": "Qualitative interview study of adolescents with and without ADHD: motivational themes were largely shared across groups, but individuals with ADHD respond differently to incentives, consistent with an altered sensitivity to reinforcers and possibly qualitatively different motivators.",
+    "authoredBy": ["author:sarah-morsink"]
   }
 ]

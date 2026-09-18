@@ -301,5 +301,19 @@
     "label": "Impaired time perception has been proposed as a possible diagnostic characteristic of ADHD",
     "summary": "Some reviews propose time-perception impairment as a candidate diagnostic feature of ADHD. But timing deficits are not specific to ADHD (they occur in other conditions), the measures and paradigms are heterogeneous, and the evidence needs replication — so the marker claim is a proposal, not an established diagnostic test.",
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-involves-motivation-reward-dysfunction",
+    "label": "Beyond attention and impulsivity, ADHD involves a motivation/reward-processing difference tied to the dopamine reward pathway",
+    "summary": "There is increasing evidence of motivation deficits in ADHD, with PET data linking lower trait motivation to reduced dopamine reward-pathway function, and reviews casting an aberrant sensitivity to reinforcement as a core deficit. Motivation is a third axis alongside inattention and hyperactivity/impulsivity, not just willpower.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-performance-is-contingency-dependent",
+    "label": "ADHD performance is strongly modulated by reinforcement, so it reflects reward-dependent regulation rather than fixed incapacity",
+    "summary": "Reinforcement contingencies improve task performance and motivation in ADHD (somewhat more than in controls), and immediate reward is preferred to delayed. Being able to perform well when a task is interesting, urgent or rewarded — and poorly when it is not — is a reward-processing signature, not laziness or a stable inability.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
   }
 ]

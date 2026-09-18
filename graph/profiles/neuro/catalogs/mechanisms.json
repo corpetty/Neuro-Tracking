@@ -172,5 +172,12 @@
     "summary": "Intense, long-lasting absorption in a task with reduced awareness of surroundings and time, and difficulty shifting attention away from it. Reframes ADHD attention as dysregulated allocation — attention over-deployed as well as under-deployed — rather than a simple deficit. Elevated in ADHD but not specific to it (also invoked for autism and schizophrenia), and still inconsistently defined and measured.",
     "definedIn": ["note:literature-adhd-and-hyperfocus"],
     "mayExplain": ["symptom:inattention"]
+  },
+  {
+    "id": "mechanism:reward-motivation",
+    "label": "Reward-motivation / reinforcement sensitivity",
+    "summary": "How reward and incentive drive behaviour — proposed to be altered in ADHD, with reduced dopamine reward-pathway function and an aberrant sensitivity to reinforcement. Manifests as strongly contingency-dependent performance (reward, interest and urgency lift it) rather than a fixed capacity deficit. Related to but broader than delay aversion, which concerns the timing of reward specifically.",
+    "definedIn": ["note:literature-adhd-and-motivation"],
+    "mayExplain": ["symptom:inattention"]
   }
 ]

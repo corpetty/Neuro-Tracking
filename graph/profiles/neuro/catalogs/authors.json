@@ -86,5 +86,8 @@
   { "id": "author:brandon-ashinoff", "label": "Brandon K. Ashinoff" },
   { "id": "author:e-ozel-kizil", "label": "E. T. Ozel-Kizil" },
   { "id": "author:valdas-noreika", "label": "Valdas Noreika" },
-  { "id": "author:radek-ptacek", "label": "Radek Ptáček" }
+  { "id": "author:radek-ptacek", "label": "Radek Ptáček" },
+  { "id": "author:nora-volkow", "label": "Nora D. Volkow" },
+  { "id": "author:marjolein-luman", "label": "Marjolein Luman" },
+  { "id": "author:sarah-morsink", "label": "Sarah Morsink" }
 ]
