@@ -1367,5 +1367,35 @@
     "url": "https://doi.org/10.1371/journal.pone.0356825",
     "summary": "Long-term (4–8 year) follow-up of 159 adults who had received CBT plus pharmacotherapy and psychoeducation: no significant added effect of CBT on quality of life over time — the delayed skill-building/coping benefit hypothesised for quality of life was not confirmed.",
     "authoredBy": ["author:r-wettstein"]
+  },
+  {
+    "id": "paper:dorani-2021",
+    "label": "Prevalence of hormone-related mood disorder symptoms in women with ADHD",
+    "year": 2021,
+    "venue": "Journal of Psychiatric Research, 133:10–15",
+    "doi": "10.1016/j.jpsychires.2020.12.005",
+    "url": "https://doi.org/10.1016/j.jpsychires.2020.12.005",
+    "summary": "First study of hormone-related mood conditions across reproductive events in 209 women with ADHD: premenstrual dysphoric disorder and postpartum depression symptoms were more prevalent than in the general population, with elevated climacteric anxiety, depression and vasomotor complaints.",
+    "authoredBy": ["author:farah-dorani"]
+  },
+  {
+    "id": "paper:haimov-kochman-2014",
+    "label": "Cognitive functions of regularly cycling women may differ throughout the month, depending on sex hormone status; a possible explanation to conflicting results of studies of ADHD in females",
+    "year": 2014,
+    "venue": "Frontiers in Human Neuroscience, 8:191",
+    "doi": "10.3389/fnhum.2014.00191",
+    "url": "https://doi.org/10.3389/fnhum.2014.00191",
+    "summary": "Review arguing sex hormones regulate intracellular signalling systems thought to be abnormal in ADHD, so hormone status across the menstrual cycle may shape the clinical picture in women — and that treating the cycle as a nuisance or testing only males has muddied the female-ADHD literature.",
+    "authoredBy": ["author:haimov-kochman"]
+  },
+  {
+    "id": "paper:kooij-2025",
+    "label": "Research advances and future directions in female ADHD: the lifelong interplay of hormonal fluctuations with mood, cognition, and disease",
+    "year": 2025,
+    "venue": "Frontiers in Global Women’s Health, 6:1613628",
+    "doi": "10.3389/fgwh.2025.1613628",
+    "url": "https://doi.org/10.3389/fgwh.2025.1613628",
+    "summary": "Eunethydis Special Interest Group review of female ADHD across the lifespan, framing the lifelong interplay of hormonal fluctuations with mood, cognition and disease, and highlighting late diagnosis, puberty, hormonal birth control, executive-function difficulties and associated gynaecological disorders.",
+    "authoredBy": ["author:sandra-kooij"]
   }
 ]

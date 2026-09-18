@@ -467,5 +467,16 @@
     "covers": ["symptom:inattention", "mechanism:executive-function", "intervention:cbt-adult-adhd"],
     "argues": ["hypothesis:coping-skills-reduce-adhd-symptoms", "hypothesis:compensation-is-effortful-and-uneven", "hypothesis:adhd-treatments-are-efficacious"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-hormones",
+    "label": "ADHD & hormones — the lifelong interplay the male-referenced model misses",
+    "file": "literature/adhd-and-hormones.md",
+    "summary": "Sex hormones regulate the signalling systems implicated in ADHD, so symptoms and cognition shift across the menstrual cycle and the female lifespan, and hormone-related mood disorders (PMDD, postpartum, climacteric) are elevated in women with ADHD.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:dorani-2021", "paper:haimov-kochman-2014", "paper:kooij-2025", "paper:roberts-2018-hormones"],
+    "covers": ["symptom:inattention", "mechanism:reproductive-hormone-modulation", "mechanism:mood-disturbance"],
+    "argues": ["hypothesis:sex-hormones-modulate-adhd-across-lifespan", "hypothesis:hormone-related-mood-disorders-elevated-in-adhd", "hypothesis:female-adhd-symptoms-hormone-sensitive"],
+    "hasStatus": ["active"]
   }
 ]

@@ -470,5 +470,18 @@
     "label": "Compensatory coping in ADHD works but is effortful, and its long-term quality-of-life payoff is uneven",
     "summary": "Adults with ADHD lean on effortful strategies — routine and habit, reframing, symptom-specific tactics — and simply must work harder than peers to keep up; yet the long-term quality-of-life benefit of coping-focused CBT was not confirmed. Coping reduces symptoms more reliably than it lifts life quality, and the effort itself is a cost worth naming.",
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:sex-hormones-modulate-adhd-across-lifespan",
+    "label": "Sex-hormone fluctuations modulate ADHD symptoms and cognition across the female lifespan",
+    "summary": "Estrogen and related steroids regulate the neurotransmitter and signalling systems implicated in ADHD, so symptom expression can shift with the menstrual cycle and, by extension, across puberty, pregnancy/postpartum and perimenopause. A female-specific source of variability that male-referenced models and single-timepoint assessment miss.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:hormone-related-mood-disorders-elevated-in-adhd",
+    "label": "Hormone-related mood conditions (PMDD, postpartum depression, climacteric symptoms) are more prevalent in women with ADHD",
+    "summary": "Across reproductive transitions, women with ADHD report premenstrual dysphoric disorder and postpartum depression symptoms more often than the general population, plus elevated climacteric mood and somatic complaints. The hormonal sensitivity of ADHD shows up not just as symptom fluctuation but as raised risk of hormone-linked mood disorders.",
+    "hasStatus": ["supported"]
   }
 ]
