@@ -82,5 +82,12 @@
     "summary": "Depression and ADHD share surface features — poor concentration, low drive, psychomotor and sleep changes — so low mood can mimic ADHD (the rival reading, mechanism:mood-disturbance). But ADHD also prospectively raises depression risk, with a causal genetic signal, so the depression can be downstream of the ADHD; and shared genetic liability is a third route. Which applies in a given person is not settled, and unlike a mimic that simply competes, the consequence reading means both can be true at once. Held open.",
     "tensionWith": ["hypothesis:adhd-raises-depression-risk", "mechanism:mood-disturbance"],
     "documentedIn": ["note:literature-adhd-and-mood"]
+  },
+  {
+    "id": "tension:ef-core-vs-one-component",
+    "label": "Is executive dysfunction the core of ADHD or one component among several?",
+    "summary": "Barkley's model makes inhibition/EF the primary deficit of ADHD; Willcutt's meta-analysis finds EF deficits real but neither necessary nor sufficient, present in only a subgroup and not specific to ADHD. One frames EF as the disorder's core, the other as one route among dissociable pathways. Both are supported, so the note holds the question open rather than crowning EF the single cause.",
+    "tensionWith": ["hypothesis:adhd-as-executive-inhibition-deficit", "hypothesis:ef-deficits-neither-necessary-nor-sufficient"],
+    "documentedIn": ["note:literature-adhd-and-executive-function"]
   }
 ]

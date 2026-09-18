@@ -878,5 +878,25 @@
     "url": "https://doi.org/10.1016/j.psyneuen.2017.11.015",
     "summary": "Daily-diary study of 32 regularly-cycling young women: lower estradiol combined with higher progesterone or testosterone predicted higher next-day ADHD symptoms, especially in high-impulsivity women, with symptom peaks in the early follicular and early luteal phases — evidence that ADHD expression tracks reproductive-hormone fluctuations.",
     "authoredBy": ["author:b-roberts"]
+  },
+  {
+    "id": "paper:barkley-1997",
+    "label": "Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD",
+    "year": 1997,
+    "venue": "Psychological Bulletin, 121(1):65–94",
+    "doi": "10.1037/0033-2909.121.1.65",
+    "url": "https://doi.org/10.1037/0033-2909.121.1.65",
+    "summary": "The influential theoretical model casting ADHD as a primary deficit in behavioral inhibition, from which four executive functions (working memory, self-regulation of affect/motivation/arousal, internalization of speech, reconstitution) secondarily follow. Foundational to the executive-function theory of ADHD.",
+    "authoredBy": ["author:russell-barkley"]
+  },
+  {
+    "id": "paper:barkley-fischer-2011",
+    "label": "Predicting impairment in major life activities and occupational functioning in hyperactive children as adults: self-reported executive function (EF) deficits versus EF tests",
+    "year": 2011,
+    "venue": "Developmental Neuropsychology, 36(2):137–161",
+    "doi": "10.1080/87565641.2010.549877",
+    "url": "https://doi.org/10.1080/87565641.2010.549877",
+    "summary": "Longitudinal follow-up (hyperactive N=135, controls N=75) to adulthood comparing self-reported EF deficits against EF tests: the ratings predicted impairment in major life activities and occupational functioning far better than the tests did, most of which were unrelated to work history — an ecological-validity gap between real-world EF and lab EF.",
+    "authoredBy": ["author:russell-barkley"]
   }
 ]

@@ -150,5 +150,12 @@
     "summary": "Fluctuations in estradiol, progesterone and testosterone across the menstrual cycle (and, by extension, puberty, pregnancy and menopause) modulate ADHD symptom expression in women — lower estradiol tracks worse symptoms. A source of within-person variability specific to females, absent from male-referenced models, and a reason symptom severity can move without the underlying trait changing.",
     "definedIn": ["note:literature-adhd-in-women-and-girls"],
     "mayExplain": ["symptom:inattention", "symptom:impulsivity"]
+  },
+  {
+    "id": "mechanism:executive-function",
+    "label": "Executive function",
+    "summary": "The set of self-regulatory control processes — response inhibition, working memory, sustained attention, planning and self-monitoring — that organise goal-directed behaviour. In leading theory ADHD is a primary executive/inhibition deficit, but empirically EF weakness is neither universal in ADHD nor specific to it, and lab EF tests capture it poorly relative to real-world ratings.",
+    "definedIn": ["note:literature-adhd-and-executive-function"],
+    "mayExplain": ["symptom:inattention", "symptom:impulsivity"]
   }
 ]

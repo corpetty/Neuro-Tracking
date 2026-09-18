@@ -280,5 +280,16 @@
     "covers": ["symptom:inattention", "mechanism:reproductive-hormone-modulation", "tension:sample-generalisability"],
     "argues": ["hypothesis:sex-ratio-reflects-ascertainment", "hypothesis:missed-adhd-in-females-harms-outcomes", "hypothesis:female-adhd-symptoms-hormone-sensitive"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-executive-function",
+    "label": "ADHD & executive function — core deficit, one component, and the test–life gap",
+    "file": "literature/adhd-and-executive-function.md",
+    "summary": "The executive-function theory of ADHD (inhibition-centred), the meta-analytic nuance that EF deficits are neither necessary nor sufficient, the heterogeneity that follows, and why lab EF tests miss the real-world executive problems that ratings capture.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:barkley-1997", "paper:willcutt-2005-ef-meta", "paper:barkley-fischer-2011", "paper:toplak-2013"],
+    "covers": ["symptom:inattention", "symptom:impulsivity", "mechanism:executive-function", "mechanism:response-inhibition", "tension:ef-core-vs-one-component"],
+    "argues": ["hypothesis:adhd-as-executive-inhibition-deficit", "hypothesis:ef-deficits-neither-necessary-nor-sufficient", "hypothesis:multiple-neurocognitive-pathways", "hypothesis:rating-task-dissociation"],
+    "hasStatus": ["active"]
   }
 ]

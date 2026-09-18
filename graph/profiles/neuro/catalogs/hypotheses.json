@@ -249,5 +249,18 @@
     "label": "ADHD symptom expression in women fluctuates with reproductive hormones",
     "summary": "Within-person, ADHD symptoms in regularly-cycling women rise when estradiol falls relative to progesterone or testosterone, peaking in specific menstrual phases. Symptom severity can thus move with the hormonal cycle independently of the underlying trait — a female-specific source of variability that male-referenced criteria and single-timepoint assessments miss.",
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-as-executive-inhibition-deficit",
+    "label": "A leading theory casts ADHD as fundamentally a deficit in behavioral inhibition, from which other executive functions follow",
+    "summary": "Barkley's unifying model makes behavioral inhibition the primary deficit and derives working memory, self-regulation of affect/motivation, internalized speech and reconstitution from it. Influential and organising, but the author cautions it needs far more testing — and the empirical record (see the necessary-nor-sufficient hypothesis) complicates a single-core-deficit reading.",
+    "mayExplain": ["symptom:impulsivity", "symptom:inattention"],
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:ef-deficits-neither-necessary-nor-sufficient",
+    "label": "Executive-function deficits are real and central in ADHD on average, but neither necessary nor sufficient",
+    "summary": "Meta-analysis finds significant EF impairment across all domains (medium effect sizes, strongest for inhibition, vigilance, working memory, planning), yet the deficits are not universal among people with ADHD and not specific to it. EF weakness is one important component of a heterogeneous neuropsychology, not the defining lesion — consistent with the multiple-pathways view.",
+    "hasStatus": ["supported"]
   }
 ]
