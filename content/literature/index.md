@@ -35,6 +35,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 | ADHD in women & girls — missed, harmed when missed, and hormone-modulated (survey) | [[literature/adhd-in-women-and-girls\|Summary]] | 4 sources — see note | Sex & gender / women / outcomes | 2026-09-17 |
 | ADHD & executive function — core deficit, one component, and the test–life gap (survey) | [[literature/adhd-and-executive-function\|Summary]] | 4 sources — see note | Executive function / neuropsychology | 2026-09-17 |
 | ADHD & rejection sensitivity — a real construct behind a popular label (survey) | [[literature/adhd-and-rejection-sensitivity\|Summary]] | 4 sources — see note | Emotional dysregulation / evidence appraisal | 2026-09-17 |
+| ADHD & hyperfocus — the focus paradox as attention dysregulation (survey) | [[literature/adhd-and-hyperfocus\|Summary]] | 3 sources — see note | Attention / evidence appraisal | 2026-09-17 |
 
 ## How this index works
 

@@ -927,5 +927,35 @@
     "url": "https://doi.org/10.1371/journal.pone.0314669",
     "summary": "Small qualitative focus-group study (five undergraduates) framing rejection sensitivity as an under-explored aspect of ADHD-related emotional dysregulation; thematic analysis surfaced withdrawal, masking, and bodily sensations. Illustrative of the phenomenon and of how thin and early-stage the ADHD-specific evidence still is.",
     "authoredBy": ["author:a-rowney-smith"]
+  },
+  {
+    "id": "paper:hupfeld-2019",
+    "label": "Living \"in the zone\": hyperfocus in adult ADHD",
+    "year": 2019,
+    "venue": "ADHD Attention Deficit and Hyperactivity Disorders, 11(2):191–208",
+    "doi": "10.1007/s12402-018-0272-y",
+    "url": "https://doi.org/10.1007/s12402-018-0272-y",
+    "summary": "Introduces the Adult Hyperfocus Questionnaire and tests, across a pilot (n=251) and replication (n=372) sample, whether hyperfocus rises with ADHD symptomology: those with higher ADHD symptoms reported more hyperfocus across school, hobbies, screen time and real-world scenarios — the first comprehensive assessment of a \"potentially separable feature\" of ADHD.",
+    "authoredBy": ["author:kaitlin-hupfeld"]
+  },
+  {
+    "id": "paper:ashinoff-2021",
+    "label": "Hyperfocus: the forgotten frontier of attention",
+    "year": 2021,
+    "venue": "Psychological Research, 85(1):1–19",
+    "doi": "10.1007/s00426-019-01245-8",
+    "url": "https://doi.org/10.1007/s00426-019-01245-8",
+    "summary": "Conceptual review of hyperfocus — complete task absorption with tuning-out of everything else — arguing it is poorly and inconsistently defined, most often invoked for autism, schizophrenia and ADHD but with limited research on its cognitive/neural basis; proposes an operational definition. The critical, evidence-appraisal counterweight.",
+    "authoredBy": ["author:brandon-ashinoff"]
+  },
+  {
+    "id": "paper:ozel-kizil-2016",
+    "label": "Hyperfocusing as a dimension of adult attention deficit hyperactivity disorder",
+    "year": 2016,
+    "venue": "Research in Developmental Disabilities, 59:351–358",
+    "doi": "10.1016/j.ridd.2016.09.016",
+    "url": "https://doi.org/10.1016/j.ridd.2016.09.016",
+    "summary": "Case-control study (ADHD stimulant-naive n=53, on stimulants n=79, controls n=65) using a Hyperfocusing Scale: hyperfocusing scores were higher in ADHD than controls and did not differ by stimulant use, supporting hyperfocusing as a separate dimension of adult ADHD and reframing it as an inability to shift attention as well as to focus.",
+    "authoredBy": ["author:e-ozel-kizil"]
   }
 ]

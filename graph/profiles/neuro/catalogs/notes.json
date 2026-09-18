@@ -302,5 +302,16 @@
     "covers": ["symptom:internal-restlessness", "mechanism:rejection-sensitivity", "mechanism:emotional-dysregulation", "tension:rsd-validation-vs-rigor"],
     "argues": ["hypothesis:rsd-is-under-evidenced-popular-label", "hypothesis:rejection-sensitivity-part-of-adhd-ED", "hypothesis:emotional-dysregulation-is-core-adhd"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-hyperfocus",
+    "label": "ADHD & hyperfocus — the focus paradox as attention dysregulation",
+    "file": "literature/adhd-and-hyperfocus.md",
+    "summary": "The paradox that an 'attention deficit' can lock onto tasks intensely — reframed as dysregulated attention allocation (can't sustain, can't disengage); elevated in ADHD on new measures but poorly defined, non-specific, and non-diagnostic.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:hupfeld-2019", "paper:ashinoff-2021", "paper:ozel-kizil-2016"],
+    "covers": ["symptom:inattention", "mechanism:hyperfocus", "mechanism:sustained-attention"],
+    "argues": ["hypothesis:hyperfocus-elevated-in-adhd", "hypothesis:adhd-is-attention-dysregulation-not-deficit"],
+    "hasStatus": ["active"]
   }
 ]

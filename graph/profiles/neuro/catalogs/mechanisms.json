@@ -165,5 +165,12 @@
     "definedIn": ["note:literature-adhd-and-rejection-sensitivity"],
     "derivesFrom": ["mechanism:emotional-dysregulation"],
     "mayExplain": ["symptom:internal-restlessness"]
+  },
+  {
+    "id": "mechanism:hyperfocus",
+    "label": "Hyperfocus / difficulty disengaging attention",
+    "summary": "Intense, long-lasting absorption in a task with reduced awareness of surroundings and time, and difficulty shifting attention away from it. Reframes ADHD attention as dysregulated allocation — attention over-deployed as well as under-deployed — rather than a simple deficit. Elevated in ADHD but not specific to it (also invoked for autism and schizophrenia), and still inconsistently defined and measured.",
+    "definedIn": ["note:literature-adhd-and-hyperfocus"],
+    "mayExplain": ["symptom:inattention"]
   }
 ]

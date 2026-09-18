@@ -275,5 +275,18 @@
     "summary": "Rejection sensitivity is treated as one aspect of the emotional dysregulation that is prevalent and impairing in ADHD, but the ADHD-specific evidence is thin — small, mostly qualitative studies. Plausible and clinically resonant, not yet firmly established, and not specific to ADHD (rejection sensitivity also marks depression, anxiety and personality disorders).",
     "mayExplain": ["symptom:internal-restlessness"],
     "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:hyperfocus-elevated-in-adhd",
+    "label": "Hyperfocus is more prevalent in ADHD and may be a separable feature of the syndrome",
+    "summary": "On new self-report measures, hyperfocus rises with ADHD symptomology and is higher in adult ADHD than controls, independent of stimulant use, prompting proposals that it is a separable dimension of ADHD. The evidence is young — new questionnaires, small-to-moderate samples — and hyperfocus is inconsistently defined and not specific to ADHD, so the claim is emerging rather than settled.",
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-is-attention-dysregulation-not-deficit",
+    "label": "ADHD is better understood as dysregulated attention allocation than as a simple deficit of attention",
+    "summary": "That the same people who cannot sustain attention on demand can also become unable to disengage from an absorbing task points to a regulation problem — attention deployed in the wrong amounts at the wrong times — rather than a straightforward shortage of attention. Hyperfocus is the over-deployed pole of that dysregulation.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["being-tested"]
   }
 ]
