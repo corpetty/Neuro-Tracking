@@ -367,5 +367,17 @@
     "label": "Low self-esteem in ADHD is not fixed — it improves with treatment and support",
     "summary": "Self-esteem difficulties in ADHD respond to intervention: long-term outcome reviews find treatment associated with improvement in most self-esteem outcomes, and psychotherapeutic work can at least partly remedy them. The negative self-concept is a modifiable consequence, which matters for how the whole picture is framed.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-impairs-relationship-quality",
+    "label": "ADHD is associated with poorer couple and family relationship quality, including higher divorce risk",
+    "summary": "Adults with ADHD report poorer marital adjustment and family functioning, ADHD symptom levels predict lower romantic relationship quality, and parents raising a child with ADHD divorce more and sooner. The strain runs through both the couple (an adult partner's ADHD) and the family (parenting an ADHD child).",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:emotion-dysregulation-mediates-adhd-relationship-impact",
+    "label": "The relationship impact of ADHD is partly mediated by emotional dysregulation and conflict",
+    "summary": "The link between ADHD symptoms and lower relationship quality is not direct: emotion-regulation problems and hostile conflict carry much of it. This ties relationship difficulty back to the emotional-dysregulation axis rather than to inattention alone, and points to what treatment might target.",
+    "hasStatus": ["being-tested"]
   }
 ]

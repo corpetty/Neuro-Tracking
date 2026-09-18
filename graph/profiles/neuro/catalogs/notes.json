@@ -379,5 +379,16 @@
     "covers": ["mechanism:low-self-esteem", "mechanism:mood-disturbance"],
     "argues": ["hypothesis:adhd-lowers-self-esteem", "hypothesis:self-esteem-improves-with-treatment", "hypothesis:adhd-raises-depression-risk"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-relationships",
+    "label": "ADHD & relationships — strain on couples and families, and what carries it",
+    "file": "literature/adhd-and-relationships.md",
+    "summary": "ADHD strains couple and family relationships — poorer marital adjustment, lower romantic relationship quality, higher divorce risk — mediated substantially by emotional dysregulation and conflict, and addressable through assessment and treatment.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:eakin-2004", "paper:wymbs-2008", "paper:bruner-2015"],
+    "covers": ["symptom:inattention", "symptom:impulsivity", "mechanism:emotional-dysregulation"],
+    "argues": ["hypothesis:adhd-impairs-relationship-quality", "hypothesis:emotion-dysregulation-mediates-adhd-relationship-impact"],
+    "hasStatus": ["active"]
   }
 ]

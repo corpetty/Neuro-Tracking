@@ -1137,5 +1137,35 @@
     "url": "https://doi.org/10.2174/1745017901309010096",
     "summary": "Case-control study (85 ADHD youth, 26 controls) using a multidimensional self-esteem test: ADHD subjects scored lower on all self-esteem domains, with far higher rates in the pathological range than controls, drug-free and drug-treated alike.",
     "authoredBy": ["author:luigi-mazzone"]
+  },
+  {
+    "id": "paper:eakin-2004",
+    "label": "The marital and family functioning of adults with ADHD and their spouses",
+    "year": 2004,
+    "venue": "Journal of Attention Disorders, 8(1):1–10",
+    "doi": "10.1177/108705470400800101",
+    "url": "https://doi.org/10.1177/108705470400800101",
+    "summary": "Compared 33 married adults with ADHD and their spouses to 26 control couples: adults with ADHD reported poorer marital adjustment and more family dysfunction than controls, viewed their marriages more negatively than their spouses did, and their spouses often compensated for their difficulties — underscoring the need to address marital/family functioning in treatment.",
+    "authoredBy": ["author:l-eakin"]
+  },
+  {
+    "id": "paper:wymbs-2008",
+    "label": "Rate and predictors of divorce among parents of youths with ADHD",
+    "year": 2008,
+    "venue": "Journal of Consulting and Clinical Psychology, 76(5):735–744",
+    "doi": "10.1037/a0012719",
+    "url": "https://doi.org/10.1037/a0012719",
+    "summary": "Survival analysis comparing parents of youths with (n=282) and without (n=206) childhood ADHD: parents of youths with ADHD were more likely to divorce and divorced sooner, with several parent and child variables predicting the timing — evidence that ADHD in the family strains couple relationships.",
+    "authoredBy": ["author:brian-wymbs"]
+  },
+  {
+    "id": "paper:bruner-2015",
+    "label": "Attention-deficit/hyperactivity disorder symptom levels and romantic relationship quality in college students",
+    "year": 2015,
+    "venue": "Journal of American College Health, 63(2):98–108",
+    "doi": "10.1080/07448481.2014.975717",
+    "url": "https://doi.org/10.1080/07448481.2014.975717",
+    "summary": "Survey of 189 undergraduates: those with clinically significant hyperactive-impulsive and inattentive symptoms reported lower romantic relationship quality than non-ADHD peers, an association mediated by emotion-regulation problems and hostile relationship conflict.",
+    "authoredBy": ["author:m-bruner"]
   }
 ]

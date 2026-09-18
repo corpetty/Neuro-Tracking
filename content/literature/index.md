@@ -17,7 +17,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 - **What to *do* about it.** [[literature/adult-adhd-assessment|The adult assessment]] turns a positive screen into a concrete next step, and [[literature/adhd-interventions|Interventions]] cover what treatment can and — crucially — cannot tell you about the diagnosis.
 - **What's *underneath*.** [[literature/adhd-neurobiology-imaging|Neurobiology & imaging]] adds the brain to the etiology level, along with why a scan cannot diagnose an individual.
 - **Reading the popular claims.** [[literature/adhd-and-rejection-sensitivity|Rejection sensitivity]] and [[literature/adhd-and-hyperfocus|hyperfocus]] each separate a fast-spreading label from the evidence — a real phenomenon underneath, but a thin, non-specific ADHD case. A template for taking a popular ADHD idea seriously without swallowing it whole.
-- **Living with it — the human cost.** [[literature/adhd-and-self-esteem|Self-esteem]] traces how years of negative feedback erode self-worth in ADHD — reframing the "lazy/unreliable" self-story as an accumulated consequence rather than a character fact, and one that improves with treatment and support.
+- **Living with it — the human cost.** [[literature/adhd-and-self-esteem|Self-esteem]] traces how years of negative feedback erode self-worth in ADHD — reframing the "lazy/unreliable" self-story as an accumulated consequence rather than a character fact, and one that improves with treatment and support; [[literature/adhd-and-relationships|relationships]] shows the strain ADHD puts on couples and families, carried substantially by emotional dysregulation rather than inattention alone.
 
 ## Papers
 
@@ -43,6 +43,7 @@ The surveys now approach the central question — is this ADHD, and what would t
 | ADHD & sensory sensitivity — atypical, dimensional, and not only autism (survey) | [[literature/adhd-and-sensory-sensitivity\|Summary]] | 3 sources — see note | Sensory processing / phenotype | 2026-09-18 |
 | ADHD comorbidity overview — the differential is usually "and", not "or" (survey) | [[literature/adhd-comorbidity-overview\|Summary]] | 4 sources — see note | Comorbidity / substance use / differential | 2026-09-18 |
 | ADHD & self-esteem — a consequence of accumulated failure, and a modifiable one (survey) | [[literature/adhd-and-self-esteem\|Summary]] | 3 sources — see note | Self-esteem / outcomes / lived experience | 2026-09-18 |
+| ADHD & relationships — strain on couples and families, and what carries it (survey) | [[literature/adhd-and-relationships\|Summary]] | 3 sources — see note | Relationships / outcomes / lived experience | 2026-09-18 |
 
 ## How this index works
 
