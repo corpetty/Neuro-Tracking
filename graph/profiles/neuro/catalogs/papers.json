@@ -1317,5 +1317,25 @@
     "url": "https://doi.org/10.1177/1087054712475211",
     "summary": "Developmental review of ADHD stigma across ages of target and perceiver: nationally representative, experimental, survey and qualitative evidence indicates people of all ages with ADHD symptoms face substantial stigmatization, present throughout development.",
     "authoredBy": ["author:matthew-lebowitz"]
+  },
+  {
+    "id": "paper:van-der-heijden-2007",
+    "label": "Effect of melatonin on sleep, behavior, and cognition in ADHD and chronic sleep-onset insomnia",
+    "year": 2007,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 46(2):233–241",
+    "doi": "10.1097/01.chi.0000246055.76167.0d",
+    "url": "https://doi.org/10.1097/01.chi.0000246055.76167.0d",
+    "summary": "RCT of melatonin in 105 medication-free children with ADHD and chronic sleep-onset insomnia: melatonin advanced sleep onset (~27 min) and dim-light melatonin onset and increased total sleep versus placebo, but had no significant effect on behavior, cognition or quality of life — it fixes sleep timing, not ADHD symptoms.",
+    "authoredBy": ["author:van-der-heijden"]
+  },
+  {
+    "id": "paper:hiscock-2015",
+    "label": "Impact of a behavioural sleep intervention on symptoms and sleep in children with attention deficit hyperactivity disorder, and parental mental health: randomised controlled trial",
+    "year": 2015,
+    "venue": "BMJ, 350:h68",
+    "doi": "10.1136/bmj.h68",
+    "url": "https://doi.org/10.1136/bmj.h68",
+    "summary": "RCT of a brief sleep-hygiene plus behavioural sleep intervention in 244 children with ADHD: the intervention reduced ADHD symptom severity at three and six months and roughly halved moderate-severe sleep problems, with about a half to a third of the symptom benefit mediated through improved sleep.",
+    "authoredBy": ["author:harriet-hiscock"]
   }
 ]

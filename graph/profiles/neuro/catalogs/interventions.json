@@ -35,5 +35,13 @@
     "summary": "Dietary approaches to ADHD with modest, variable evidence: restriction/elimination diets help some children (g≈0.29), omega-3 supplementation is modestly effective (below medication), and synthetic-food-color avoidance shows small, bias-prone effects. Not a primary treatment; a low-risk adjunct worth trying with modest expectations for a subgroup. Notably, the sugar-causes-hyperactivity belief is not supported.",
     "documentedIn": ["note:literature-adhd-and-diet"],
     "hasStatus": ["seed"]
+  },
+  {
+    "id": "intervention:sleep-management",
+    "label": "Sleep management (sleep hygiene, behavioural intervention, melatonin)",
+    "summary": "Improving sleep as a lever on ADHD: sleep hygiene and brief behavioural sleep strategies are guideline first-line for sleep problems and can reduce ADHD symptoms as well as improve sleep; melatonin reliably advances a delayed sleep phase but does not itself treat ADHD symptoms. A low-risk, high-value adjunct given sleep's role in the differential. An option on the table, not a tracked protocol.",
+    "affects": ["symptom:inattention"],
+    "documentedIn": ["note:literature-adhd-and-sleep-hygiene"],
+    "hasStatus": ["seed"]
   }
 ]

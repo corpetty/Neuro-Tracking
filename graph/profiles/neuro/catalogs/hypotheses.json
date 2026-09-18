@@ -444,5 +444,18 @@
     "label": "Internalized stigma and anticipated discrimination are prevalent in adults with ADHD and add to the burden of disease",
     "summary": "A large fraction of adults with ADHD internalize stigma and anticipate discrimination, and these correlate with symptoms, distress, lower self-esteem, impairment and reduced quality of life. Stigma is not just an external attitude but a measurable added load carried by the person.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:sleep-intervention-improves-adhd",
+    "label": "Improving sleep (behavioural sleep intervention / sleep hygiene) reduces ADHD symptoms, not just sleep problems",
+    "summary": "A brief behavioural sleep intervention in children with ADHD reduced ADHD symptom severity and sleep problems, with part of the symptom benefit mediated through improved sleep; guidelines make healthy sleep practices the first-line response to sleep problems. Sleep is thus a genuinely modifiable lever on daytime symptoms, not only a comorbidity.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:melatonin-advances-sleep-not-symptoms",
+    "label": "Melatonin reliably advances sleep onset and circadian phase in ADHD but does not directly improve ADHD symptoms",
+    "summary": "In a randomised trial, melatonin advanced sleep onset and dim-light melatonin onset and increased total sleep, but had no significant effect on behaviour, cognition or quality of life. It targets the delayed body clock, which matters given the circadian delay common in ADHD, but is a sleep treatment rather than an ADHD treatment.",
+    "hasStatus": ["supported"]
   }
 ]

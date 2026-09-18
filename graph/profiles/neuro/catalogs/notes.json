@@ -445,5 +445,16 @@
     "covers": ["mechanism:low-self-esteem"],
     "argues": ["hypothesis:adhd-carries-substantial-stigma", "hypothesis:internalized-stigma-adds-burden"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-sleep-hygiene",
+    "label": "ADHD & sleep hygiene — fixing sleep as a lever on the symptoms",
+    "file": "literature/adhd-and-sleep-hygiene.md",
+    "summary": "Behavioural sleep intervention and sleep hygiene improve ADHD symptoms as well as sleep (guideline first-line), while melatonin advances a delayed sleep phase without directly treating ADHD — a low-risk, high-value lever given sleep's role in the differential.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:van-der-heijden-2007", "paper:hiscock-2015", "paper:hvolby-2015-sleep"],
+    "covers": ["symptom:inattention", "mechanism:sleep-debt", "mechanism:circadian-delay", "intervention:sleep-management"],
+    "argues": ["hypothesis:sleep-intervention-improves-adhd", "hypothesis:melatonin-advances-sleep-not-symptoms"],
+    "hasStatus": ["active"]
   }
 ]
