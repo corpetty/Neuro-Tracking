@@ -1017,5 +1017,45 @@
     "url": "https://doi.org/10.1007/s00787-017-0961-7",
     "summary": "Qualitative interview study of adolescents with and without ADHD: motivational themes were largely shared across groups, but individuals with ADHD respond differently to incentives, consistent with an altered sensitivity to reinforcers and possibly qualitatively different motivators.",
     "authoredBy": ["author:sarah-morsink"]
+  },
+  {
+    "id": "paper:martinussen-2005",
+    "label": "A meta-analysis of working memory impairments in children with attention-deficit/hyperactivity disorder",
+    "year": 2005,
+    "venue": "Journal of the American Academy of Child & Adolescent Psychiatry, 44(4):377–384",
+    "doi": "10.1097/01.chi.0000153228.72591.73",
+    "url": "https://doi.org/10.1097/01.chi.0000153228.72591.73",
+    "summary": "Meta-analysis of 26 studies: children with ADHD show deficits across multiple working-memory components, independent of language-learning comorbidity and IQ, with larger effect sizes for spatial working memory (storage ~0.85, central executive ~1.06) than verbal (~0.43–0.47).",
+    "authoredBy": ["author:rhonda-martinussen"]
+  },
+  {
+    "id": "paper:kasper-2012",
+    "label": "Moderators of working memory deficits in children with attention-deficit/hyperactivity disorder (ADHD): a meta-analytic review",
+    "year": 2012,
+    "venue": "Clinical Psychology Review, 32(7):605–617",
+    "doi": "10.1016/j.cpr.2012.07.001",
+    "url": "https://doi.org/10.1016/j.cpr.2012.07.001",
+    "summary": "Meta-analytic review finding large between-group working-memory deficits across phonological and visuospatial domains, with task and sample moderators explaining effect-size heterogeneity; frames working memory as a prominent candidate primary deficit/endophenotype in ADHD models.",
+    "authoredBy": ["author:lisa-kasper"]
+  },
+  {
+    "id": "paper:alderson-2013",
+    "label": "Attention-deficit/hyperactivity disorder (ADHD) and working memory in adults: a meta-analytic review",
+    "year": 2013,
+    "venue": "Neuropsychology, 27(3):287–302",
+    "doi": "10.1037/a0032371",
+    "url": "https://doi.org/10.1037/a0032371",
+    "summary": "First meta-analysis of working memory in adults with ADHD (38 studies): moderate-magnitude deficits across phonological and visuospatial domains that persist into adulthood, with methodological variability explaining why deficits are not uniformly detected.",
+    "authoredBy": ["author:matt-alderson"]
+  },
+  {
+    "id": "paper:sarver-2015",
+    "label": "Hyperactivity in Attention-Deficit/Hyperactivity Disorder (ADHD): Impairing Deficit or Compensatory Behavior?",
+    "year": 2015,
+    "venue": "Journal of Abnormal Child Psychology, 43(7):1219–1232",
+    "doi": "10.1007/s10802-015-0011-1",
+    "url": "https://doi.org/10.1007/s10802-015-0011-1",
+    "summary": "Objective study of gross motor activity during working-memory tasks in boys with ADHD (n=29) vs controls (n=23): higher activity predicted significantly better (though not normalised) working-memory performance in ADHD, but somewhat worse performance in typically developing children — evidence that hyperactivity may be partly compensatory.",
+    "authoredBy": ["author:dustin-sarver"]
   }
 ]

@@ -335,5 +335,16 @@
     "covers": ["symptom:inattention", "mechanism:reward-motivation", "mechanism:reward-delay-aversion"],
     "argues": ["hypothesis:adhd-involves-motivation-reward-dysfunction", "hypothesis:adhd-performance-is-contingency-dependent", "hypothesis:multiple-neurocognitive-pathways"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-working-memory",
+    "label": "ADHD & working memory — a robust deficit, and the movement that helps it",
+    "file": "literature/adhd-and-working-memory.md",
+    "summary": "Working memory is one of ADHD's most robust deficits (larger for spatial, persists into adulthood); and objective work suggests movement can compensate — hyperactivity aiding working memory rather than only impairing it.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:martinussen-2005", "paper:kasper-2012", "paper:alderson-2013", "paper:sarver-2015"],
+    "covers": ["symptom:inattention", "symptom:internal-restlessness", "mechanism:working-memory", "instrument:working-memory-task", "tension:hyperactivity-deficit-or-compensation"],
+    "argues": ["hypothesis:wm-deficit-central-and-persistent", "hypothesis:hyperactivity-may-be-compensatory-for-wm", "hypothesis:multiple-neurocognitive-pathways"],
+    "hasStatus": ["active"]
   }
 ]

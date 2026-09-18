@@ -315,5 +315,19 @@
     "summary": "Reinforcement contingencies improve task performance and motivation in ADHD (somewhat more than in controls), and immediate reward is preferred to delayed. Being able to perform well when a task is interesting, urgent or rewarded — and poorly when it is not — is a reward-processing signature, not laziness or a stable inability.",
     "mayExplain": ["symptom:inattention"],
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:wm-deficit-central-and-persistent",
+    "label": "Working-memory deficits are large, robust, central to ADHD models, and persist into adulthood",
+    "summary": "Meta-analyses find working memory a prominent candidate primary deficit/endophenotype in ADHD, with large between-group effects (larger for spatial than verbal), independent of comorbidity and IQ, and persisting from childhood into adulthood. One of the most consistently replicated cognitive findings in ADHD — though, like other executive measures, not on its own diagnostic.",
+    "mayExplain": ["symptom:inattention"],
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:hyperactivity-may-be-compensatory-for-wm",
+    "label": "Excess movement in ADHD may be partly compensatory — aiding working memory rather than only impairing",
+    "summary": "When gross motor activity was measured during working-memory tasks, higher activity predicted better working-memory performance in children with ADHD (but worse in typically developing children). This reframes at least some hyperactivity and restlessness as a compensatory mechanism recruited to support cognition, not purely a symptom to suppress.",
+    "mayExplain": ["symptom:internal-restlessness"],
+    "hasStatus": ["being-tested"]
   }
 ]

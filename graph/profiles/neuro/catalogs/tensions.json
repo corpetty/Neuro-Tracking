@@ -103,5 +103,12 @@
     "summary": "Time-perception impairment is consistent enough in ADHD that some propose it as a diagnostic characteristic. Against that: timing deficits appear in other neurodevelopmental and psychiatric conditions, the paradigms vary widely, and reviews still call for replication — so a real group-level deficit does not license an individual diagnostic marker. Held open, in the same spirit as the imaging and EF measures elsewhere in this notebook.",
     "tensionWith": ["hypothesis:time-perception-candidate-diagnostic-marker", "hypothesis:no-single-measure-is-diagnostic"],
     "documentedIn": ["note:literature-adhd-and-time-perception"]
+  },
+  {
+    "id": "tension:hyperactivity-deficit-or-compensation",
+    "label": "Is hyperactivity an impairing deficit or a compensatory behaviour?",
+    "summary": "Excess motor activity is a core diagnostic feature usually treated as impairing and to be suppressed. But objective measurement shows movement predicting better working memory in children with ADHD, supporting models that cast it as a compensatory mechanism recruited to sustain cognition. Both readings have support, and which dominates likely depends on context and task — held open, with a direct bearing on whether restlessness should always be discouraged.",
+    "tensionWith": ["hypothesis:hyperactivity-may-be-compensatory-for-wm", "symptom:internal-restlessness"],
+    "documentedIn": ["note:literature-adhd-and-working-memory"]
   }
 ]
