@@ -1,6 +1,6 @@
 {
-  "nodes": 480,
-  "edges": 1360,
+  "nodes": 491,
+  "edges": 1384,
   "warnings": 0,
   "byNodeType": {
     "Status": 9,
@@ -11,21 +11,21 @@
     "Symptom": 3,
     "Intervention": 6,
     "Mechanism": 27,
-    "Hypothesis": 79,
-    "Question": 4,
-    "Paper": 144,
-    "Author": 128,
-    "Tension": 16
+    "Hypothesis": 81,
+    "Question": 5,
+    "Paper": 148,
+    "Author": 131,
+    "Tension": 17
   },
   "byPredicate": {
-    "hasStatus": 133,
+    "hasStatus": 135,
     "partOf": 47,
     "covers": 106,
-    "argues": 95,
-    "cites": 159,
-    "flagsOpenQuestion": 23,
+    "argues": 97,
+    "cites": 163,
+    "flagsOpenQuestion": 24,
     "yielded": 3,
-    "documentedIn": 31,
+    "documentedIn": 32,
     "measures": 23,
     "administeredIn": 1,
     "observedIn": 3,
@@ -35,10 +35,10 @@
     "mayExplain": 63,
     "derivesFrom": 5,
     "dependsOn": 9,
-    "authoredBy": 167,
-    "tensionWith": 30,
-    "wikiLinks": 220,
-    "supports": 193,
+    "authoredBy": 173,
+    "tensionWith": 31,
+    "wikiLinks": 223,
+    "supports": 197,
     "pressureTests": 13
   }
 }

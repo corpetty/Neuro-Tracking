@@ -26,5 +26,12 @@
     "summary": "GP referral, psychologist, or psychiatrist — and what to bring to make the appointment productive.",
     "status": "open",
     "nextStep": "Draft a one-page summary for a clinician from the diagnostics note and the symptom log."
+  },
+  {
+    "id": "question:adhd-relationship-intervention-efficacy",
+    "label": "What actually strengthens the relationships of adults with ADHD?",
+    "summary": "Reviews note the couple-level impairment is well documented but that little research identifies the factors that would strengthen or repair these relationships, so couple- and emotion-regulation-focused intervention evidence is thin — leaving 'treat the emotional-regulation piece' better supported in principle than in trials.",
+    "status": "open",
+    "nextStep": "Raise relationship strain and the emotion-regulation route explicitly at an evaluation; consider couple-oriented or emotion-regulation-focused support alongside standard treatment."
   }
 ]

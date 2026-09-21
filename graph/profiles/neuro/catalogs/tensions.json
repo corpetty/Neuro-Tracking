@@ -110,5 +110,12 @@
     "summary": "Excess motor activity is a core diagnostic feature usually treated as impairing and to be suppressed. But objective measurement shows movement predicting better working memory in children with ADHD, supporting models that cast it as a compensatory mechanism recruited to sustain cognition. Both readings have support, and which dominates likely depends on context and task — held open, with a direct bearing on whether restlessness should always be discouraged.",
     "tensionWith": ["hypothesis:hyperactivity-may-be-compensatory-for-wm", "symptom:internal-restlessness"],
     "documentedIn": ["note:literature-adhd-and-working-memory"]
+  },
+  {
+    "id": "tension:adhd-relationship-effect-not-universal",
+    "label": "The romantic-relationship effect of ADHD isn't found in every sample",
+    "summary": "Against the marital and young-adult findings, a college study found higher ADHD symptomology related to more social impairment and anger but not to lower romantic-relationship satisfaction or partner violence. The couple-level effect appears real but moderated — by severity, presentation (combined vs inattentive), sample and which metric is used — rather than universal. Held open as a caution against overreading any single relationship measure.",
+    "tensionWith": ["hypothesis:adhd-impairs-relationship-quality"],
+    "documentedIn": ["note:literature-adhd-and-relationships"]
   }
 ]

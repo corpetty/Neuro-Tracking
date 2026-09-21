@@ -1169,6 +1169,46 @@
     "authoredBy": ["author:m-bruner"]
   },
   {
+    "id": "paper:wymbs-2021",
+    "label": "Adult ADHD and romantic relationships: What we know and what we can do to help",
+    "year": 2021,
+    "venue": "Journal of Marital and Family Therapy, 47(3):664–681",
+    "doi": "10.1111/jmft.12475",
+    "url": "https://doi.org/10.1111/jmft.12475",
+    "summary": "Narrative review of romantic relationships in adults with ADHD: converging evidence that they are shorter-lived and more discordant, a survey of the distal and proximal factors that raise relationship-distress risk, and an argument that research on what would strengthen these relationships — and so on prevention and intervention — is underdeveloped.",
+    "authoredBy": ["author:brian-wymbs", "author:w-canu", "author:g-sacchetti"]
+  },
+  {
+    "id": "paper:canu-2014",
+    "label": "Young adult romantic couples' conflict resolution and satisfaction varies with partner's attention-deficit/hyperactivity disorder type",
+    "year": 2014,
+    "venue": "Journal of Marital and Family Therapy, 40(4):509–524",
+    "doi": "10.1111/jmft.12018",
+    "url": "https://doi.org/10.1111/jmft.12018",
+    "summary": "Observational study of young-adult couples with a conflict-resolution task coded via the Rapid Couples Interaction Scoring System: combined-type ADHD couples showed more negativity and less positivity — tracking lower satisfaction — while inattentive-type couples behaved much like non-diagnosed couples, locating the observable conflict signature in the combined presentation.",
+    "authoredBy": ["author:w-canu"]
+  },
+  {
+    "id": "paper:bijlenga-2018",
+    "label": "Prevalence of sexual dysfunctions and other sexual disorders in adults with attention-deficit/hyperactivity disorder compared to the general population",
+    "year": 2018,
+    "venue": "ADHD Attention Deficit and Hyperactivity Disorders, 10(1):87–96",
+    "doi": "10.1007/s12402-017-0237-6",
+    "url": "https://doi.org/10.1007/s12402-017-0237-6",
+    "summary": "Survey of 136 adults in a Dutch ADHD clinic screened against two large general-population surveys: 39% of men and 43% of women with ADHD screened positive for a sexual dysfunction, and a further 17%/5% for another sexual disorder — far above population rates and almost never previously diagnosed — supporting routine screening for sexual problems during ADHD assessment.",
+    "authoredBy": ["author:d-bijlenga"]
+  },
+  {
+    "id": "paper:sacchetti-2017",
+    "label": "ADHD Symptomology and Social Functioning in College Students",
+    "year": 2017,
+    "venue": "Journal of Attention Disorders, 21(12):1009–1019",
+    "doi": "10.1177/1087054714557355",
+    "url": "https://doi.org/10.1177/1087054714557355",
+    "summary": "Regression study of emerging adults: higher ADHD symptomology predicted greater social impairment and higher state and trait anger, but not lower romantic-relationship satisfaction or intimate-partner-violence rates — a mixed result that tempers the couple-level findings and points to anger and social skills as treatment targets.",
+    "authoredBy": ["author:g-sacchetti"]
+  },
+  {
     "id": "paper:cerrillo-urbina-2015",
     "label": "The effects of physical exercise in children with attention deficit hyperactivity disorder: a systematic review and meta-analysis of randomized control trials",
     "year": 2015,

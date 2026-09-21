@@ -384,11 +384,12 @@
     "id": "note:literature-adhd-and-relationships",
     "label": "ADHD & relationships — strain on couples and families, and what carries it",
     "file": "literature/adhd-and-relationships.md",
-    "summary": "ADHD strains couple and family relationships — poorer marital adjustment, lower romantic relationship quality, higher divorce risk — mediated substantially by emotional dysregulation and conflict, and addressable through assessment and treatment.",
+    "summary": "A full review of ADHD and relationships: strain across couple, family and the life course (poorer marital adjustment, lower romantic quality, higher divorce risk, 'short-lived and discordant' relationships), carried substantially by emotional dysregulation and conflict rather than inattention — with the observable conflict signature concentrated in the combined presentation, a large but under-recognised sexual-dysfunction burden, honest counter-evidence that the effect isn't universal, and thin intervention research despite it being addressable.",
     "partOf": ["note:literature-index"],
-    "cites": ["paper:eakin-2004", "paper:wymbs-2008", "paper:bruner-2015"],
+    "cites": ["paper:eakin-2004", "paper:wymbs-2008", "paper:bruner-2015", "paper:wymbs-2021", "paper:canu-2014", "paper:bijlenga-2018", "paper:sacchetti-2017"],
     "covers": ["symptom:inattention", "symptom:impulsivity", "mechanism:emotional-dysregulation"],
-    "argues": ["hypothesis:adhd-impairs-relationship-quality", "hypothesis:emotion-dysregulation-mediates-adhd-relationship-impact"],
+    "argues": ["hypothesis:adhd-impairs-relationship-quality", "hypothesis:emotion-dysregulation-mediates-adhd-relationship-impact", "hypothesis:combined-presentation-drives-observed-conflict-negativity", "hypothesis:adhd-associated-sexual-dysfunction"],
+    "flagsOpenQuestion": ["question:adhd-relationship-intervention-efficacy"],
     "hasStatus": ["active"]
   },
   {

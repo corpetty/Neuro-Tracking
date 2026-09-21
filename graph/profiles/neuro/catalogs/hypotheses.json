@@ -381,6 +381,18 @@
     "hasStatus": ["being-tested"]
   },
   {
+    "id": "hypothesis:combined-presentation-drives-observed-conflict-negativity",
+    "label": "The observable couple-conflict signature of ADHD is concentrated in the combined presentation, not inattentive-only",
+    "summary": "When couples' conflict behaviour is coded directly, combined-type ADHD couples show more negativity and less positivity — tracking lower satisfaction — while inattentive-type couples look much like non-diagnosed couples. This locates the visible relational damage in the hyperactive-impulsive/combined phenotype and complicates a simple 'inattention strains relationships' account, though it rests on a single observational study.",
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-associated-sexual-dysfunction",
+    "label": "Sexual dysfunction is markedly more prevalent in adults with ADHD than in the general population",
+    "summary": "In a clinical ADHD sample, roughly four in ten adults screened positive for a sexual dysfunction — far above general-population rates — and such problems were almost never previously diagnosed. An under-recognised strand of intimacy and relationship difficulty, and an argument for screening sexual functioning during ADHD assessment. Rests so far on one clinic sample against population norms.",
+    "hasStatus": ["being-tested"]
+  },
+  {
     "id": "hypothesis:exercise-reduces-adhd-symptoms",
     "label": "Physical (especially aerobic) exercise improves ADHD symptoms and executive function, acutely and chronically",
     "summary": "Meta-analyses and reviews find aerobic/cardio exercise produces moderate improvements in core ADHD symptoms (attention, hyperactivity, impulsivity) and in executive functions, with both acute post-bout effects and chronic effects of sustained training. A genuine, replicated behavioural benefit — plausibly catecholaminergic, in the same direction as medication.",
