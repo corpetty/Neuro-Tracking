@@ -520,5 +520,23 @@
     "label": "Impulsivity is transdiagnostic — it describes ADHD but does not distinguish it",
     "summary": "Impulsivity is a component of many conditions (ADHD, mania, substance use), and stop-signal inhibition deficits appear in ADHD, OCD and schizophrenia at comparable magnitude. So 'impulsive' is a real feature of ADHD but a shared one — it characterises without discriminating.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-heterogeneity-has-brain-derived-biotypes",
+    "label": "ADHD's clinical heterogeneity has brain-derived structure: data-driven imaging clusters yield ~3 biotypes that roughly track the DSM presentations",
+    "summary": "Clustering structural-MRI deviations without symptom input produced three ADHD biotypes (severe-combined with emotional dysregulation, hyperactive/impulsive, inattentive) that converge with DSM presentations, and an independent cortical-thickness study also found three subtypes — though different ones. Group-level evidence that the heterogeneity is biological, not a diagnostic scheme.",
+    "hasStatus": ["being-tested"]
+  },
+  {
+    "id": "hypothesis:adhd-biotypes-are-regions-on-continua",
+    "label": "ADHD biotypes are likely salient regions along dimensional continua, not qualitatively distinct kinds",
+    "summary": "The biotype study's own authors caution that their clusters may be points along underlying continua rather than distinct diagnostic entities, and cluster agreement was modest — consistent with ADHD as a graded trait where 'three types' is a convenient cut rather than three diseases.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:adhd-biotypes-not-yet-clinically-actionable",
+    "label": "Imaging biotypes cannot yet classify an individual or guide treatment",
+    "summary": "Biotype findings are group-level, child-only, partly replicated, with case-control overlap; the neurochemical associations are exploratory spatial correlations that the authors say cannot inform treatment. A retrospective stimulant-response difference in a separate cortical-thickness study is a signal, not a prospective test. No scan assigns a person a type.",
+    "hasStatus": ["supported"]
   }
 ]

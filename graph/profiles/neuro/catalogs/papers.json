@@ -1477,5 +1477,25 @@
     "url": "https://doi.org/10.1111/jcpp.12675",
     "summary": "Conceptual review untangling the overlapping terms around self-regulation, arguing for a domain-general self-regulation construct spanning action, emotion and cognition with both top-down and bottom-up processes — situating impulsivity as dysregulation of action within a broader, multi-domain self-regulation framework.",
     "authoredBy": ["author:joel-nigg"]
+  },
+  {
+    "id": "paper:pan-2026-adhd-biotypes",
+    "label": "Mapping ADHD Heterogeneity and Biotypes by Topological Deviations in Morphometric Similarity Networks",
+    "year": 2026,
+    "venue": "JAMA Psychiatry, 83(5):478–490",
+    "doi": "10.1001/jamapsychiatry.2026.0001",
+    "url": "https://doi.org/10.1001/jamapsychiatry.2026.0001",
+    "summary": "Normative modeling of structural-MRI morphometric-similarity network hubs in 446 children with ADHD (708 controls), clustered with HYDRA, yields three biotypes — severe-combined with emotional dysregulation, predominantly hyperactive/impulsive, predominantly inattentive — that converge with DSM presentations without using symptom data; orbitofrontal cortex is a shared anchor; replicated (inattention only partly) in 554 Healthy Brain Network cases. Authors caution biotypes may be points on continua and cannot inform treatment.",
+    "authoredBy": ["author:n-pan", "author:qiyong-gong"]
+  },
+  {
+    "id": "paper:chen-2025-adhd-ct-subtypes",
+    "label": "Distinct neuroimaging subtypes of ADHD among adolescents based on semi-supervised learning",
+    "year": 2025,
+    "venue": "Translational Psychiatry, 15(1):476",
+    "doi": "10.1038/s41398-025-03662-3",
+    "url": "https://doi.org/10.1038/s41398-025-03662-3",
+    "summary": "Semi-supervised clustering of cortical thickness in 6,509 ABCD adolescents finds three ADHD subtypes (under-developed, over-developed, mixed), replicated externally, with reported differences in cognition, socioeconomic status, stimulant response and gene-expression/neurotransmitter correlates — the likely source of media claims attributed to the Pan 2026 study.",
+    "authoredBy": ["author:y-chen-zju"]
   }
 ]

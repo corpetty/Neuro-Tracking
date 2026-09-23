@@ -501,5 +501,25 @@
     "covers": ["symptom:impulsivity", "mechanism:response-inhibition", "mechanism:reward-delay-aversion", "mechanism:emotional-dysregulation"],
     "argues": ["hypothesis:impulsivity-is-multidimensional", "hypothesis:impulsivity-is-transdiagnostic-not-adhd-specific", "hypothesis:multiple-neurocognitive-pathways"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-biotypes",
+    "label": "ADHD biotypes — brain-first subtyping, not a brain-scan diagnosis",
+    "file": "literature/adhd-biotypes.md",
+    "summary": "Pan et al. 2026 (JAMA Psychiatry) clustered children's structural-MRI network deviations into three ADHD biotypes that roughly track the DSM presentations; credible on heterogeneity but group-level, child-only, partly replicated and not able to classify or treat an individual. Also untangles media claims that belong to Chen et al. 2025.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:pan-2026-adhd-biotypes", "paper:chen-2025-adhd-ct-subtypes"],
+    "covers": ["mechanism:emotional-dysregulation", "symptom:inattention"],
+    "argues": ["hypothesis:adhd-heterogeneity-has-brain-derived-biotypes", "hypothesis:adhd-biotypes-are-regions-on-continua", "hypothesis:adhd-biotypes-not-yet-clinically-actionable", "hypothesis:brain-differences-small-not-diagnostic", "hypothesis:clinical-adhd-extreme-of-continuous-trait"],
+    "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-biotypes-research-summary",
+    "label": "Research summary — the \"3 types of ADHD\" biotype study (source document)",
+    "file": "literature/adhd-biotypes-research-summary.md",
+    "summary": "Claude research summary, kept verbatim, fact-checking the National Geographic '3 types of ADHD' coverage against Pan et al. 2026 and expert commentary; with an editorial correction attributing the stimulant/gene claims to Chen et al. 2025.",
+    "partOf": ["note:literature-adhd-biotypes"],
+    "cites": ["paper:pan-2026-adhd-biotypes", "paper:chen-2025-adhd-ct-subtypes"],
+    "hasStatus": ["active"]
   }
 ]

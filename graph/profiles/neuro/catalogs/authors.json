@@ -129,5 +129,8 @@
   { "id": "author:catharine-winstanley", "label": "Catharine A. Winstanley" },
   { "id": "author:w-canu", "label": "Will H. Canu" },
   { "id": "author:g-sacchetti", "label": "Gina M. Sacchetti" },
-  { "id": "author:d-bijlenga", "label": "Denise Bijlenga" }
+  { "id": "author:d-bijlenga", "label": "Denise Bijlenga" },
+  {"id": "author:n-pan", "label": "N. Pan"},
+  {"id": "author:qiyong-gong", "label": "Qiyong Gong"},
+  {"id": "author:y-chen-zju", "label": "Y. Chen"}
 ]
