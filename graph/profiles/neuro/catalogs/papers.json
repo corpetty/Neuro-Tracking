@@ -1497,5 +1497,55 @@
     "url": "https://doi.org/10.1038/s41398-025-03662-3",
     "summary": "Semi-supervised clustering of cortical thickness in 6,509 ABCD adolescents finds three ADHD subtypes (under-developed, over-developed, mixed), replicated externally, with reported differences in cognition, socioeconomic status, stimulant response and gene-expression/neurotransmitter correlates — the likely source of media claims attributed to the Pan 2026 study.",
     "authoredBy": ["author:y-chen-zju"]
+  },
+  {
+    "id": "paper:beheshti-2020",
+    "label": "Emotion dysregulation in adults with attention deficit hyperactivity disorder: a meta-analysis",
+    "year": 2020,
+    "venue": "BMC Psychiatry, 20(1):120",
+    "doi": "10.1186/s12888-020-2442-7",
+    "url": "https://doi.org/10.1186/s12888-020-2442-7",
+    "summary": "Meta-analysis of 13 studies (N=2,535): adults with ADHD show much higher emotion dysregulation than healthy controls (Hedges' g=1.17; emotional lability g=1.20), correlating with ADHD symptom severity (r=0.54); authors read it as support for ED as a core feature.",
+    "authoredBy": ["author:azadeh-beheshti"]
+  },
+  {
+    "id": "paper:faraone-2019-emotional-dysregulation",
+    "label": "Practitioner Review: Emotional dysregulation in attention-deficit/hyperactivity disorder – implications for clinical recognition and intervention",
+    "year": 2019,
+    "venue": "Journal of Child Psychology and Psychiatry, 60(2):133–150",
+    "doi": "10.1111/jcpp.12899",
+    "url": "https://doi.org/10.1111/jcpp.12899",
+    "summary": "Practitioner review: emotional symptoms are common, persistent and impairing in youth and adults with ADHD; emotional impulsivity and deficient emotional self-regulation may be specific enough to serve as diagnostic criteria, but there is no consensus on defining them in an ADHD-specific way.",
+    "authoredBy": ["author:stephen-faraone"]
+  },
+  {
+    "id": "paper:skirrow-asherson-2013",
+    "label": "Emotional lability, comorbidity and impairment in adults with attention-deficit hyperactivity disorder",
+    "year": 2013,
+    "venue": "Journal of Affective Disorders, 147(1–3):80–86",
+    "doi": "10.1016/j.jad.2012.10.011",
+    "url": "https://doi.org/10.1016/j.jad.2012.10.011",
+    "summary": "41 comorbidity-free, unmedicated adult men with ADHD vs 47 controls: emotional lability was elevated, predicted by hyperactivity-impulsivity rather than subsyndromal comorbid symptoms, and contributed independently to daily-life impairment.",
+    "authoredBy": ["author:caroline-skirrow", "author:philip-asherson"]
+  },
+  {
+    "id": "paper:moukhtarian-2017",
+    "label": "Effects of stimulants and atomoxetine on emotional lability in adults: A systematic review and meta-analysis",
+    "year": 2017,
+    "venue": "European Psychiatry, 44:198–207",
+    "doi": "10.1016/j.eurpsy.2017.05.021",
+    "url": "https://doi.org/10.1016/j.eurpsy.2017.05.021",
+    "summary": "Meta-analysis of nine double-blind placebo-controlled RCTs in adults with ADHD: stimulants and atomoxetine had moderate effects on emotional lability (SMD −0.41) versus large effects on core ADHD symptoms (SMD −0.8) — about half — suggesting adjunctive psychotherapy may be needed.",
+    "authoredBy": ["author:talar-moukhtarian", "author:philip-asherson"]
+  },
+  {
+    "id": "paper:asherson-2014-bd-bpd",
+    "label": "Differential diagnosis, comorbidity, and treatment of attention-deficit/hyperactivity disorder in relation to bipolar disorder or borderline personality disorder in adults",
+    "year": 2014,
+    "venue": "Current Medical Research and Opinion, 30(8):1657–1672",
+    "doi": "10.1185/03007995.2014.915800",
+    "url": "https://doi.org/10.1185/03007995.2014.915800",
+    "summary": "Clinical review: adult ADHD resembles and often co-occurs (~20%) with bipolar and borderline personality disorder; bipolar is episodic with ADHD symptoms persisting between episodes, BPD and ADHD are both chronic and share impulsivity and emotional dysregulation, and BPD-specific features (abandonment fears, self-harm, emptiness, dissociation) separate them.",
+    "authoredBy": ["author:philip-asherson"]
   }
 ]

@@ -538,5 +538,23 @@
     "label": "Imaging biotypes cannot yet classify an individual or guide treatment",
     "summary": "Biotype findings are group-level, child-only, partly replicated, with case-control overlap; the neurochemical associations are exploratory spatial correlations that the authors say cannot inform treatment. A retrospective stimulant-response difference in a separate cortical-thickness study is a signal, not a prospective test. No scan assigns a person a type.",
     "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:emotional-dysregulation-independently-drives-impairment",
+    "label": "Emotional dysregulation in ADHD drives impairment beyond the classic inattentive and hyperactive symptoms",
+    "summary": "Emotional lability contributes independently to daily-life impairment in adults with ADHD, explaining impairment not accounted for by the core symptoms, and emotional symptoms cause clinically significant impairment across the lifespan — whatever their diagnostic status.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:emotional-dysregulation-less-medication-responsive",
+    "label": "Emotional dysregulation responds to ADHD medication about half as well as the core symptoms",
+    "summary": "Across double-blind RCTs in adults, stimulants and atomoxetine have moderate effects on emotional lability versus large effects on core ADHD symptoms (roughly twice as large), suggesting adjunctive skills-based therapy may be needed when emotional dysregulation is prominent. Methodological factors and responsive/non-responsive subtypes may partly explain the gap.",
+    "hasStatus": ["supported"]
+  },
+  {
+    "id": "hypothesis:time-course-separates-adhd-from-bipolar-and-bpd",
+    "label": "Time course and specific features, not emotional intensity, separate ADHD from bipolar and borderline presentations",
+    "summary": "Emotional dysregulation and impulsivity are shared by ADHD, bipolar disorder and BPD. Bipolar is episodic with ADHD symptoms persisting between episodes; ADHD and BPD are both chronic, but BPD carries specific features (abandonment fears, self-harm, suicidality, emptiness, stress-related dissociation). The conditions also co-occur (~20%).",
+    "hasStatus": ["supported"]
   }
 ]

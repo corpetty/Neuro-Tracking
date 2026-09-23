@@ -521,5 +521,16 @@
     "partOf": ["note:literature-adhd-biotypes"],
     "cites": ["paper:pan-2026-adhd-biotypes", "paper:chen-2025-adhd-ct-subtypes"],
     "hasStatus": ["active"]
+  },
+  {
+    "id": "note:literature-adhd-and-emotional-dysregulation",
+    "label": "ADHD & emotional dysregulation — large, impairing, arguably core, and harder to treat",
+    "file": "literature/adhd-and-emotional-dysregulation.md",
+    "summary": "Emotional dysregulation in adult ADHD is large (g≈1.2), tracks severity, is not explained by comorbidity and independently drives impairment; whether it is core is unsettled, it responds about half as well to medication, and it is what ADHD shares with bipolar and borderline presentations.",
+    "partOf": ["note:literature-index"],
+    "cites": ["paper:beheshti-2020", "paper:faraone-2019-emotional-dysregulation", "paper:skirrow-asherson-2013", "paper:moukhtarian-2017", "paper:asherson-2014-bd-bpd", "paper:shaw-2014-emotion-dysregulation", "paper:pan-2026-adhd-biotypes"],
+    "covers": ["mechanism:emotional-dysregulation", "mechanism:mood-disturbance", "mechanism:rejection-sensitivity"],
+    "argues": ["hypothesis:emotional-dysregulation-is-core-adhd", "hypothesis:emotional-dysregulation-independently-drives-impairment", "hypothesis:emotional-dysregulation-less-medication-responsive", "hypothesis:time-course-separates-adhd-from-bipolar-and-bpd"],
+    "hasStatus": ["active"]
   }
 ]
